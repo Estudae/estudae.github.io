@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-  <head>
+<head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -9,10 +9,182 @@
     <meta name="robots" content="index, follow">
     <meta name="keywords" content="Video, Aula, redes, computadores, java, astronomia">
     <meta name="author" content="Diego Previero">
+    <!--Open Graph Facebook-->
+    <meta property="fb:app_id" content="1089276837817231" />
+    <meta property="og:url" content="http://www.estudae.com.br" />
+    <meta property="og:type" content="article" />
+    <meta property="article:author" content="https://www.facebook.com/kikoprevi">
+    <meta property="og:title" content="Treinamentos em tecnologia" />
+    <meta property="og:description" content="Video Aulas, Tutoriais e Dicas, todos os assuntos abordados de forma objetiva, sem enrolação e perda de tempo." />
+    <meta property="og:image" content="http://www.estudae.com.br/images/wallpaper_estudae.png" />
+    <meta property="og:see_also" content="http://www.estudae.com.br/astronomia.html">
+    <meta property="og:see_also" content="http://www.estudae.com.br/itau.html">
+    <meta property="og:locale" content="pt_BR" />
+    <!--Fim do Open Graph-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-menu.css">
+    <link rel="icon" href="favicon.png">
     <title>Estudaê! - Treinamentos em tecnologia</title>
-  </head>
+</head>
 
-  <body>
-    <h1>Estudaê!</h1>
-  </body>
+<body>
+    <div id="container clearfix">
+       
+       
+       
+        <header class="clearfix">
+            <div id="logo">
+                <a href="index.html">
+                <h1>
+                    <img src="images/logo_estudae.svg" alt="Estudaê" style="width:140px;">
+                </h1>
+                </a>
+            </div>
+            <!--check box para ativacao do menu responsivo-->
+            <input type="checkbox" id="control-nav" />
+            <label for="control-nav" class="control-nav"></label>
+            <label for="control-nav" class="control-nav-close"></label>
+            <nav id="menu">
+                <ul class="list-auto">
+                    <li><a href="aulaonline.html" target="_blank">Aula Online</a></li>
+                    <li><a href="#">Dicas e Tutoriais</a></li>
+                    <li><a href="#">Vídeo Aulas</a></li>
+                    <li><a href="lista.html" target="_blank">EMEFs</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        
+        <div class="banner"> <img src="images/banner.jpg" alt="banner">
+            <div class="quadro">
+                <div class="intro-text">
+                    <img src="images/logo_estudae.svg" alt="logo_estudae" style="width: 255px;">
+                    <h3>Vídeo aulas, Tutoriais, Hackearia, e muito mais.</h3>
+                </div>
+            </div>
+        </div>
+        
+        <div id="conteudo">
+          
+          <article class="row esquerda clearfix">
+                <div class="imagem"><a href="https://www.youtube.com/watch?v=qp8gpL-Xv8A&t=2s" target="_blank"><img src="images/dropbox.png" alt="dropbox" /></a></div>
+                <div class="texto">
+                    <a href="https://www.youtube.com/watch?v=qp8gpL-Xv8A&t=2s" target="_blank"><h2>Vídeo Aula sobre Dropbox</h2></a>
+                    <p>Aprenda com o professor Diego Previero o que é o Dropbox, como criar uma conta, baixar, instalar e configurar todos os seus dispositivos que irão compartilhar e sincronizar arquivos na sua conta Dropbox.</p>
+                        <p>Acesse todos os seus arquivos de qualquer lugar, em qualquer dispositivo, e compartilhe-os com qualquer pessoa.</p>
+                </div>
+            </article>
+            
+           <article class="row direita clearfix">
+                <div class="imagem"><a href="conteudo.html?cod=1"><img src="images/itau.jpg" alt="itau" /></a></div>
+                <div class="texto">
+                    <a href="conteudo.html?cod=1"><h2>Coleção gratuita de livros do Itaú</h2></a>
+                    <p>O banco Itaú e a Fundação Itaú Social convidam, todos os anos no mês de outubro, os adultos para lerem para as crianças e como incentivo realiza a distribuição gratuita de livros infantis para todo o território nacional. </p>
+                    <p>Peça já sua coleção!</p>
+                </div>
+            </article>
+           
+            <article class="row esquerda clearfix">
+                <div class="imagem">
+                    <a href="conteudo.html?cod=3">
+                        <img src="images/astronomy.jpg" alt="astronomia" />
+                    </a>
+                </div>
+                <div class="texto">
+                    <a href="conteudo.html?cod=3"><h2>Cientista dará palestra gratuita sobre astronomia em Marília neste domingo.</h2></a>
+                    <p>Dr. Ivan Glaucio Paulino Lima, cientista da Associação Universitária de Pesquisas Espaciais, dará palestra gratuita em Marília SP no próximo domingo dia 25 de setembro.</p>
+                </div>
+            </article>
+            
+            <article class="row direita clearfix">
+                <div class="imagem"><a href="conteudo.html?cod=2"><img src="images/labmanager.png" alt="labmanager" /></a></div>
+                <div class="texto">
+                    <a href="conteudo.html?cod=2"><h2>LabManager: Um sistema de controle remoto de uma rede local para suporte às aulas de informática na rede municipal de ensino fundamental de Vera Cruz - SP</h2></a>
+                    <p>Este é um fragmento do meu trabalho de conclusão de curso onde apresento um aplicativo que desenvolvi para me auxiliar na realização da administração de um laboratório de informática.</p>
+                </div>
+            </article>
+            
+            <article class="row esquerda clearfix">
+                <div class="imagem"><a href="datascomemorativas.php?id=13" target="_blank"><img src="images/calendario.jpg" alt="calendario" /></a></div>
+                <div class="texto">
+                    <a href="datascomemorativas.php?id=13" target="_blank"><h2>Datas comemorativas</h2></a>
+                    <p>Hoje é dia de quê? Fique por dentro de quais são as datas comemorativas, feriados e acontecimentos importantes relacionados à data de hoje.</p><br>
+                    <p><a href="datascomemorativas.php?id=1">Janeiro</a></p>
+                    <p><a href="datascomemorativas.php?id=2">Fevereiro</a></p>
+                    <p><a href="datascomemorativas.php?id=3">Março</a></p>
+                    <p><a href="datascomemorativas.php?id=4">Abril</a></p>
+                    <p><a href="datascomemorativas.php?id=5">Maio</a></p>
+                    <p><a href="datascomemorativas.php?id=6">Junho</a></p>
+                    <p><a href="datascomemorativas.php?id=7">Julho</a></p>
+                    <p><a href="datascomemorativas.php?id=8">Agosto</a></p>
+                    <p><a href="datascomemorativas.php?id=9">Setembro</a></p>
+                    <p><a href="datascomemorativas.php?id=10">Outubro</a></p>
+                    <p><a href="datascomemorativas.php?id=11">Novembro</a></p>
+                    <p><a href="datascomemorativas.php?id=12">Dezembro</a></p>
+                </div>
+            </article>
+            
+           <!--
+           <article class="row clearfix">
+                <h2>Datas comemorativas</h2>                                   
+                <p class="baloes"><a href="datascomemorativas.php?id=1">Janeiro</a></p>
+                <p class="baloes"><a href="datascomemorativas.php?id=2">Fevereiro</a></p>
+                <p class="baloes"><a href="datascomemorativas.php?id=3">Março</a></p>
+                <p class="baloes"><a href="datascomemorativas.php?id=4">Abril</a></p>
+                <p class="baloes"><a href="datascomemorativas.php?id=5">Maio</a></p>
+                <p class="baloes"><a href="datascomemorativas.php?id=6">Junho</a></p>
+                <p class="baloes"><a href="datascomemorativas.php?id=7">Julho</a></p>
+                <p class="baloes"><a href="datascomemorativas.php?id=8">Agosto</a></p>
+                <p class="baloes"><a href="datascomemorativas.php?id=9">Setembro</a></p>
+                <p class="baloes"><a href="datascomemorativas.php?id=10">Outubro</a></p>
+                <p class="baloes"><a href="datascomemorativas.php?id=11">Novembro</a></p>
+                <p class="baloes"><a href="datascomemorativas.php?id=12">Dezembro</a></p>                
+            </article>
+            -->
+            
+           <!--
+            <footer class="clearfix">
+                <p>&copy;2016 - Kiko Previero</p>
+            </footer>
+            -->
+            
+        </div>
+        
+        <footer id="fixed_footer">
+
+            <div id="social">
+                <ul>
+                    <li><a href=# id="fb" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
+                    <li><a href='https://www.linkedin.com/in/diego-previero-49745846' id="li" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href=# id="yt"><i class="fa fa-youtube" target="_blank"></i></a></li>
+                    <!--<li><a href=# id="gh"><i class="fa fa-github" target="_blank"></i></a></li>
+                        <li><a href=# id="tw"><i class="fa fa-twitter" target="_blank"></i></a></li>-->
+                </ul>
+            </div>
+                        
+            <p><span>Estudaê! - Desenvolvido por Kiko Previero - <a href='politicas-de-privacidade.html'>Políticas de Privacidade</a></span></p>
+        </footer>
+        
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o)
+                , m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-84132607-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+
 </html>
