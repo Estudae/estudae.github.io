@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <meta name="description" content="Video Aulas, Tutoriais e Dicas, todos os assuntos abordados de forma objetiva, sem enrolação e perda de tempo.">
+    <meta name="keywords" content="Video, Aula, redes, computadores, java, astronomia">
+    <meta name="author" content="Diego Previero">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-menu.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <link rel="icon" href="favicon.png">
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-84132607-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <script>
+        $(document).ready(function () {
+
+
+            function slugify(str) {
+                str = str.replace(/^\s+|\s+$/g, ''); // trim
+                str = str.toLowerCase();
+
+                // remove accents, swap ñ for n, etc
+                var from = "ãàáäâẽèéëêìíïîõòóöôùúüûñç·/_,:;";
+                var to = "aaaaaeeeeeiiiiooooouuuunc------";
+                for (var i = 0, l = from.length; i < l; i++) {
+                    str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+                }
+
+                str = str.replace(/[^a-z0-9 -]/g, '') // remove invalid chars
+                    .replace(/\s+/g, '-') // collapse whitespace and replace by -
+                    .replace(/-+/g, '-'); // collapse dashes
+
+                return str;
+            };
+
+
+            $('.teste').keyup(function () {
+
+                var html = '';
+                var titulomateria = $('#titulomateria').val();
+                var url = '<p>www.estudae.com.br/' + slugify(titulomateria) + '/</p>';
+                var materia = $('#materia').val();
+                var keywords = $('#keywords').val();
+                var meta = $('#meta').val();
+
+                titulomateria = '<h1>' + titulomateria + '</h1>';
+
+                materia = '<p>' + materia + '</p>';
+                materia = materia.replace(/\n|\r/g, '</p><p>');
+                materia = materia.replace(/<p><\/p>/g, '');
+
+                keywords = '<p>' + keywords + '</p>';
+
+                meta = '<p>' + meta + '</p>';
+
+                html += titulomateria + url + materia + keywords + meta;
+
+                $('#addtexto').html(html);
+                //return false;
+            });
+
+
+        });
+    </script>
+
+    <style>
+        .teste>* {
+            display: block;
+            margin: auto;
+            //border: 1px solid red;
+            //width: 100%;
+        }
+        
+        .teste{
+            //border: 1px solid red;
+        }
+        
+        .teste button {
+            height: 60px;
+            margin-top: 10px;
+            font-size: 1.5em;
+            font-weight: bold;            
+        }
+        
+        .titulomateria{
+            width: 100%;
+        }
+        
+        #materia {
+            height: 500px;
+            //border: 1px solid red;
+        }
+        
+        .materia {
+            float: left;
+            width: 71%;
+            clear: left;
+            //border: 1px solid green;
+            overflow: hidden;
+        }
+        
+        .keywords,
+        .meta {
+            float: right;
+            width: 28%;
+            clear: right;
+        }
+        
+        button {
+            width: 100%;
+        }
+    </style>
+
+    <title>Estudaê! - Treinamentos em tecnologia</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <header id="conteudo-lateral" class="clearfix">
+
+            <div class="lg">
+                <h1 class="texto"><a href="index.html"><span>Estud</span>aê!</a></h1>
+            </div>
+
+            <!--check box para ativacao do menu responsivo-->
+            <input type="checkbox" id="control-nav" />
+            <label for="control-nav" class="control-nav"></label>
+            <label for="control-nav" class="control-nav-close"></label>
+
+            <nav id="menu">
+                <ul class="list-auto">
+                    <li><a href="aulaonline.html" target="_blank">Aula Online</a></li>
+                    <li><a href="#">Dicas e Tutoriais</a></li>
+                    <li><a href="#">Vídeo Aulas</a></li>
+                    <li><a href="lista.html" target="_blank">EMEFs</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <div id="conteudo">
+
+            <article>
+                <form action="" class="teste clearfix">
+                    <label for="titulo" class="titulomateria">Título da Página</label>
+                    <input type="text" name="titulo" id="titulomateria" class="titulomateria">
+                    <label for="conteudo" class="materia">Conteúdo:</label>
+                    <textarea name="materia" id="materia" class="materia"></textarea>
+                    <label for="keywords" class="keywords">Palavras Chave</label>
+                    <textarea name="keywords" id="keywords" class="keywords"></textarea>
+                    <label for="metadescription" class="meta">Resumo (140 caracteres): </label>
+                    <textarea name="metadescription" id="meta" class="meta"></textarea>
+                    <button type="submit" id="publicar">Publicar</button>
+                </form>
+
+
+                <br>
+                <div id="addtexto"></div>
+
+            </article>
+
+
+
+
+
+            <footer class="clearfix">
+                <p>&copy;2016 - Kiko Previero</p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

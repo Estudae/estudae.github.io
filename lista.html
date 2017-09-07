@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <meta name="description" content="Video Aulas, Tutoriais e Dicas, todos os assuntos abordados de forma objetiva, sem enrolação e perda de tempo.">
+    <meta name="keywords" content="Video, Aula, redes, computadores, java, astronomia">
+    <meta name="author" content="Diego Previero">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-menu.css">
+    
+    
+    <link rel="icon" href="favicon.png">
+    <title>Aula Online - Estudaê!</title>
+    
+
+
+    <style>
+        @charset "UTF-8";
+        @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            line-height: 1.42em;
+            color: #A7A1AE;
+            background-color: #1F2739;
+        }
+        
+        .tabela th h1 {
+            font-weight: bold;
+            font-size: 1em;
+            text-align: left;
+            color: #185875;
+        }
+        
+        td {
+            font-weight: normal;
+            font-size: 1em;
+            -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+            -moz-box-shadow: 0 2px 2px -2px #0E1119;
+            box-shadow: 0 2px 2px -2px #0E1119;
+        }
+        
+        .tabela {
+            text-align: left;
+            overflow: hidden;
+            width: 100%;
+            margin: 0 auto;
+            display: table;
+            padding: 0 0 8em 0;
+        }
+        
+        .tabela td,
+        .tabela th {
+            padding-bottom: 2%;
+            padding-top: 2%;
+            padding-left: 2%;
+        }
+        
+        tr:nth-child(odd) {
+            background-color: #323C50;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #2C3446;
+        }
+        
+        th {
+            background-color: #1F2739;
+            font-size: 1.7em;
+        }
+        
+        td:first-child {
+            color: #FB667A;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+        
+       /* tr:hover {
+            background-color: #464A52;
+            -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+            -moz-box-shadow: 0 6px 6px -6px #0E1119;
+            box-shadow: 0 6px 6px -6px #0E1119;
+            font-weight: bolder;
+        }*/
+        
+        tr:hover {
+            background-color: skyblue;
+            color: #000;
+            font-size: 1.3em;
+            font-weight: bold;
+            box-shadow: dodgerblue -1px 1px, dodgerblue -2px 2px, dodgerblue -3px 3px, dodgerblue -4px 4px, dodgerblue -5px 5px, dodgerblue -6px 6px;
+            /*box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;*/
+            transform: translate3d(6px, -6px, 0);
+            transition-delay: 0s;
+            transition-duration: 0.4s;
+            transition-property: all;
+            transition-timing-function: line;
+        }
+        
+        
+        td:nth-child(4) {
+            text-align: center;
+        }
+        
+        h1{
+            float: left;
+            font-size: 1.7em;
+            line-height: 1.6em;
+        }
+        
+        .busca{
+            float: right;
+             clear: right;
+        }
+        
+        .busca label, input, select, button{
+            width: 120px;
+            height: 30px;
+            //border: 1px solid red;
+            border-radius: 7px;
+            color: black;
+            font-weight: 800;
+            text-align: center;
+        }
+        
+        .busca label{
+            color: white;
+        }
+        
+        
+        
+        @media (max-width: 800px) {
+            .tabela td:nth-child(4),
+            .tabela th:nth-child(4) {
+                display: none;
+            }
+            .esquerda,
+            article {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="container">
+
+        <header class="clearfix">
+            <div id="logo">
+                <a href="index.html">
+                <h1>
+                    <img src="images/logo_estudae.svg" alt="Estudaê" style="width:140px;">
+                </h1>
+                </a>
+            </div>
+            <!--check box para ativacao do menu responsivo-->
+            <input type="checkbox" id="control-nav" />
+            <label for="control-nav" class="control-nav"></label>
+            <label for="control-nav" class="control-nav-close"></label>
+            <nav id="menu">
+                <ul class="list-auto">
+                    <li><a href="aulaonline.html" target="_blank">Aula Online</a></li>
+                    <li><a href="#">Dicas e Tutoriais</a></li>
+                    <li><a href="#">Vídeo Aulas</a></li>
+                    <li><a href="lista.html" target="_blank">EMEFs</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="col80">
+            <article>
+               <h1>Lista de Aulas</h1>
+                              
+               <form action="" id="buscar_aula" class="busca">
+               <label for="por_ano">Por ano:</label>
+               <select name="por_ano" id="por_ano">
+                   <option value="1">PRIMEIRO</option>
+                   <option value="2">SEGUNDO</option>
+                   <option value="3">TERCEIRO</option>
+                   <option value="4">QUARTO</option>
+                   <option value="5">QUINTO</option>
+                   <option value="6">EJA</option>
+               </select>
+               <button type="submit">Listar</button>
+               </form>
+               
+               <form action="" id="assunto" class="busca">
+                  <label for="assunto_aula">Por Assunto:</label>
+                   <input type="text" id="assunto_aula" autocomplete="off">
+                   <button type="submit">Listar</button>
+               </form>
+               
+                <table class="tabela" id="aulas"></table>
+                <img src="images/wallpaper_estudae.png" alt="wallpaper" width="100%" class="wallpaper">
+                
+            </article>
+        </div>
+
+        <footer id="fixed_footer">
+
+            <div id="social">
+                <ul>
+                    <li><a href=# id="fb" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
+                    <li><a href='https://www.linkedin.com/in/diego-previero-49745846' id="li" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href=# id="yt"><i class="fa fa-youtube" target="_blank"></i></a></li>
+                    <!--<li><a href=# id="gh"><i class="fa fa-github" target="_blank"></i></a></li>
+                                <li><a href=# id="tw"><i class="fa fa-twitter" target="_blank"></i></a></li>-->
+                </ul>
+            </div>
+
+            <p><span>Desenvolvido por Kiko Previero - <a href='politicas-de-privacidade.html'>Políticas de Privacidade</a></span></p>
+        </footer>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/lista.js" type="text/javascript"></script>
+</body>
+
+</html>
