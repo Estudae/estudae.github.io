@@ -1,0 +1,225 @@
+#DAnimacao1{
+  position:absolute; 
+  top: 547;
+  left: 721;
+  width: 58;
+  height: 50;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DAnimacao2{
+  position:absolute; 
+  top: 548;
+  left: 365;
+  width: 58;
+  height: 50;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DAnimacao3{
+  position:absolute; 
+  top: 549;
+  left: 2;
+  width: 58;
+  height: 50;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DSoltar1{
+  position:absolute; 
+  top: 292;
+  left: 186;
+  width: 116;
+  height: 81;
+  z-index: 4; 
+}
+#DSoltarRot1{
+  position: absolute; 
+  left: 191; 
+  top: 304; 
+  width: 111; 
+  font-size: 30px; 
+  font-family: Comic Sans MS; 
+  z-index: 4; 
+  text-Align: center;
+}
+.DArrastar1 {
+  position: absolute; 
+  top: 147;
+  left: 42;
+  width: 96;
+  height: 72;
+  z-index: 5; 
+}
+#DSoltar2{
+  position:absolute; 
+  top: 394;
+  left: 187;
+  width: 116;
+  height: 81;
+  z-index: 4; 
+}
+#DSoltarRot2{
+  position: absolute; 
+  left: 192; 
+  top: 406; 
+  width: 111; 
+  font-size: 30px; 
+  font-family: Comic Sans MS; 
+  z-index: 4; 
+  text-Align: center;
+}
+.DArrastar2 {
+  position: absolute; 
+  top: 123;
+  left: 662;
+  width: 96;
+  height: 72;
+  z-index: 5; 
+}
+#DSoltar3{
+  position:absolute; 
+  top: 188;
+  left: 328;
+  width: 116;
+  height: 81;
+  z-index: 4; 
+}
+#DSoltarRot3{
+  position: absolute; 
+  left: 333; 
+  top: 200; 
+  width: 111; 
+  font-size: 30px; 
+  font-family: Comic Sans MS; 
+  z-index: 4; 
+  text-Align: center;
+}
+.DArrastar3 {
+  position: absolute; 
+  top: 420;
+  left: 48;
+  width: 96;
+  height: 72;
+  z-index: 5; 
+}
+#DSoltar4{
+  position:absolute; 
+  top: 188;
+  left: 472;
+  width: 116;
+  height: 81;
+  z-index: 4; 
+}
+#DSoltarRot4{
+  position: absolute; 
+  left: 477; 
+  top: 200; 
+  width: 111; 
+  font-size: 30px; 
+  font-family: Comic Sans MS; 
+  z-index: 4; 
+  text-Align: center;
+}
+.DArrastar4 {
+  position: absolute; 
+  top: 106;
+  left: 357;
+  width: 96;
+  height: 72;
+  z-index: 5; 
+}
+#DSoltar5{
+  position:absolute; 
+  top: 293;
+  left: 324;
+  width: 116;
+  height: 81;
+  z-index: 4; 
+}
+#DSoltarRot5{
+  position: absolute; 
+  left: 329; 
+  top: 306; 
+  width: 111; 
+  font-size: 30px; 
+  font-family: Comic Sans MS; 
+  z-index: 4; 
+  text-Align: center;
+}
+.DArrastar5 {
+  position: absolute; 
+  top: 269;
+  left: 650;
+  width: 96;
+  height: 72;
+  z-index: 5; 
+}
+#DSoltar6{
+  position:absolute; 
+  top: 293;
+  left: 473;
+  width: 116;
+  height: 81;
+  z-index: 4; 
+}
+#DSoltarRot6{
+  position: absolute; 
+  left: 478; 
+  top: 306; 
+  width: 111; 
+  font-size: 30px; 
+  font-family: Comic Sans MS; 
+  z-index: 4; 
+  text-Align: center;
+}
+.DArrastar6 {
+  position: absolute; 
+  top: 277;
+  left: 42;
+  width: 96;
+  height: 72;
+  z-index: 5; 
+}
+#DSoltar7{
+  position:absolute; 
+  top: 391;
+  left: 327;
+  width: 116;
+  height: 81;
+  z-index: 4; 
+}
+#DSoltarRot7{
+  position: absolute; 
+  left: 332; 
+  top: 404; 
+  width: 111; 
+  font-size: 30px; 
+  font-family: Comic Sans MS; 
+  z-index: 4; 
+  text-Align: center;
+}
+.DArrastar7 {
+  position: absolute; 
+  top: 420;
+  left: 666;
+  width: 96;
+  height: 72;
+  z-index: 5; 
+}
+#Linha1 {
+  position: absolute; 
+  top: 58;
+  left: -2;
+  width: 799;
+  height: 1;
+  z-index: 0; 
+}
+#Linha2 {
+  position: absolute; 
+  top: 520;
+  left: -1;
+  width: 797;
+  height: 1;
+  z-index: 0; 
+}

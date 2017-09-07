@@ -1,0 +1,1689 @@
+<HTML ID="120408_05"
+      xmlns:v='urn:schemas-microsoft-com:vml'>
+<HEAD>
+<META NAME="Gerador de HTML" CONTENT = "Visual Class">
+<META Name=Codigo Content=120408_05>
+<META Name=Data Content=00:00:00>
+<META Name=Materia Content=>
+<META Name=Título Content=números ordinais>
+<META Name=Autor Content=Diego>
+<META Name=Assunto Content=>
+<META Name=Alvo Content=>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<TITLE>números ordinais</TITLE>
+</HEAD>
+<BODY
+      OnLoad="Janela_Load(); "
+      BGCOLOR="#000000"
+>
+<span id=somspan STYLE='
+    POSITION:Absolute;
+    TOP: -10;
+    LEFT: -10;
+    WIDTH: 0;
+    HEIGHT: 0;'
+></span>
+<IMG ID='ImagemFundo'
+     Name='ImagemFundo'
+     SRC='cenario_definitivo_2.jpg'
+     Border='0' 
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 0;
+           LEFT: 0;
+           z-index: 0; 
+'>
+<SCRIPT Language='JavaScript'
+        src = 'source.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = '120408_05.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Avaliacao.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'>
+ var telaTemExercicio = true;
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'ativaswf.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Animacao3.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Preenchimento.js'>
+</SCRIPT>
+<DIV ID='rotuloMovel'
+     NAME='rotuloMovel'
+     STYLE='backGround-color: #FFFF00; 
+            color: #000000; 
+            font-Weight: 700; font-family: Arial; font-size:10pt; visibility: hidden; position: absolute; z-index: 5'>
+</DIV>
+<SCRIPT>
+   Desloca('ImagemFundo');
+</Script>
+<style type='text/css'>
+<!--
+   A {text-decoration: none; color: none}
+-->
+</style>
+<Script Language=JavaScript>
+   var maxTentativas = 0;
+   var tentativas = 0;
+   var nomeTela = '120408_05';
+   var PrimeiroLink = null;
+   var somswf=2;
+</Script>
+<script>
+sRotMovAni1 = " Avançar ";
+</script>
+<DIV
+    Name='DAnimacao1'
+    ID='DAnimacao1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 556;
+           LEFT: 733;
+           WIDTH: 58;
+           HEIGHT: 33;
+     z-index: 3; 
+         VISIBILITY: hidden; 
+   '
+   OnMouseOver="Hint(sRotMovAni1, true);AnimaMouseClick('Animacao1', 'SET12DIR.gif'); "
+   OnMouseOut="Hint('', false);AnimaMouseClick('Animacao1', 'SET12DIR.gif'); "
+>
+<A 
+   id='lAnimacao1'
+   name='lAnimacao1'
+   Href=#
+   OnClick="AnimaMouseClick('Animacao1', 'SET12DIR.gif'); link_click('100408_12.htm', '0', true); "
+   OnMouseOver="Hint(sRotMovAni1, true);AnimaMouseClick('Animacao1', 'SET12DIR.gif'); "
+   OnMouseOut="Hint('', false);AnimaMouseClick('Animacao1', 'SET12DIR.gif'); "
+>
+<IMG Id='Animacao1'
+     Name='Animacao1'
+     alt=' Avançar '
+     Src='SET12DIR.gif'
+     WIDTH=58
+     HEIGHT=33
+     Border=0
+>
+</A>
+</DIV>
+<Script Language='JavaScript'>
+   obj = FindObj('DAnimacao1');
+   obj.sMouseOver="Hint(sRotMovAni1, true);AnimaMouseClick('Animacao1', 'SET12DIR.gif'); ";
+   obj.sMouseOut="Hint('', false);AnimaMouseClick('Animacao1', 'SET12DIR.gif'); ";
+    removeHref('lAnimacao1', true);
+    removeAlt('Animacao1');
+</Script>
+<script>
+sRotMovAni2 = " Sair ";
+</script>
+<DIV
+    Name='DAnimacao2'
+    ID='DAnimacao2'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 563;
+           LEFT: 619;
+           WIDTH: 108;
+           HEIGHT: 22;
+     z-index: 3; 
+         VISIBILITY: hidden; 
+   '
+   OnMouseOver="Hint(sRotMovAni2, true);AnimaMouseClick('Animacao2', 'sair.gif'); "
+   OnMouseOut="Hint('', false);AnimaMouseClick('Animacao2', 'sair.gif'); "
+>
+<A 
+   id='lAnimacao2'
+   name='lAnimacao2'
+   Href=#
+   OnClick="AnimaMouseClick('Animacao2', 'sair.gif');  window.close(); "
+   OnMouseOver="Hint(sRotMovAni2, true);AnimaMouseClick('Animacao2', 'sair.gif'); "
+   OnMouseOut="Hint('', false);AnimaMouseClick('Animacao2', 'sair.gif'); "
+>
+<IMG Id='Animacao2'
+     Name='Animacao2'
+     alt=' Sair '
+     Src='sair.gif'
+     WIDTH=108
+     HEIGHT=22
+     Border=0
+>
+</A>
+</DIV>
+<Script Language='JavaScript'>
+   obj = FindObj('DAnimacao2');
+   obj.sMouseOver="Hint(sRotMovAni2, true);AnimaMouseClick('Animacao2', 'sair.gif'); ";
+   obj.sMouseOut="Hint('', false);AnimaMouseClick('Animacao2', 'sair.gif'); ";
+    removeHref('lAnimacao2', true);
+    removeAlt('Animacao2');
+</Script>
+<DIV Name='DPreenchimento1'
+     ID='DPreenchimento1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 152;
+           LEFT: 593;
+           WIDTH: 94;
+           HEIGHT: 28;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento1'
+       ID='Preenchimento1'
+       MaxLength=8
+       Size=6
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento1 = new Array();
+    vPreenchimento1[0] = 'R$ 1,00';
+    var objPreench = FindObj('DPreenchimento1');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento1').atual = VerificaPreenchimento(GetObj('Preenchimento1').value, vPreenchimento1, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento1');
+       obj.style.backgroundColor = '#C0C0C0';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '94px';
+       obj.style.height = '28px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '14pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento1');
+</SCRIPT>
+<DIV Name='DPreenchimento2'
+     ID='DPreenchimento2'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 261;
+           LEFT: 594;
+           WIDTH: 94;
+           HEIGHT: 28;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento2'
+       ID='Preenchimento2'
+       MaxLength=8
+       Size=6
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento2 = new Array();
+    vPreenchimento2[0] = 'R$ 1,60';
+    var objPreench = FindObj('DPreenchimento2');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento2').atual = VerificaPreenchimento(GetObj('Preenchimento2').value, vPreenchimento2, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento2');
+       obj.style.backgroundColor = '#C0C0C0';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '94px';
+       obj.style.height = '28px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '14pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento2');
+</SCRIPT>
+<DIV Name='DPreenchimento3'
+     ID='DPreenchimento3'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 321;
+           LEFT: 593;
+           WIDTH: 94;
+           HEIGHT: 28;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento3'
+       ID='Preenchimento3'
+       MaxLength=8
+       Size=6
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento3 = new Array();
+    vPreenchimento3[0] = 'R$ 2,10';
+    var objPreench = FindObj('DPreenchimento3');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento3').atual = VerificaPreenchimento(GetObj('Preenchimento3').value, vPreenchimento3, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento3');
+       obj.style.backgroundColor = '#C0C0C0';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '94px';
+       obj.style.height = '28px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '14pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento3');
+</SCRIPT>
+<DIV Name='DPreenchimento4'
+     ID='DPreenchimento4'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 205;
+           LEFT: 594;
+           WIDTH: 94;
+           HEIGHT: 28;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento4'
+       ID='Preenchimento4'
+       MaxLength=8
+       Size=6
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento4 = new Array();
+    vPreenchimento4[0] = 'R$ 2,25';
+    var objPreench = FindObj('DPreenchimento4');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento4').atual = VerificaPreenchimento(GetObj('Preenchimento4').value, vPreenchimento4, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento4');
+       obj.style.backgroundColor = '#C0C0C0';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '94px';
+       obj.style.height = '28px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '14pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento4');
+</SCRIPT>
+<DIV Name='DPreenchimento5'
+     ID='DPreenchimento5'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 386;
+           LEFT: 593;
+           WIDTH: 94;
+           HEIGHT: 28;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento5'
+       ID='Preenchimento5'
+       MaxLength=8
+       Size=6
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento5 = new Array();
+    vPreenchimento5[0] = 'R$ 7,20';
+    var objPreench = FindObj('DPreenchimento5');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento5').atual = VerificaPreenchimento(GetObj('Preenchimento5').value, vPreenchimento5, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento5');
+       obj.style.backgroundColor = '#C0C0C0';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '94px';
+       obj.style.height = '28px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '14pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento5');
+</SCRIPT>
+<DIV Name='DPreenchimento6'
+     ID='DPreenchimento6'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 451;
+           LEFT: 597;
+           WIDTH: 94;
+           HEIGHT: 28;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento6'
+       ID='Preenchimento6'
+       MaxLength=8
+       Size=6
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento6 = new Array();
+    vPreenchimento6[0] = 'R$ 1,20';
+    var objPreench = FindObj('DPreenchimento6');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento6').atual = VerificaPreenchimento(GetObj('Preenchimento6').value, vPreenchimento6, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento6');
+       obj.style.backgroundColor = '#C0C0C0';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '94px';
+       obj.style.height = '28px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '14pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento6');
+</SCRIPT>
+<DIV
+    Name='Rotulo3D11'
+    ID='Rotulo3D11'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 105;
+         LEFT: 83;
+         WIDTH: 71.46667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D11' FACE='Comic Sans MS' COLOR='#000000'>
+      Artigo
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D11', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D11');
+</SCRIPT>
+<DIV
+     Name='DRotulo1'
+     Id='DRotulo1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 104;
+           LEFT: 82;
+           WIDTH: 71.46667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo1'
+   name='lRotulo1'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo1' FACE='Comic Sans MS' COLOR='#FF0000'>
+    Artigo
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo1', false);
+   FindObj('DRotulo1').sMouseClick="";
+   colocaEstiloFonte('Rotulo1', 'Comic Sans MS', 14);
+   Desloca('DRotulo1');
+</Script>
+<DIV
+    Name='Rotulo3D12'
+    ID='Rotulo3D12'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 108;
+         LEFT: 260;
+         WIDTH: 120.4667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D12' FACE='Comic Sans MS' COLOR='#000000'>
+      Quantidade
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D12', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D12');
+</SCRIPT>
+<DIV
+     Name='DRotulo2'
+     Id='DRotulo2'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 107;
+           LEFT: 259;
+           WIDTH: 120.4667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo2'
+   name='lRotulo2'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo2' FACE='Comic Sans MS' COLOR='#FF0000'>
+    Quantidade
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo2', false);
+   FindObj('DRotulo2').sMouseClick="";
+   colocaEstiloFonte('Rotulo2', 'Comic Sans MS', 14);
+   Desloca('DRotulo2');
+</Script>
+<DIV
+    Name='Rotulo3D13'
+    ID='Rotulo3D13'
+     Align='Center'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 107;
+         LEFT: 402;
+         WIDTH: 145.4667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<table width='100%' height='100%'><tr><td align='center'>
+<b>
+<FONT ID='Rot3D13' FACE='Comic Sans MS' COLOR='#000000'>
+      Preço Unitário
+</FONT>
+</b>
+</td></tr></table>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D13', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D13');
+</SCRIPT>
+<DIV
+     Name='DRotulo3'
+     Id='DRotulo3'
+     ALIGN='Center' 
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 106;
+           LEFT: 401;
+           WIDTH: 145.4667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<table width='100%' height='100%'><tr><td align='center'>
+<A 
+   id='lRotulo3'
+   name='lRotulo3'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo3' FACE='Comic Sans MS' COLOR='#FF0000'>
+    Preço Unitário
+      </FONT>
+</b>
+</A>
+</td></tr></table>
+</DIV>
+<Script>
+    removeHref('lRotulo3', false);
+   FindObj('DRotulo3').sMouseClick="";
+   colocaEstiloFonte('Rotulo3', 'Comic Sans MS', 14);
+   Desloca('DRotulo3');
+</Script>
+<DIV
+    Name='Rotulo3D14'
+    ID='Rotulo3D14'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 326;
+         LEFT: 34;
+         WIDTH: 143.4667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D14' FACE='Comic Sans MS' COLOR='#000000'>
+      Doce de Leite
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D14', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D14');
+</SCRIPT>
+<DIV
+     Name='DRotulo4'
+     Id='DRotulo4'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 325;
+           LEFT: 33;
+           WIDTH: 143.4667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo4'
+   name='lRotulo4'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo4' FACE='Comic Sans MS' COLOR='#FFFF00'>
+    Doce de Leite
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo4', false);
+   FindObj('DRotulo4').sMouseClick="";
+   colocaEstiloFonte('Rotulo4', 'Comic Sans MS', 14);
+   Desloca('DRotulo4');
+</Script>
+<DIV
+    Name='Rotulo3D15'
+    ID='Rotulo3D15'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 454;
+         LEFT: 50;
+         WIDTH: 103.4667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D15' FACE='Comic Sans MS' COLOR='#000000'>
+      Chocolate
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D15', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D15');
+</SCRIPT>
+<DIV
+     Name='DRotulo5'
+     Id='DRotulo5'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 453;
+           LEFT: 49;
+           WIDTH: 103.4667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo5'
+   name='lRotulo5'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo5' FACE='Comic Sans MS' COLOR='#FFFF00'>
+    Chocolate
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo5', false);
+   FindObj('DRotulo5').sMouseClick="";
+   colocaEstiloFonte('Rotulo5', 'Comic Sans MS', 14);
+   Desloca('DRotulo5');
+</Script>
+<DIV
+    Name='Rotulo3D16'
+    ID='Rotulo3D16'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 151;
+         LEFT: 304;
+         WIDTH: 38.46667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D16' FACE='Comic Sans MS' COLOR='#000000'>
+      10
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D16', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D16');
+</SCRIPT>
+<DIV
+     Name='DRotulo6'
+     Id='DRotulo6'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 150;
+           LEFT: 303;
+           WIDTH: 38.46667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo6'
+   name='lRotulo6'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo6' FACE='Comic Sans MS' COLOR='#FFFF00'>
+    10
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo6', false);
+   FindObj('DRotulo6').sMouseClick="";
+   colocaEstiloFonte('Rotulo6', 'Comic Sans MS', 14);
+   Desloca('DRotulo6');
+</Script>
+<DIV
+    Name='Rotulo3D17'
+    ID='Rotulo3D17'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 263;
+         LEFT: 68;
+         WIDTH: 77.46667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D17' FACE='Comic Sans MS' COLOR='#000000'>
+      Pirulito
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D17', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D17');
+</SCRIPT>
+<DIV
+     Name='DRotulo7'
+     Id='DRotulo7'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 262;
+           LEFT: 67;
+           WIDTH: 77.46667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo7'
+   name='lRotulo7'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo7' FACE='Comic Sans MS' COLOR='#FFFF00'>
+    Pirulito
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo7', false);
+   FindObj('DRotulo7').sMouseClick="";
+   colocaEstiloFonte('Rotulo7', 'Comic Sans MS', 14);
+   Desloca('DRotulo7');
+</Script>
+<DIV
+    Name='Rotulo3D18'
+    ID='Rotulo3D18'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 207;
+         LEFT: 62;
+         WIDTH: 88.46667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D18' FACE='Comic Sans MS' COLOR='#000000'>
+      Chiclete
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D18', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D18');
+</SCRIPT>
+<DIV
+     Name='DRotulo8'
+     Id='DRotulo8'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 206;
+           LEFT: 61;
+           WIDTH: 88.46667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo8'
+   name='lRotulo8'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo8' FACE='Comic Sans MS' COLOR='#FFFF00'>
+    Chiclete
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo8', false);
+   FindObj('DRotulo8').sMouseClick="";
+   colocaEstiloFonte('Rotulo8', 'Comic Sans MS', 14);
+   Desloca('DRotulo8');
+</Script>
+<DIV
+    Name='Rotulo3D19'
+    ID='Rotulo3D19'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 153;
+         LEFT: 84;
+         WIDTH: 53.46667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D19' FACE='Comic Sans MS' COLOR='#000000'>
+      Bala
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D19', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D19');
+</SCRIPT>
+<DIV
+     Name='DRotulo9'
+     Id='DRotulo9'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 152;
+           LEFT: 83;
+           WIDTH: 53.46667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo9'
+   name='lRotulo9'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo9' FACE='Comic Sans MS' COLOR='#FFFF00'>
+    Bala
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo9', false);
+   FindObj('DRotulo9').sMouseClick="";
+   colocaEstiloFonte('Rotulo9', 'Comic Sans MS', 14);
+   Desloca('DRotulo9');
+</Script>
+<DIV
+    Name='Rotulo3D110'
+    ID='Rotulo3D110'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 153;
+         LEFT: 429;
+         WIDTH: 91.46667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D110' FACE='Comic Sans MS' COLOR='#000000'>
+      R$ 0,10
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D110', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D110');
+</SCRIPT>
+<DIV
+     Name='DRotulo10'
+     Id='DRotulo10'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 152;
+           LEFT: 428;
+           WIDTH: 91.46667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo10'
+   name='lRotulo10'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo10' FACE='Comic Sans MS' COLOR='#FFFF00'>
+    R$ 0,10
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo10', false);
+   FindObj('DRotulo10').sMouseClick="";
+   colocaEstiloFonte('Rotulo10', 'Comic Sans MS', 14);
+   Desloca('DRotulo10');
+</Script>
+<DIV
+    Name='Rotulo3D111'
+    ID='Rotulo3D111'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 388;
+         LEFT: 59;
+         WIDTH: 87.46667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D111' FACE='Comic Sans MS' COLOR='#000000'>
+      Bombom
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D111', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D111');
+</SCRIPT>
+<DIV
+     Name='DRotulo11'
+     Id='DRotulo11'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 387;
+           LEFT: 58;
+           WIDTH: 87.46667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo11'
+   name='lRotulo11'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo11' FACE='Comic Sans MS' COLOR='#FFFF00'>
+    Bombom
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo11', false);
+   FindObj('DRotulo11').sMouseClick="";
+   colocaEstiloFonte('Rotulo11', 'Comic Sans MS', 14);
+   Desloca('DRotulo11');
+</Script>
+<DIV
+    Name='Rotulo3D112'
+    ID='Rotulo3D112'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 207;
+         LEFT: 303;
+         WIDTH: 38.46667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D112' FACE='Comic Sans MS' COLOR='#000000'>
+      15
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D112', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D112');
+</SCRIPT>
+<DIV
+     Name='DRotulo12'
+     Id='DRotulo12'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 206;
+           LEFT: 302;
+           WIDTH: 38.46667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo12'
+   name='lRotulo12'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo12' FACE='Comic Sans MS' COLOR='#FFFF00'>
+    15
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo12', false);
+   FindObj('DRotulo12').sMouseClick="";
+   colocaEstiloFonte('Rotulo12', 'Comic Sans MS', 14);
+   Desloca('DRotulo12');
+</Script>
+<DIV
+    Name='Rotulo3D113'
+    ID='Rotulo3D113'
+     Align='Center'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 105;
+         LEFT: 583;
+         WIDTH: 120.4667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<table width='100%' height='100%'><tr><td align='center'>
+<b>
+<FONT ID='Rot3D113' FACE='Comic Sans MS' COLOR='#000000'>
+      Preço Total
+</FONT>
+</b>
+</td></tr></table>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D113', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D113');
+</SCRIPT>
+<DIV
+     Name='DRotulo13'
+     Id='DRotulo13'
+     ALIGN='Center' 
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 104;
+           LEFT: 582;
+           WIDTH: 120.4667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<table width='100%' height='100%'><tr><td align='center'>
+<A 
+   id='lRotulo13'
+   name='lRotulo13'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo13' FACE='Comic Sans MS' COLOR='#FF0000'>
+    Preço Total
+      </FONT>
+</b>
+</A>
+</td></tr></table>
+</DIV>
+<Script>
+    removeHref('lRotulo13', false);
+   FindObj('DRotulo13').sMouseClick="";
+   colocaEstiloFonte('Rotulo13', 'Comic Sans MS', 14);
+   Desloca('DRotulo13');
+</Script>
+<DIV
+    Name='Rotulo3D114'
+    ID='Rotulo3D114'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 22pt; 
+         TOP: 32;
+         LEFT: 288;
+         WIDTH: 286.7333;
+         HEIGHT: 45;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D114' FACE='Comic Sans MS' COLOR='#000000'>
+      Complete a tabela:
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D114', 'Comic Sans MS', 22);
+   Desloca('Rotulo3D114');
+</SCRIPT>
+<DIV
+     Name='DRotulo14'
+     Id='DRotulo14'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 31;
+           LEFT: 287;
+           WIDTH: 286.7333;
+           HEIGHT: 44;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 22pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo14'
+   name='lRotulo14'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo14' FACE='Comic Sans MS' COLOR='#00FFFF'>
+    Complete a tabela:
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo14', false);
+   FindObj('DRotulo14').sMouseClick="";
+   colocaEstiloFonte('Rotulo14', 'Comic Sans MS', 22);
+   Desloca('DRotulo14');
+</Script>
+<DIV
+    Name='Rotulo3D115'
+    ID='Rotulo3D115'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 205;
+         LEFT: 429;
+         WIDTH: 91.46667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D115' FACE='Comic Sans MS' COLOR='#000000'>
+      R$ 0,15
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D115', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D115');
+</SCRIPT>
+<DIV
+     Name='DRotulo15'
+     Id='DRotulo15'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 204;
+           LEFT: 428;
+           WIDTH: 91.46667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo15'
+   name='lRotulo15'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo15' FACE='Comic Sans MS' COLOR='#FFFF00'>
+    R$ 0,15
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo15', false);
+   FindObj('DRotulo15').sMouseClick="";
+   colocaEstiloFonte('Rotulo15', 'Comic Sans MS', 14);
+   Desloca('DRotulo15');
+</Script>
+<DIV
+    Name='Rotulo3D116'
+    ID='Rotulo3D116'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 265;
+         LEFT: 424;
+         WIDTH: 91.46667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D116' FACE='Comic Sans MS' COLOR='#000000'>
+      R$ 0,20
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D116', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D116');
+</SCRIPT>
+<DIV
+     Name='DRotulo16'
+     Id='DRotulo16'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 264;
+           LEFT: 423;
+           WIDTH: 91.46667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo16'
+   name='lRotulo16'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo16' FACE='Comic Sans MS' COLOR='#FFFF00'>
+    R$ 0,20
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo16', false);
+   FindObj('DRotulo16').sMouseClick="";
+   colocaEstiloFonte('Rotulo16', 'Comic Sans MS', 14);
+   Desloca('DRotulo16');
+</Script>
+<DIV
+    Name='Rotulo3D117'
+    ID='Rotulo3D117'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 324;
+         LEFT: 422;
+         WIDTH: 91.46667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D117' FACE='Comic Sans MS' COLOR='#000000'>
+      R$ 0,30
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D117', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D117');
+</SCRIPT>
+<DIV
+     Name='DRotulo17'
+     Id='DRotulo17'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 323;
+           LEFT: 421;
+           WIDTH: 91.46667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo17'
+   name='lRotulo17'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo17' FACE='Comic Sans MS' COLOR='#FFFF00'>
+    R$ 0,30
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo17', false);
+   FindObj('DRotulo17').sMouseClick="";
+   colocaEstiloFonte('Rotulo17', 'Comic Sans MS', 14);
+   Desloca('DRotulo17');
+</Script>
+<DIV
+    Name='Rotulo3D118'
+    ID='Rotulo3D118'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 388;
+         LEFT: 421;
+         WIDTH: 91.46667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D118' FACE='Comic Sans MS' COLOR='#000000'>
+      R$ 0,60
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D118', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D118');
+</SCRIPT>
+<DIV
+     Name='DRotulo18'
+     Id='DRotulo18'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 387;
+           LEFT: 420;
+           WIDTH: 91.46667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo18'
+   name='lRotulo18'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo18' FACE='Comic Sans MS' COLOR='#FFFF00'>
+    R$ 0,60
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo18', false);
+   FindObj('DRotulo18').sMouseClick="";
+   colocaEstiloFonte('Rotulo18', 'Comic Sans MS', 14);
+   Desloca('DRotulo18');
+</Script>
+<DIV
+    Name='Rotulo3D119'
+    ID='Rotulo3D119'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 452;
+         LEFT: 423;
+         WIDTH: 91.46667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D119' FACE='Comic Sans MS' COLOR='#000000'>
+      R$ 0,20
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D119', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D119');
+</SCRIPT>
+<DIV
+     Name='DRotulo19'
+     Id='DRotulo19'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 451;
+           LEFT: 422;
+           WIDTH: 91.46667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo19'
+   name='lRotulo19'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo19' FACE='Comic Sans MS' COLOR='#FFFF00'>
+    R$ 0,20
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo19', false);
+   FindObj('DRotulo19').sMouseClick="";
+   colocaEstiloFonte('Rotulo19', 'Comic Sans MS', 14);
+   Desloca('DRotulo19');
+</Script>
+<DIV
+    Name='Rotulo3D120'
+    ID='Rotulo3D120'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 263;
+         LEFT: 305;
+         WIDTH: 26.46667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D120' FACE='Comic Sans MS' COLOR='#000000'>
+      8
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D120', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D120');
+</SCRIPT>
+<DIV
+     Name='DRotulo20'
+     Id='DRotulo20'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 262;
+           LEFT: 304;
+           WIDTH: 26.46667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo20'
+   name='lRotulo20'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo20' FACE='Comic Sans MS' COLOR='#FFFF00'>
+    8
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo20', false);
+   FindObj('DRotulo20').sMouseClick="";
+   colocaEstiloFonte('Rotulo20', 'Comic Sans MS', 14);
+   Desloca('DRotulo20');
+</Script>
+<DIV
+    Name='Rotulo3D121'
+    ID='Rotulo3D121'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 322;
+         LEFT: 303;
+         WIDTH: 26.46667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D121' FACE='Comic Sans MS' COLOR='#000000'>
+      7
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D121', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D121');
+</SCRIPT>
+<DIV
+     Name='DRotulo21'
+     Id='DRotulo21'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 321;
+           LEFT: 302;
+           WIDTH: 26.46667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo21'
+   name='lRotulo21'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo21' FACE='Comic Sans MS' COLOR='#FFFF00'>
+    7
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo21', false);
+   FindObj('DRotulo21').sMouseClick="";
+   colocaEstiloFonte('Rotulo21', 'Comic Sans MS', 14);
+   Desloca('DRotulo21');
+</Script>
+<DIV
+    Name='Rotulo3D122'
+    ID='Rotulo3D122'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 390;
+         LEFT: 292;
+         WIDTH: 38.46667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D122' FACE='Comic Sans MS' COLOR='#000000'>
+      12
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D122', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D122');
+</SCRIPT>
+<DIV
+     Name='DRotulo22'
+     Id='DRotulo22'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 389;
+           LEFT: 291;
+           WIDTH: 38.46667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo22'
+   name='lRotulo22'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo22' FACE='Comic Sans MS' COLOR='#FFFF00'>
+    12
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo22', false);
+   FindObj('DRotulo22').sMouseClick="";
+   colocaEstiloFonte('Rotulo22', 'Comic Sans MS', 14);
+   Desloca('DRotulo22');
+</Script>
+<DIV
+    Name='Rotulo3D123'
+    ID='Rotulo3D123'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 453;
+         LEFT: 298;
+         WIDTH: 26.46667;
+         HEIGHT: 32;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D123' FACE='Comic Sans MS' COLOR='#000000'>
+      6
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D123', 'Comic Sans MS', 14);
+   Desloca('Rotulo3D123');
+</SCRIPT>
+<DIV
+     Name='DRotulo23'
+     Id='DRotulo23'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 452;
+           LEFT: 297;
+           WIDTH: 26.46667;
+           HEIGHT: 31;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo23'
+   name='lRotulo23'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo23' FACE='Comic Sans MS' COLOR='#FFFF00'>
+    6
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo23', false);
+   FindObj('DRotulo23').sMouseClick="";
+   colocaEstiloFonte('Rotulo23', 'Comic Sans MS', 14);
+   Desloca('DRotulo23');
+</Script>
+<Script>
+  carregado=true;
+</Script>
+<SCRIPT Language='JavaScript'>
+  var tFundo=window.setInterval('mostraAnimas()',200);
+  function mostraAnimas() {
+    window.clearInterval(tFundo);
+    obj = FindObj('DAnimacao1');
+    obj.style.visibility="visible";
+    obj = FindObj('DAnimacao2');
+    obj.style.visibility="visible";
+  }
+</SCRIPT>
+</BODY>
+</HTML>

@@ -1,0 +1,290 @@
+#DAnimacao1{
+  position:absolute; 
+  top: 522;
+  left: 717;
+  width: 79;
+  height: 67;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DAnimacao2{
+  position:absolute; 
+  top: 530;
+  left: 10;
+  width: 79;
+  height: 67;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DAnimacao3{
+  position:absolute; 
+  top: 531;
+  left: 365;
+  width: 79;
+  height: 67;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DSoltarImg1{
+  position:absolute; 
+  top: 330;
+  left: 26;
+  width: 98;
+  height: 87;
+     z-index: 4; 
+}
+.DArrastarImg1{
+  position:absolute; 
+  top: 146;
+  left: 449;
+  width: 93;
+  height: 87;
+     z-index: 5; 
+}
+#DSoltarImg2{
+  position:absolute; 
+  top: 143;
+  left: 234;
+  width: 98;
+  height: 87;
+     z-index: 4; 
+}
+.DArrastarImg2{
+  position:absolute; 
+  top: 243;
+  left: 658;
+  width: 93;
+  height: 87;
+     z-index: 5; 
+}
+#DSoltarImg3{
+  position:absolute; 
+  top: 141;
+  left: 130;
+  width: 98;
+  height: 87;
+     z-index: 4; 
+}
+.DArrastarImg3{
+  position:absolute; 
+  top: 343;
+  left: 553;
+  width: 93;
+  height: 87;
+     z-index: 5; 
+}
+#DSoltarImg4{
+  position:absolute; 
+  top: 331;
+  left: 234;
+  width: 98;
+  height: 87;
+     z-index: 4; 
+}
+.DArrastarImg4{
+  position:absolute; 
+  top: 243;
+  left: 554;
+  width: 93;
+  height: 87;
+     z-index: 5; 
+}
+#DSoltarImg5{
+  position:absolute; 
+  top: 333;
+  left: 131;
+  width: 98;
+  height: 87;
+     z-index: 4; 
+}
+.DArrastarImg5{
+  position:absolute; 
+  top: 148;
+  left: 556;
+  width: 95;
+  height: 85;
+     z-index: 5; 
+}
+#DSoltarImg6{
+  position:absolute; 
+  top: 237;
+  left: 234;
+  width: 98;
+  height: 87;
+     z-index: 4; 
+}
+.DArrastarImg6{
+  position:absolute; 
+  top: 147;
+  left: 656;
+  width: 93;
+  height: 87;
+     z-index: 5; 
+}
+#DSoltarImg7{
+  position:absolute; 
+  top: 138;
+  left: 26;
+  width: 98;
+  height: 87;
+     z-index: 4; 
+}
+.DArrastarImg7{
+  position:absolute; 
+  top: 341;
+  left: 450;
+  width: 93;
+  height: 87;
+     z-index: 5; 
+}
+#DSoltarImg8{
+  position:absolute; 
+  top: 236;
+  left: 129;
+  width: 96;
+  height: 87;
+     z-index: 4; 
+}
+.DArrastarImg8{
+  position:absolute; 
+  top: 243;
+  left: 448;
+  width: 93;
+  height: 87;
+     z-index: 5; 
+}
+#DSoltarImg9{
+  position:absolute; 
+  top: 233;
+  left: 19;
+  width: 98;
+  height: 87;
+     z-index: 4; 
+}
+.DArrastarImg9{
+  position:absolute; 
+  top: 343;
+  left: 658;
+  width: 93;
+  height: 87;
+     z-index: 5; 
+}
+.DImagem1{
+  position:absolute; 
+  top: 29.8666666666667;
+  left: 631;
+  width: 129;
+  height: 104;
+     z-index: 1; 
+}
+#DPreenchimento1{
+  position: absolute; 
+  top: 491;
+  left: 27;
+  widt: 37;
+  height: 31;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento2{
+  position: absolute; 
+  top: 490;
+  left: 71;
+  widt: 37;
+  height: 31;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento3{
+  position: absolute; 
+  top: 492;
+  left: 117;
+  widt: 37;
+  height: 31;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento4{
+  position: absolute; 
+  top: 491;
+  left: 163;
+  widt: 37;
+  height: 31;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento5{
+  position: absolute; 
+  top: 491;
+  left: 211;
+  widt: 37;
+  height: 31;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento6{
+  position: absolute; 
+  top: 492;
+  left: 257;
+  widt: 37;
+  height: 31;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento7{
+  position: absolute; 
+  top: 492;
+  left: 306;
+  widt: 37;
+  height: 31;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento8{
+  position: absolute; 
+  top: 494;
+  left: 352;
+  widt: 37;
+  height: 31;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento9{
+  position: absolute; 
+  top: 493;
+  left: 397;
+  widt: 37;
+  height: 31;
+  padding: 0; 
+  z-index: 4; 
+}
+.DGroupRotulo1{
+  position: absolute;
+  top: 71;
+  left: 54;
+  width: 482;
+  height: 65;
+  overflow: hidden; 
+  font-size: 16px; 
+ z-index: 3;
+}
+.DGroupRotulo2{
+  position: absolute;
+  top: 14;
+  left: 213;
+  width: 390;
+  height: 59;
+  overflow: hidden; 
+  font-size: 30px; 
+ z-index: 3;
+}
+.DGroupRotulo3{
+  position: absolute;
+  top: 451;
+  left: 25;
+  width: 601.533333333333;
+  height: 34;
+  overflow: hidden; 
+  font-size: 16px; 
+ z-index: 3;
+}

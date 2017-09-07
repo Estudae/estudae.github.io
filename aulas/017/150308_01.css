@@ -1,0 +1,365 @@
+#DAnimacao1{
+  position:absolute; 
+  top: 532;
+  left: 718;
+  width: 79;
+  height: 67;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DAnimacao2{
+  position:absolute; 
+  top: 530;
+  left: 3;
+  width: 79;
+  height: 67;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DAnimacao3{
+  position:absolute; 
+  top: 532;
+  left: 370;
+  width: 79;
+  height: 67;
+     z-index: 3; 
+  visibility: hidden; 
+}
+.DImagemEfeito1{
+  position:absolute; 
+  top: 327;
+  left: 44;
+  width: 119;
+  height: 101;
+     z-index: 1; 
+}
+.DImagemEfeito2{
+  position:absolute; 
+  top: 94;
+  left: 620;
+  width: 130;
+  height: 111;
+     z-index: 1; 
+}
+.DImagemEfeito3{
+  position:absolute; 
+  top: 94;
+  left: 97;
+  width: 109;
+  height: 110;
+     z-index: 1; 
+}
+.DImagemEfeito4{
+  position:absolute; 
+  top: 94;
+  left: 348;
+  width: 130;
+  height: 110;
+     z-index: 1; 
+}
+.DImagemEfeito5{
+  position:absolute; 
+  top: 327;
+  left: 624;
+  width: 127;
+  height: 108;
+     z-index: 1; 
+}
+.DImagemEfeito6{
+  position:absolute; 
+  top: 327;
+  left: 329;
+  width: 145;
+  height: 113;
+     z-index: 1; 
+}
+#DPreenchimento1{
+  position: absolute; 
+  top: 218;
+  left: 82;
+  widt: 43;
+  height: 34;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento2{
+  position: absolute; 
+  top: 218;
+  left: 199;
+  widt: 43;
+  height: 34;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento3{
+  position: absolute; 
+  top: 218;
+  left: 370;
+  widt: 43;
+  height: 34;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento4{
+  position: absolute; 
+  top: 218;
+  left: 451;
+  widt: 43;
+  height: 34;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento5{
+  position: absolute; 
+  top: 218;
+  left: 654;
+  widt: 43;
+  height: 34;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento6{
+  position: absolute; 
+  top: 218;
+  left: 737;
+  widt: 43;
+  height: 34;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento7{
+  position: absolute; 
+  top: 463;
+  left: 3;
+  widt: 43;
+  height: 34;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento8{
+  position: absolute; 
+  top: 463;
+  left: 83;
+  widt: 43;
+  height: 34;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento9{
+  position: absolute; 
+  top: 463;
+  left: 164;
+  widt: 43;
+  height: 34;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento10{
+  position: absolute; 
+  top: 463;
+  left: 310;
+  widt: 43;
+  height: 34;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento11{
+  position: absolute; 
+  top: 463;
+  left: 391;
+  widt: 43;
+  height: 34;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento12{
+  position: absolute; 
+  top: 463;
+  left: 470;
+  widt: 43;
+  height: 34;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento13{
+  position: absolute; 
+  top: 463;
+  left: 630;
+  widt: 43;
+  height: 34;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento14{
+  position: absolute; 
+  top: 463;
+  left: 713;
+  widt: 43;
+  height: 34;
+  padding: 0; 
+  z-index: 4; 
+}
+.DGroupRotulo1{
+  position: absolute;
+  top: 22;
+  left: 166;
+  width: 558.4;
+  height: 54;
+  overflow: hidden; 
+  font-size: 27px; 
+ z-index: 3;
+}
+.DGroupRotulo2{
+  position: absolute;
+  top: 218;
+  left: 45;
+  width: 35.6666666666667;
+  height: 33;
+  overflow: hidden; 
+  font-size: 20px; 
+  background-color:#80FFFF; 
+ z-index: 3;
+}
+.DGroupRotulo3{
+  position: absolute;
+  top: 218;
+  left: 128;
+  width: 35.6666666666667;
+  height: 33;
+  overflow: hidden; 
+  font-size: 20px; 
+  background-color:#80FFFF; 
+ z-index: 3;
+}
+.DGroupRotulo4{
+  position: absolute;
+  top: 218;
+  left: 163;
+  width: 35.6666666666667;
+  height: 33;
+  overflow: hidden; 
+  font-size: 20px; 
+  background-color:#80FFFF; 
+ z-index: 3;
+}
+.DGroupRotulo5{
+  position: absolute;
+  top: 218;
+  left: 334;
+  width: 35.6666666666667;
+  height: 33;
+  overflow: hidden; 
+  font-size: 20px; 
+  background-color:#80FFFF; 
+ z-index: 3;
+}
+.DGroupRotulo6{
+  position: absolute;
+  top: 218;
+  left: 416;
+  width: 35.6666666666667;
+  height: 33;
+  overflow: hidden; 
+  font-size: 20px; 
+  background-color:#80FFFF; 
+ z-index: 3;
+}
+.DGroupRotulo7{
+  position: absolute;
+  top: 218;
+  left: 619;
+  width: 35.6666666666667;
+  height: 33;
+  overflow: hidden; 
+  font-size: 20px; 
+  background-color:#80FFFF; 
+ z-index: 3;
+}
+.DGroupRotulo8{
+  position: absolute;
+  top: 218;
+  left: 700;
+  width: 35.6666666666667;
+  height: 33;
+  overflow: hidden; 
+  font-size: 20px; 
+  background-color:#80FFFF; 
+ z-index: 3;
+}
+.DGroupRotulo9{
+  position: absolute;
+  top: 463;
+  left: 47;
+  width: 35.6666666666667;
+  height: 33;
+  overflow: hidden; 
+  font-size: 20px; 
+  background-color:#80FFFF; 
+ z-index: 3;
+}
+.DGroupRotulo10{
+  position: absolute;
+  top: 463;
+  left: 128;
+  width: 35.6666666666667;
+  height: 33;
+  overflow: hidden; 
+  font-size: 20px; 
+  background-color:#80FFFF; 
+ z-index: 3;
+}
+.DGroupRotulo11{
+  position: absolute;
+  top: 463;
+  left: 435;
+  width: 35.6666666666667;
+  height: 33;
+  overflow: hidden; 
+  font-size: 20px; 
+  background-color:#80FFFF; 
+ z-index: 3;
+}
+.DGroupRotulo12{
+  position: absolute;
+  top: 463;
+  left: 355;
+  width: 35.6666666666667;
+  height: 33;
+  overflow: hidden; 
+  font-size: 20px; 
+  background-color:#80FFFF; 
+ z-index: 3;
+}
+.DGroupRotulo13{
+  position: absolute;
+  top: 463;
+  left: 274;
+  width: 35.6666666666667;
+  height: 33;
+  overflow: hidden; 
+  font-size: 20px; 
+  background-color:#80FFFF; 
+ z-index: 3;
+}
+.DGroupRotulo14{
+  position: absolute;
+  top: 463;
+  left: 595;
+  width: 35.6666666666667;
+  height: 33;
+  overflow: hidden; 
+  font-size: 20px; 
+  background-color:#80FFFF; 
+ z-index: 3;
+}
+.DGroupRotulo15{
+  position: absolute;
+  top: 463;
+  left: 677;
+  width: 35.6666666666667;
+  height: 33;
+  overflow: hidden; 
+  font-size: 20px; 
+  background-color:#80FFFF; 
+ z-index: 3;
+}

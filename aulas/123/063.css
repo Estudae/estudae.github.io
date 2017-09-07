@@ -1,0 +1,86 @@
+#DGifAnimado1{
+  position:absolute; 
+  top: 186;
+  left: 634;
+  width: 202;
+  height: 320;
+     z-index: 1; 
+}
+#DGifAnimado2{
+  position:absolute; 
+  top: 452;
+  left: 63;
+  width: 92;
+  height: 92;
+     z-index: 1; 
+}
+#DGifAnimado3{
+  position:absolute; 
+  top: 453;
+  left: 270;
+  width: 92;
+  height: 92;
+     z-index: 1; 
+}
+#DGifAnimado4{
+  position:absolute; 
+  top: 452;
+  left: 479;
+  width: 92;
+  height: 92;
+     z-index: 1; 
+}
+#DAnimacao1{
+  position:absolute; 
+  top: 522;
+  left: 715;
+  width: 79;
+  height: 67;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DAnimacao2{
+  position:absolute; 
+  top: 74;
+  left: 712;
+  width: 79;
+  height: 67;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DPreenchimento1{
+  position: absolute; 
+  top: 260;
+  left: 224;
+  widt: 207;
+  height: 29;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento2{
+  position: absolute; 
+  top: 333;
+  left: 380;
+  widt: 207;
+  height: 29;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento3{
+  position: absolute; 
+  top: 335;
+  left: 146;
+  widt: 207;
+  height: 29;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento4{
+  position: absolute; 
+  top: 407;
+  left: 404;
+  widt: 207;
+  height: 29;
+  padding: 0; 
+  z-index: 4; 
+}

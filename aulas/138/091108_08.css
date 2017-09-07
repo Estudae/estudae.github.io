@@ -1,0 +1,101 @@
+#DAnimacao1{
+  position:absolute; 
+  top: 556;
+  left: 733;
+  width: 58;
+  height: 33;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DAnimacao2{
+  position:absolute; 
+  top: 4;
+  left: 762;
+  width: 35;
+  height: 35;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#Linha1 {
+  position: absolute; 
+  top: 148;
+  left: 256;
+  width: 0;
+  height: 294;
+  z-index: 0; 
+}
+#Linha2 {
+  position: absolute; 
+  top: 148;
+  left: 354;
+  width: 0;
+  height: 294;
+  z-index: 0; 
+}
+#Linha3 {
+  position: absolute; 
+  top: 148;
+  left: 456;
+  width: 0;
+  height: 294;
+  z-index: 0; 
+}
+#Linha4 {
+  position: absolute; 
+  top: 148;
+  left: 551;
+  width: 0;
+  height: 294;
+  z-index: 0; 
+}
+#Linha5 {
+  position: absolute; 
+  top: 330;
+  left: 253;
+  width: 296;
+  height: 0;
+  z-index: 0; 
+}
+#Linha6 {
+  position: absolute; 
+  top: 140;
+  left: 253;
+  width: 296;
+  height: 0;
+  z-index: 0; 
+}
+#Linha7 {
+  position: absolute; 
+  top: 236;
+  left: 253;
+  width: 292;
+  height: 0;
+  z-index: 0; 
+}
+#Linha8 {
+  position: absolute; 
+  top: 433;
+  left: 253;
+  width: 296;
+  height: 0;
+  z-index: 0; 
+}
+#DPreenchimento1{
+  position: absolute; 
+  top: 494;
+  left: 210;
+  widt: 378;
+  height: 43;
+  padding: 0; 
+  z-index: 4; 
+}
+.DGroupRotulo1{
+  position: absolute;
+  top: 36;
+  left: 33;
+  width: 722.866666666667;
+  height: 53;
+  overflow: hidden; 
+  font-size: 26px; 
+ z-index: 3;
+}

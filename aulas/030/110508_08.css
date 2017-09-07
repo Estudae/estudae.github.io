@@ -1,0 +1,164 @@
+#DAnimacao1{
+  position:absolute; 
+  top: 556;
+  left: 733;
+  width: 58;
+  height: 33;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DAnimacao2{
+  position:absolute; 
+  top: 4;
+  left: 762;
+  width: 35;
+  height: 35;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DSoltar1{
+  position:absolute; 
+  top: 415;
+  left: 232;
+  width: 116;
+  height: 29;
+  z-index: 4; 
+}
+#DSoltarRot1{
+  position: absolute; 
+  left: 237; 
+  top: 423; 
+  width: 111; 
+  font-size: 8px; 
+  font-family: MS Sans Serif; 
+  z-index: 4; 
+  text-Align: center;
+}
+.DArrastar1 {
+  position: absolute; 
+  top: 553;
+  left: 449;
+  width: 116;
+  height: 31;
+  z-index: 5; 
+}
+#DSoltar2{
+  position:absolute; 
+  top: 386;
+  left: 567;
+  width: 116;
+  height: 29;
+  z-index: 4; 
+}
+#DSoltarRot2{
+  position: absolute; 
+  left: 572; 
+  top: 394; 
+  width: 111; 
+  font-size: 8px; 
+  font-family: MS Sans Serif; 
+  z-index: 4; 
+  text-Align: center;
+}
+.DArrastar2 {
+  position: absolute; 
+  top: 555;
+  left: 304;
+  width: 116;
+  height: 31;
+  z-index: 5; 
+}
+#DSoltar3{
+  position:absolute; 
+  top: 229;
+  left: 224;
+  width: 116;
+  height: 29;
+  z-index: 4; 
+}
+#DSoltarRot3{
+  position: absolute; 
+  left: 229; 
+  top: 237; 
+  width: 111; 
+  font-size: 8px; 
+  font-family: MS Sans Serif; 
+  z-index: 4; 
+  text-Align: center;
+}
+.DArrastar3 {
+  position: absolute; 
+  top: 553;
+  left: 162;
+  width: 116;
+  height: 31;
+  z-index: 5; 
+}
+#DSoltar4{
+  position:absolute; 
+  top: 228;
+  left: 563;
+  width: 116;
+  height: 29;
+  z-index: 4; 
+}
+#DSoltarRot4{
+  position: absolute; 
+  left: 568; 
+  top: 236; 
+  width: 111; 
+  font-size: 8px; 
+  font-family: MS Sans Serif; 
+  z-index: 4; 
+  text-Align: center;
+}
+.DArrastar4 {
+  position: absolute; 
+  top: 555;
+  left: 22;
+  width: 116;
+  height: 31;
+  z-index: 5; 
+}
+.DImagemEfeito1{
+  position:absolute; 
+  top: 270;
+  left: 555;
+  width: 136;
+  height: 115;
+     z-index: 1; 
+}
+.DImagemEfeito2{
+  position:absolute; 
+  top: 108;
+  left: 212;
+  width: 144;
+  height: 122;
+     z-index: 1; 
+}
+.DImagemEfeito3{
+  position:absolute; 
+  top: 104;
+  left: 547;
+  width: 146;
+  height: 124;
+     z-index: 1; 
+}
+.DImagemEfeito4{
+  position:absolute; 
+  top: 290;
+  left: 213;
+  width: 146;
+  height: 124;
+     z-index: 1; 
+}
+.DGroupRotulo1{
+  position: absolute;
+  top: 34;
+  left: 245;
+  width: 353.533333333333;
+  height: 34;
+  overflow: hidden; 
+  font-size: 16px; 
+ z-index: 3;
+}

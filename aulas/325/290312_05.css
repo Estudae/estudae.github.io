@@ -1,0 +1,85 @@
+#DAnimacao1{
+  position:absolute; 
+  top: 556;
+  left: 733;
+  width: 58;
+  height: 33;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DAnimacao2{
+  position:absolute; 
+  top: 4;
+  left: 762;
+  width: 35;
+  height: 35;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DPreenchimento1{
+  position: absolute; 
+  top: 500;
+  left: 66;
+  widt: 673;
+  height: 44;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento2{
+  position: absolute; 
+  top: 231;
+  left: 66;
+  widt: 673;
+  height: 44;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento3{
+  position: absolute; 
+  top: 363;
+  left: 67;
+  widt: 673;
+  height: 44;
+  padding: 0; 
+  z-index: 4; 
+}
+.DGroupRotulo1{
+  position: absolute;
+  top: 15;
+  left: 37;
+  width: 719;
+  height: 127;
+  overflow: hidden; 
+  font-size: 20px; 
+ z-index: 3;
+}
+.DGroupRotulo2{
+  position: absolute;
+  top: 452;
+  left: 57;
+  width: 685;
+  height: 42;
+  overflow: hidden; 
+  font-size: 20px; 
+ z-index: 3;
+}
+.DGroupRotulo3{
+  position: absolute;
+  top: 183;
+  left: 57;
+  width: 683;
+  height: 42;
+  overflow: hidden; 
+  font-size: 20px; 
+ z-index: 3;
+}
+.DGroupRotulo4{
+  position: absolute;
+  top: 315;
+  left: 58;
+  width: 683;
+  height: 42;
+  overflow: hidden; 
+  font-size: 20px; 
+ z-index: 3;
+}

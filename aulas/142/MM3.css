@@ -1,0 +1,151 @@
+#DAnimacao1{
+  position:absolute; 
+  top: 550;
+  left: 738;
+  width: 57;
+  height: 48;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DAnimacao2{
+  position:absolute; 
+  top: 552;
+  left: 370;
+  width: 57;
+  height: 48;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DAnimacao3{
+  position:absolute; 
+  top: 551;
+  left: 3;
+  width: 57;
+  height: 48;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#Linha1 {
+  position: absolute; 
+  top: 82;
+  left: -2;
+  width: 798;
+  height: 0;
+  z-index: 0; 
+}
+#Linha2 {
+  position: absolute; 
+  top: 522;
+  left: -1;
+  width: 797;
+  height: 1;
+  z-index: 0; 
+}
+#DPreenchimento1{
+  position: absolute; 
+  top: 142;
+  left: 344;
+  widt: 54;
+  height: 43;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento2{
+  position: absolute; 
+  top: 101;
+  left: 456;
+  widt: 54;
+  height: 43;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento3{
+  position: absolute; 
+  top: 101;
+  left: 543;
+  widt: 54;
+  height: 43;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento4{
+  position: absolute; 
+  top: 102;
+  left: 629;
+  widt: 54;
+  height: 43;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento5{
+  position: absolute; 
+  top: 102;
+  left: 717;
+  widt: 54;
+  height: 43;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento6{
+  position: absolute; 
+  top: 170;
+  left: 451;
+  widt: 327;
+  height: 43;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento7{
+  position: absolute; 
+  top: 392;
+  left: 452;
+  widt: 325;
+  height: 43;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento8{
+  position: absolute; 
+  top: 366;
+  left: 342;
+  widt: 54;
+  height: 43;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento9{
+  position: absolute; 
+  top: 322;
+  left: 456;
+  widt: 54;
+  height: 43;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento10{
+  position: absolute; 
+  top: 322;
+  left: 542;
+  widt: 54;
+  height: 43;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento11{
+  position: absolute; 
+  top: 322;
+  left: 628;
+  widt: 54;
+  height: 43;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento12{
+  position: absolute; 
+  top: 323;
+  left: 717;
+  widt: 54;
+  height: 43;
+  padding: 0; 
+  z-index: 4; 
+}

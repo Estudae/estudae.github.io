@@ -1,0 +1,131 @@
+<HTML ID="MM01"
+      xmlns:v='urn:schemas-microsoft-com:vml'>
+<HEAD>
+<META NAME="GeraHTML FX" CONTENT = "Visual Class">
+<META Name=Versao Content=29-08-2012>
+<META Name=Codigo Content=MM01>
+<META Name=Data Content=00:00:00>
+<META Name=Materia Content=>
+<META Name=Título Content=TELA 1>
+<META Name=Autor Content=>
+<META Name=Assunto Content=>
+<META Name=Alvo Content=>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<TITLE>TELA 1</TITLE>
+<link rel='stylesheet' type='text/css' href='MM01.css' />
+<script class='jsbin' src='jqueryMin.js'></script>
+</HEAD>
+<BODY
+      OnLoad="Janela_Load(); "
+      BGCOLOR="#000000"
+>
+<span id=somspan STYLE='
+    POSITION:Absolute;
+    TOP: -10;
+    LEFT: -10;
+    WIDTH: 0;
+    HEIGHT: 0;'
+></span>
+<IMG ID='ImagemFundo'
+     Name='ImagemFundo'
+     SRC='fu7u6rym1z7.jpg'
+     Border='0' 
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 0;
+           LEFT: 0;
+           z-index: 0; 
+'>
+<SCRIPT Language='JavaScript'
+        src = 'source.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'>
+ var telaTemExercicio = false;
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'ativaswf.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'touch.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'gnpt-api.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Animacao3.js'>
+</SCRIPT>
+<SCRIPT>
+   Desloca('ImagemFundo');
+</Script>
+<style type='text/css'>
+<!--
+   A {text-decoration: none; color: none}
+-->
+</style>
+<Script Language=JavaScript>
+   var maxTentativas = 0;
+   var tentativas = 0;
+   var nomeTela = 'MM01';
+   var PrimeiroLink = null;
+   var somswf=2;
+</Script>
+<script type='text/javascript'>
+    var vetOp;
+</script>
+<style type='text/css'>
+<!-- .eAnimacao1 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DAnimacao1'
+    ID='DAnimacao1'
+   OnMouseOver="AnimaMouseClick('Animacao1', 'bazbava2.jpg'); "
+   OnMouseOut="AnimaMouseClick('Animacao1', 'bazbava1.jpg'); "
+>
+<A 
+   id='lAnimacao1'
+   name='lAnimacao1'
+   Href=#
+   OnClick="AnimaMouseClick('Animacao1', 'bazbava1.jpg'); link_click('MM2.htm', '0', true); "
+   OnMouseOver="AnimaMouseClick('Animacao1', 'bazbava2.jpg'); "
+   OnMouseOut="AnimaMouseClick('Animacao1', 'bazbava1.jpg'); "
+>
+<Font Color='#000000'>
+<IMG Id='Animacao1'
+     Name='Animacao1'
+class='eAnimacao1'
+     Src='bazbava1.jpg'
+     WIDTH=83
+     HEIGHT=67
+     Border=1
+>
+</Font>
+</A>
+</DIV>
+<Script Language='JavaScript'>
+   obj = FindObj('DAnimacao1');
+   obj.sMouseOver="AnimaMouseClick('Animacao1', 'bazbava2.jpg'); ";
+   obj.sMouseOut="AnimaMouseClick('Animacao1', 'bazbava1.jpg'); ";
+    removeHref('lAnimacao1', true);
+</Script>
+<DIV
+    Name='Linha1'
+    ID='Linha1'
+>
+<IMG
+     SRC='MM01_linha_1.gif'
+     Border=0
+>
+</DIV>
+<SCRIPT>
+   Desloca('Linha1');
+</SCRIPT>
+<SCRIPT Language='JavaScript'>
+  var tFundo=window.setInterval('mostraAnimas()',200);
+  function mostraAnimas() {
+    window.clearInterval(tFundo);
+    obj = FindObj('DAnimacao1');
+    obj.style.visibility="visible";
+  }
+</SCRIPT>
+</BODY>
+</HTML>

@@ -1,0 +1,277 @@
+#DSoltarImg1{
+  position:absolute; 
+  top: 68;
+  left: 42;
+  width: 75;
+  height: 106;
+     z-index: 4; 
+}
+.DArrastarImg1{
+  position:absolute; 
+  top: 491;
+  left: 109;
+  width: 75;
+  height: 106;
+     z-index: 5; 
+}
+#DSoltarImg2{
+  position:absolute; 
+  top: 67;
+  left: 199;
+  width: 93;
+  height: 103;
+     z-index: 4; 
+}
+.DArrastarImg2{
+  position:absolute; 
+  top: 459;
+  left: 571;
+  width: 93;
+  height: 103;
+     z-index: 5; 
+}
+#DSoltarImg3{
+  position:absolute; 
+  top: 69;
+  left: 375;
+  width: 87;
+  height: 90;
+     z-index: 4; 
+}
+.DArrastarImg3{
+  position:absolute; 
+  top: 507;
+  left: 352;
+  width: 87;
+  height: 90;
+     z-index: 5; 
+}
+#DSoltarImg4{
+  position:absolute; 
+  top: 69;
+  left: 532;
+  width: 116;
+  height: 75;
+     z-index: 4; 
+}
+.DArrastarImg4{
+  position:absolute; 
+  top: 421;
+  left: 315;
+  width: 116;
+  height: 75;
+     z-index: 5; 
+}
+#DSoltarImg5{
+  position:absolute; 
+  top: 221;
+  left: 19;
+  width: 122;
+  height: 101;
+     z-index: 4; 
+}
+.DArrastarImg5{
+  position:absolute; 
+  top: 462;
+  left: 671;
+  width: 122;
+  height: 101;
+     z-index: 5; 
+}
+#DSoltarImg6{
+  position:absolute; 
+  top: 225;
+  left: 187;
+  width: 161;
+  height: 95;
+     z-index: 4; 
+}
+.DArrastarImg6{
+  position:absolute; 
+  top: 502;
+  left: 188;
+  width: 161;
+  height: 95;
+     z-index: 5; 
+}
+#DSoltarImg7{
+  position:absolute; 
+  top: 219;
+  left: 393;
+  width: 88;
+  height: 108;
+     z-index: 4; 
+}
+.DArrastarImg7{
+  position:absolute; 
+  top: 490;
+  left: 10;
+  width: 88;
+  height: 108;
+     z-index: 5; 
+}
+#DSoltarImg8{
+  position:absolute; 
+  top: 221;
+  left: 526;
+  width: 127;
+  height: 131;
+     z-index: 4; 
+}
+.DArrastarImg8{
+  position:absolute; 
+  top: 436;
+  left: 441;
+  width: 127;
+  height: 131;
+     z-index: 5; 
+}
+.DImagemEfeito1{
+  position:absolute; 
+  top: 568;
+  left: 770;
+  width: 29;
+  height: 30;
+     cursor: pointer; 
+     z-index: 1; 
+}
+.DImagemEfeito2{
+  position:absolute; 
+  top: 569;
+  left: 651;
+  width: 29;
+  height: 28;
+     cursor: pointer; 
+     z-index: 1; 
+}
+.DImagemEfeito3{
+  position:absolute; 
+  top: 569;
+  left: 524;
+  width: 29;
+  height: 29;
+     cursor: pointer; 
+     z-index: 1; 
+}
+.DGroupRotulo1{
+  position: absolute;
+  top: 1;
+  left: 11;
+  width: 796.533333333333;
+  height: 25;
+  overflow: hidden; 
+  font-size: 16px; 
+ z-index: 3;
+}
+.DGroupRotulo2{
+  position: absolute;
+  top: 40;
+  left: 16;
+  width: 129;
+  height: 25;
+  overflow: hidden; 
+  font-size: 8px; 
+  background-color:#FFFF00; 
+  border-style: solid; 
+  border-color: #FF8040; 
+  border-width: 2; 
+ z-index: 3;
+}
+.DGroupRotulo3{
+  position: absolute;
+  top: 40;
+  left: 184;
+  width: 129;
+  height: 25;
+  overflow: hidden; 
+  font-size: 8px; 
+  background-color:#FFFF00; 
+  border-style: solid; 
+  border-color: #FF8040; 
+  border-width: 2; 
+ z-index: 3;
+}
+.DGroupRotulo4{
+  position: absolute;
+  top: 41;
+  left: 355;
+  width: 129;
+  height: 25;
+  overflow: hidden; 
+  font-size: 8px; 
+  background-color:#FFFF00; 
+  border-style: solid; 
+  border-color: #FF8040; 
+  border-width: 2; 
+ z-index: 3;
+}
+.DGroupRotulo5{
+  position: absolute;
+  top: 40;
+  left: 529;
+  width: 129;
+  height: 25;
+  overflow: hidden; 
+  font-size: 8px; 
+  background-color:#FFFF00; 
+  border-style: solid; 
+  border-color: #FF8040; 
+  border-width: 2; 
+ z-index: 3;
+}
+.DGroupRotulo6{
+  position: absolute;
+  top: 194;
+  left: 17;
+  width: 129;
+  height: 25;
+  overflow: hidden; 
+  font-size: 8px; 
+  background-color:#FFFF00; 
+  border-style: solid; 
+  border-color: #FF8040; 
+  border-width: 2; 
+ z-index: 3;
+}
+.DGroupRotulo7{
+  position: absolute;
+  top: 193;
+  left: 208;
+  width: 129;
+  height: 25;
+  overflow: hidden; 
+  font-size: 8px; 
+  background-color:#FFFF00; 
+  border-style: solid; 
+  border-color: #FF8040; 
+  border-width: 2; 
+ z-index: 3;
+}
+.DGroupRotulo8{
+  position: absolute;
+  top: 192;
+  left: 372;
+  width: 129;
+  height: 25;
+  overflow: hidden; 
+  font-size: 8px; 
+  background-color:#FFFF00; 
+  border-style: solid; 
+  border-color: #FF8040; 
+  border-width: 2; 
+ z-index: 3;
+}
+.DGroupRotulo9{
+  position: absolute;
+  top: 185;
+  left: 527;
+  width: 129;
+  height: 33;
+  overflow: hidden; 
+  font-size: 8px; 
+  background-color:#FFFF00; 
+  border-style: solid; 
+  border-color: #FF8040; 
+  border-width: 2; 
+ z-index: 3;
+}

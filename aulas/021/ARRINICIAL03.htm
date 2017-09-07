@@ -1,0 +1,1983 @@
+<HTML ID="ARRINICIAL03"
+      xmlns:v='urn:schemas-microsoft-com:vml'>
+<HEAD>
+<META NAME="Gerador de HTML" CONTENT = "Visual Class">
+<META Name=Codigo Content=ARRINICIAL03>
+<META Name=Data Content=00:00:00>
+<META Name=Materia Content=>
+<META Name=Título Content=arrastar inicial>
+<META Name=Autor Content=>
+<META Name=Assunto Content=arrastar inicial>
+<META Name=Alvo Content=>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<TITLE>arrastar inicial</TITLE>
+</HEAD>
+<BODY
+      OnLoad="Janela_Load(); "
+      BGCOLOR="#FFFFFF"
+>
+<SCRIPT Language='JavaScript'
+        src = 'source.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'ARRINICIAL03.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Avaliacao.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'>
+ var telaTemExercicio = true;
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'ativaswf.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'dragdrop.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Arrasta.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Animacao3.js'>
+</SCRIPT>
+<DIV ID='rotuloMovel'
+     NAME='rotuloMovel'
+     STYLE='backGround-color: #FFFF00; 
+            color: #000000; 
+            font-Weight: 700; font-family: Arial; font-size:10pt; visibility: hidden; position: absolute; z-index: 5'>
+</DIV>
+<span id=somspan STYLE='
+    POSITION:Absolute;
+    TOP: -10;
+    LEFT: -10;
+    WIDTH: 0;
+    HEIGHT: 0;'
+></span>
+<style type='text/css'>
+<!--
+   A {text-decoration: none; color: none}
+-->
+</style>
+<Script Language=JavaScript>
+   var maxTentativas = 0;
+   var tentativas = 0;
+   var nomeTela = 'ARRINICIAL03';
+   var PrimeiroLink = null;
+   var somswf=2;
+</Script>
+<script>
+sRotMovAni1 = " Avançar ";
+</script>
+<DIV
+    Name='DAnimacao1'
+    ID='DAnimacao1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 556;
+           LEFT: 733;
+           WIDTH: 58;
+           HEIGHT: 33;
+     z-index: 3; 
+         VISIBILITY: hidden; 
+   '
+   OnMouseOver="Hint(sRotMovAni1, true);AnimaMouseClick('Animacao1', 'SET12DIR.gif'); "
+   OnMouseOut="Hint('', false);AnimaMouseClick('Animacao1', 'SET12DIR.gif'); "
+>
+<A 
+   id='lAnimacao1'
+   name='lAnimacao1'
+   Href=#
+   OnClick="AnimaMouseClick('Animacao1', 'SET12DIR.gif'); link_click('220413_02.htm', '0', true); "
+   OnMouseOver="Hint(sRotMovAni1, true);AnimaMouseClick('Animacao1', 'SET12DIR.gif'); "
+   OnMouseOut="Hint('', false);AnimaMouseClick('Animacao1', 'SET12DIR.gif'); "
+>
+<IMG Id='Animacao1'
+     Name='Animacao1'
+     alt=' Avançar '
+     Src='SET12DIR.gif'
+     WIDTH=58
+     HEIGHT=33
+     Border=0
+>
+</A>
+</DIV>
+<Script Language='JavaScript'>
+   obj = FindObj('DAnimacao1');
+   obj.sMouseOver="Hint(sRotMovAni1, true);AnimaMouseClick('Animacao1', 'SET12DIR.gif'); ";
+   obj.sMouseOut="Hint('', false);AnimaMouseClick('Animacao1', 'SET12DIR.gif'); ";
+    removeHref('lAnimacao1', true);
+    removeAlt('Animacao1');
+</Script>
+<script>
+sRotMovAni2 = " Sair ";
+</script>
+<DIV
+    Name='DAnimacao2'
+    ID='DAnimacao2'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 4;
+           LEFT: 762;
+           WIDTH: 35;
+           HEIGHT: 35;
+     z-index: 3; 
+         VISIBILITY: hidden; 
+   '
+   OnMouseOver="Hint(sRotMovAni2, true);AnimaMouseClick('Animacao2', 'sair3.gif'); "
+   OnMouseOut="Hint('', false);AnimaMouseClick('Animacao2', 'sair3.gif'); "
+>
+<A 
+   id='lAnimacao2'
+   name='lAnimacao2'
+   Href=#
+   OnClick="AnimaMouseClick('Animacao2', 'sair3.gif');  window.close(); "
+   OnMouseOver="Hint(sRotMovAni2, true);AnimaMouseClick('Animacao2', 'sair3.gif'); "
+   OnMouseOut="Hint('', false);AnimaMouseClick('Animacao2', 'sair3.gif'); "
+>
+<IMG Id='Animacao2'
+     Name='Animacao2'
+     alt=' Sair '
+     Src='sair3.gif'
+     WIDTH=35
+     HEIGHT=35
+     Border=0
+>
+</A>
+</DIV>
+<Script Language='JavaScript'>
+   obj = FindObj('DAnimacao2');
+   obj.sMouseOver="Hint(sRotMovAni2, true);AnimaMouseClick('Animacao2', 'sair3.gif'); ";
+   obj.sMouseOut="Hint('', false);AnimaMouseClick('Animacao2', 'sair3.gif'); ";
+    removeHref('lAnimacao2', true);
+    removeAlt('Animacao2');
+</Script>
+<DIV
+    Name='DSoltar1'
+    ID='DSoltar1'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 146;
+         LEFT: 10;
+         WIDTH: 37;
+         HEIGHT: 31;
+         z-index: 4; 
+         border-style: inset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         layer-background-color: #C0C0C0
+'
+>
+<A 
+   id='lSoltar1'
+   name='lSoltar1'
+   HREF='#'
+>
+<IMG
+     SRC='giftrans.gif'
+     Border='0'
+     WIDTH=26
+     HEIGHT=16
+>
+</A>
+</DIV>
+   <DIV
+      Name='DSoltarRot1'
+      ID='DSoltarRot1'
+      Align='Center'
+      Style='
+          Position: absolute; 
+          Left: 15; 
+          Top: 150; 
+          Width: 32; 
+          font-size: 14pt; 
+          font-family: Arial; 
+          z-index: 4; 
+          Text-Align: Center
+'
+>
+        <FONT COLOR='#FF0000'>
+            V
+        </FONT>
+</DIV>
+<DIV
+    Name='DArrastar1'
+    ID='DArrastar1'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 463;
+         LEFT: 673;
+         WIDTH: 37;
+         HEIGHT: 31;
+         z-index: 4; 
+         border-style: outset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         font-size: 14pt; 
+         font-family: Arial; 
+         Text-Align: Center;
+         layer-background-color: #C0C0C0;
+'
+>
+        <FONT COLOR='#0080FF' STYLE='
+             POSITION:Relative; 
+             TOP: 0'> 
+            V
+        </FONT>
+</DIV>
+<Script>
+   FindObj('DArrastar1').som='';
+</Script>
+<DIV
+    Name='DSoltar2'
+    ID='DSoltar2'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 148;
+         LEFT: 222;
+         WIDTH: 37;
+         HEIGHT: 31;
+         z-index: 4; 
+         border-style: inset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         layer-background-color: #C0C0C0
+'
+>
+<A 
+   id='lSoltar2'
+   name='lSoltar2'
+   HREF='#'
+>
+<IMG
+     SRC='giftrans.gif'
+     Border='0'
+     WIDTH=26
+     HEIGHT=16
+>
+</A>
+</DIV>
+   <DIV
+      Name='DSoltarRot2'
+      ID='DSoltarRot2'
+      Align='Center'
+      Style='
+          Position: absolute; 
+          Left: 227; 
+          Top: 152; 
+          Width: 32; 
+          font-size: 14pt; 
+          font-family: Arial; 
+          z-index: 4; 
+          Text-Align: Center
+'
+>
+        <FONT COLOR='#FF0000'>
+            P
+        </FONT>
+</DIV>
+<DIV
+    Name='DArrastar2'
+    ID='DArrastar2'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 462;
+         LEFT: 522;
+         WIDTH: 37;
+         HEIGHT: 31;
+         z-index: 4; 
+         border-style: outset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         font-size: 14pt; 
+         font-family: Arial; 
+         Text-Align: Center;
+         layer-background-color: #C0C0C0;
+'
+>
+        <FONT COLOR='#0080FF' STYLE='
+             POSITION:Relative; 
+             TOP: 0'> 
+            P
+        </FONT>
+</DIV>
+<Script>
+   FindObj('DArrastar2').som='';
+</Script>
+<DIV
+    Name='DSoltar3'
+    ID='DSoltar3'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 147;
+         LEFT: 418;
+         WIDTH: 37;
+         HEIGHT: 31;
+         z-index: 4; 
+         border-style: inset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         layer-background-color: #C0C0C0
+'
+>
+<A 
+   id='lSoltar3'
+   name='lSoltar3'
+   HREF='#'
+>
+<IMG
+     SRC='giftrans.gif'
+     Border='0'
+     WIDTH=26
+     HEIGHT=16
+>
+</A>
+</DIV>
+   <DIV
+      Name='DSoltarRot3'
+      ID='DSoltarRot3'
+      Align='Center'
+      Style='
+          Position: absolute; 
+          Left: 423; 
+          Top: 152; 
+          Width: 32; 
+          font-size: 14pt; 
+          font-family: Arial; 
+          z-index: 4; 
+          Text-Align: Center
+'
+>
+        <FONT COLOR='#FF0000'>
+            C
+        </FONT>
+</DIV>
+<DIV
+    Name='DArrastar3'
+    ID='DArrastar3'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 464;
+         LEFT: 623;
+         WIDTH: 37;
+         HEIGHT: 31;
+         z-index: 4; 
+         border-style: outset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         font-size: 14pt; 
+         font-family: Arial; 
+         Text-Align: Center;
+         layer-background-color: #C0C0C0;
+'
+>
+        <FONT COLOR='#0080FF' STYLE='
+             POSITION:Relative; 
+             TOP: 0'> 
+            C
+        </FONT>
+</DIV>
+<Script>
+   FindObj('DArrastar3').som='';
+</Script>
+<DIV
+    Name='DSoltar4'
+    ID='DSoltar4'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 144;
+         LEFT: 651;
+         WIDTH: 37;
+         HEIGHT: 31;
+         z-index: 4; 
+         border-style: inset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         layer-background-color: #C0C0C0
+'
+>
+<A 
+   id='lSoltar4'
+   name='lSoltar4'
+   HREF='#'
+>
+<IMG
+     SRC='giftrans.gif'
+     Border='0'
+     WIDTH=26
+     HEIGHT=16
+>
+</A>
+</DIV>
+   <DIV
+      Name='DSoltarRot4'
+      ID='DSoltarRot4'
+      Align='Center'
+      Style='
+          Position: absolute; 
+          Left: 656; 
+          Top: 148; 
+          Width: 32; 
+          font-size: 14pt; 
+          font-family: Arial; 
+          z-index: 4; 
+          Text-Align: Center
+'
+>
+        <FONT COLOR='#FF0000'>
+            O
+        </FONT>
+</DIV>
+<DIV
+    Name='DArrastar4'
+    ID='DArrastar4'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 462;
+         LEFT: 477;
+         WIDTH: 37;
+         HEIGHT: 31;
+         z-index: 4; 
+         border-style: outset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         font-size: 14pt; 
+         font-family: Arial; 
+         Text-Align: Center;
+         layer-background-color: #C0C0C0;
+'
+>
+        <FONT COLOR='#0080FF' STYLE='
+             POSITION:Relative; 
+             TOP: 0'> 
+            O
+        </FONT>
+</DIV>
+<Script>
+   FindObj('DArrastar4').som='';
+</Script>
+<DIV
+    Name='DSoltar5'
+    ID='DSoltar5'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 331;
+         LEFT: 21;
+         WIDTH: 37;
+         HEIGHT: 31;
+         z-index: 4; 
+         border-style: inset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         layer-background-color: #C0C0C0
+'
+>
+<A 
+   id='lSoltar5'
+   name='lSoltar5'
+   HREF='#'
+>
+<IMG
+     SRC='giftrans.gif'
+     Border='0'
+     WIDTH=26
+     HEIGHT=16
+>
+</A>
+</DIV>
+   <DIV
+      Name='DSoltarRot5'
+      ID='DSoltarRot5'
+      Align='Center'
+      Style='
+          Position: absolute; 
+          Left: 26; 
+          Top: 336; 
+          Width: 32; 
+          font-size: 14pt; 
+          font-family: Arial; 
+          z-index: 4; 
+          Text-Align: Center
+'
+>
+        <FONT COLOR='#FF0000'>
+            A
+        </FONT>
+</DIV>
+<DIV
+    Name='DArrastar5'
+    ID='DArrastar5'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 462;
+         LEFT: 569;
+         WIDTH: 37;
+         HEIGHT: 31;
+         z-index: 4; 
+         border-style: outset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         font-size: 14pt; 
+         font-family: Arial; 
+         Text-Align: Center;
+         layer-background-color: #C0C0C0;
+'
+>
+        <FONT COLOR='#0080FF' STYLE='
+             POSITION:Relative; 
+             TOP: 0'> 
+            A
+        </FONT>
+</DIV>
+<Script>
+   FindObj('DArrastar5').som='';
+</Script>
+<DIV
+    Name='DSoltar6'
+    ID='DSoltar6'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 330;
+         LEFT: 243;
+         WIDTH: 37;
+         HEIGHT: 31;
+         z-index: 4; 
+         border-style: inset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         layer-background-color: #C0C0C0
+'
+>
+<A 
+   id='lSoltar6'
+   name='lSoltar6'
+   HREF='#'
+>
+<IMG
+     SRC='giftrans.gif'
+     Border='0'
+     WIDTH=26
+     HEIGHT=16
+>
+</A>
+</DIV>
+   <DIV
+      Name='DSoltarRot6'
+      ID='DSoltarRot6'
+      Align='Center'
+      Style='
+          Position: absolute; 
+          Left: 248; 
+          Top: 334; 
+          Width: 32; 
+          font-size: 14pt; 
+          font-family: Arial; 
+          z-index: 4; 
+          Text-Align: Center
+'
+>
+        <FONT COLOR='#FF0000'>
+            T
+        </FONT>
+</DIV>
+<DIV
+    Name='DArrastar6'
+    ID='DArrastar6'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 504;
+         LEFT: 525;
+         WIDTH: 37;
+         HEIGHT: 31;
+         z-index: 4; 
+         border-style: outset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         font-size: 14pt; 
+         font-family: Arial; 
+         Text-Align: Center;
+         layer-background-color: #C0C0C0;
+'
+>
+        <FONT COLOR='#0080FF' STYLE='
+             POSITION:Relative; 
+             TOP: 0'> 
+            T
+        </FONT>
+</DIV>
+<Script>
+   FindObj('DArrastar6').som='';
+</Script>
+<DIV
+    Name='DSoltar7'
+    ID='DSoltar7'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 327;
+         LEFT: 426;
+         WIDTH: 37;
+         HEIGHT: 31;
+         z-index: 4; 
+         border-style: inset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         layer-background-color: #C0C0C0
+'
+>
+<A 
+   id='lSoltar7'
+   name='lSoltar7'
+   HREF='#'
+>
+<IMG
+     SRC='giftrans.gif'
+     Border='0'
+     WIDTH=26
+     HEIGHT=16
+>
+</A>
+</DIV>
+   <DIV
+      Name='DSoltarRot7'
+      ID='DSoltarRot7'
+      Align='Center'
+      Style='
+          Position: absolute; 
+          Left: 431; 
+          Top: 332; 
+          Width: 32; 
+          font-size: 14pt; 
+          font-family: Arial; 
+          z-index: 4; 
+          Text-Align: Center
+'
+>
+        <FONT COLOR='#FF0000'>
+            B
+        </FONT>
+</DIV>
+<DIV
+    Name='DArrastar7'
+    ID='DArrastar7'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 504;
+         LEFT: 572;
+         WIDTH: 37;
+         HEIGHT: 31;
+         z-index: 4; 
+         border-style: outset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         font-size: 14pt; 
+         font-family: Arial; 
+         Text-Align: Center;
+         layer-background-color: #C0C0C0;
+'
+>
+        <FONT COLOR='#0080FF' STYLE='
+             POSITION:Relative; 
+             TOP: 0'> 
+            B
+        </FONT>
+</DIV>
+<Script>
+   FindObj('DArrastar7').som='';
+</Script>
+<DIV
+    Name='DSoltar8'
+    ID='DSoltar8'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 324;
+         LEFT: 630;
+         WIDTH: 37;
+         HEIGHT: 31;
+         z-index: 4; 
+         border-style: inset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         layer-background-color: #C0C0C0
+'
+>
+<A 
+   id='lSoltar8'
+   name='lSoltar8'
+   HREF='#'
+>
+<IMG
+     SRC='giftrans.gif'
+     Border='0'
+     WIDTH=26
+     HEIGHT=16
+>
+</A>
+</DIV>
+   <DIV
+      Name='DSoltarRot8'
+      ID='DSoltarRot8'
+      Align='Center'
+      Style='
+          Position: absolute; 
+          Left: 635; 
+          Top: 328; 
+          Width: 32; 
+          font-size: 14pt; 
+          font-family: Arial; 
+          z-index: 4; 
+          Text-Align: Center
+'
+>
+        <FONT COLOR='#FF0000'>
+            F
+        </FONT>
+</DIV>
+<DIV
+    Name='DArrastar8'
+    ID='DArrastar8'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 502;
+         LEFT: 478;
+         WIDTH: 37;
+         HEIGHT: 31;
+         z-index: 4; 
+         border-style: outset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         font-size: 14pt; 
+         font-family: Arial; 
+         Text-Align: Center;
+         layer-background-color: #C0C0C0;
+'
+>
+        <FONT COLOR='#0080FF' STYLE='
+             POSITION:Relative; 
+             TOP: 0'> 
+            F
+        </FONT>
+</DIV>
+<Script>
+   FindObj('DArrastar8').som='';
+</Script>
+<DIV
+    Name='DSoltar9'
+    ID='DSoltar9'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 497;
+         LEFT: 6;
+         WIDTH: 37;
+         HEIGHT: 31;
+         z-index: 4; 
+         border-style: inset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         layer-background-color: #C0C0C0
+'
+>
+<A 
+   id='lSoltar9'
+   name='lSoltar9'
+   HREF='#'
+>
+<IMG
+     SRC='giftrans.gif'
+     Border='0'
+     WIDTH=26
+     HEIGHT=16
+>
+</A>
+</DIV>
+   <DIV
+      Name='DSoltarRot9'
+      ID='DSoltarRot9'
+      Align='Center'
+      Style='
+          Position: absolute; 
+          Left: 11; 
+          Top: 502; 
+          Width: 32; 
+          font-size: 14pt; 
+          font-family: Arial; 
+          z-index: 4; 
+          Text-Align: Center
+'
+>
+        <FONT COLOR='#FF0000'>
+            Q
+        </FONT>
+</DIV>
+<DIV
+    Name='DArrastar9'
+    ID='DArrastar9'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 505;
+         LEFT: 625;
+         WIDTH: 37;
+         HEIGHT: 31;
+         z-index: 4; 
+         border-style: outset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         font-size: 14pt; 
+         font-family: Arial; 
+         Text-Align: Center;
+         layer-background-color: #C0C0C0;
+'
+>
+        <FONT COLOR='#0080FF' STYLE='
+             POSITION:Relative; 
+             TOP: 0'> 
+            Q
+        </FONT>
+</DIV>
+<Script>
+   FindObj('DArrastar9').som='';
+</Script>
+<DIV Name='DDissertativa1'
+     ID='DDissertativa1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 182;
+           LEFT: 9;
+           WIDTH: 182;
+           HEIGHT: 28;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<TEXTAREA Type='Text' Name='Dissertativa1'
+       ID='Dissertativa1'
+       Rows=2
+       Cols=20
+></TEXTAREA>
+</FORM>
+</DIV>
+<SCRIPT>
+    var obj = FindObj('Dissertativa1');
+    if(!NS4)
+    {
+        obj.style.width = 182;
+        obj.style.height = 28;
+        obj.style.backgroundColor = '#80FF80';
+        obj.style.borderWidth = '1px';
+        obj.style.borderStyle = 'solid';
+        obj.rotulo = '';
+    }
+   Desloca('DDissertativa1');
+</SCRIPT>
+<DIV Name='DDissertativa2'
+     ID='DDissertativa2'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 358;
+           LEFT: 615;
+           WIDTH: 135;
+           HEIGHT: 28;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<TEXTAREA Type='Text' Name='Dissertativa2'
+       ID='Dissertativa2'
+       Rows=2
+       Cols=14
+></TEXTAREA>
+</FORM>
+</DIV>
+<SCRIPT>
+    var obj = FindObj('Dissertativa2');
+    if(!NS4)
+    {
+        obj.style.width = 135;
+        obj.style.height = 28;
+        obj.style.backgroundColor = '#80FF80';
+        obj.style.borderWidth = '1px';
+        obj.style.borderStyle = 'solid';
+        obj.rotulo = '';
+    }
+   Desloca('DDissertativa2');
+</SCRIPT>
+<DIV Name='DDissertativa3'
+     ID='DDissertativa3'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 182;
+           LEFT: 223;
+           WIDTH: 135;
+           HEIGHT: 28;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<TEXTAREA Type='Text' Name='Dissertativa3'
+       ID='Dissertativa3'
+       Rows=2
+       Cols=14
+></TEXTAREA>
+</FORM>
+</DIV>
+<SCRIPT>
+    var obj = FindObj('Dissertativa3');
+    if(!NS4)
+    {
+        obj.style.overflow='hidden';
+        obj.style.width = 135;
+        obj.style.height = 28;
+        obj.style.backgroundColor = '#80FF80';
+        obj.style.borderWidth = '1px';
+        obj.style.borderStyle = 'solid';
+        obj.rotulo = '';
+    }
+   Desloca('DDissertativa3');
+</SCRIPT>
+<DIV Name='DDissertativa4'
+     ID='DDissertativa4'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 180;
+           LEFT: 419;
+           WIDTH: 135;
+           HEIGHT: 28;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<TEXTAREA Type='Text' Name='Dissertativa4'
+       ID='Dissertativa4'
+       Rows=2
+       Cols=14
+></TEXTAREA>
+</FORM>
+</DIV>
+<SCRIPT>
+    var obj = FindObj('Dissertativa4');
+    if(!NS4)
+    {
+        obj.style.overflow='hidden';
+        obj.style.width = 135;
+        obj.style.height = 28;
+        obj.style.backgroundColor = '#80FF80';
+        obj.style.borderWidth = '1px';
+        obj.style.borderStyle = 'solid';
+        obj.rotulo = '';
+    }
+   Desloca('DDissertativa4');
+</SCRIPT>
+<DIV Name='DDissertativa5'
+     ID='DDissertativa5'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 177;
+           LEFT: 635;
+           WIDTH: 135;
+           HEIGHT: 28;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<TEXTAREA Type='Text' Name='Dissertativa5'
+       ID='Dissertativa5'
+       Rows=2
+       Cols=14
+></TEXTAREA>
+</FORM>
+</DIV>
+<SCRIPT>
+    var obj = FindObj('Dissertativa5');
+    if(!NS4)
+    {
+        obj.style.overflow='hidden';
+        obj.style.width = 135;
+        obj.style.height = 28;
+        obj.style.backgroundColor = '#80FF80';
+        obj.style.borderWidth = '1px';
+        obj.style.borderStyle = 'solid';
+        obj.rotulo = '';
+    }
+   Desloca('DDissertativa5');
+</SCRIPT>
+<DIV Name='DDissertativa6'
+     ID='DDissertativa6'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 365;
+           LEFT: 24;
+           WIDTH: 135;
+           HEIGHT: 28;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<TEXTAREA Type='Text' Name='Dissertativa6'
+       ID='Dissertativa6'
+       Rows=2
+       Cols=14
+></TEXTAREA>
+</FORM>
+</DIV>
+<SCRIPT>
+    var obj = FindObj('Dissertativa6');
+    if(!NS4)
+    {
+        obj.style.overflow='hidden';
+        obj.style.width = 135;
+        obj.style.height = 28;
+        obj.style.backgroundColor = '#80FF80';
+        obj.style.borderWidth = '1px';
+        obj.style.borderStyle = 'solid';
+        obj.rotulo = '';
+    }
+   Desloca('DDissertativa6');
+</SCRIPT>
+<DIV Name='DDissertativa7'
+     ID='DDissertativa7'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 532;
+           LEFT: 18;
+           WIDTH: 135;
+           HEIGHT: 28;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<TEXTAREA Type='Text' Name='Dissertativa7'
+       ID='Dissertativa7'
+       Rows=2
+       Cols=14
+></TEXTAREA>
+</FORM>
+</DIV>
+<SCRIPT>
+    var obj = FindObj('Dissertativa7');
+    if(!NS4)
+    {
+        obj.style.overflow='hidden';
+        obj.style.width = 135;
+        obj.style.height = 28;
+        obj.style.backgroundColor = '#80FF80';
+        obj.style.borderWidth = '1px';
+        obj.style.borderStyle = 'solid';
+        obj.rotulo = '';
+    }
+   Desloca('DDissertativa7');
+</SCRIPT>
+<DIV Name='DDissertativa8'
+     ID='DDissertativa8'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 360;
+           LEFT: 423;
+           WIDTH: 135;
+           HEIGHT: 28;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<TEXTAREA Type='Text' Name='Dissertativa8'
+       ID='Dissertativa8'
+       Rows=2
+       Cols=14
+></TEXTAREA>
+</FORM>
+</DIV>
+<SCRIPT>
+    var obj = FindObj('Dissertativa8');
+    if(!NS4)
+    {
+        obj.style.overflow='hidden';
+        obj.style.width = 135;
+        obj.style.height = 28;
+        obj.style.backgroundColor = '#80FF80';
+        obj.style.borderWidth = '1px';
+        obj.style.borderStyle = 'solid';
+        obj.rotulo = '';
+    }
+   Desloca('DDissertativa8');
+</SCRIPT>
+<DIV Name='DDissertativa9'
+     ID='DDissertativa9'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 364;
+           LEFT: 229;
+           WIDTH: 135;
+           HEIGHT: 28;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<TEXTAREA Type='Text' Name='Dissertativa9'
+       ID='Dissertativa9'
+       Rows=2
+       Cols=14
+></TEXTAREA>
+</FORM>
+</DIV>
+<SCRIPT>
+    var obj = FindObj('Dissertativa9');
+    if(!NS4)
+    {
+        obj.style.overflow='hidden';
+        obj.style.width = 135;
+        obj.style.height = 28;
+        obj.style.backgroundColor = '#80FF80';
+        obj.style.borderWidth = '1px';
+        obj.style.borderStyle = 'solid';
+        obj.rotulo = '';
+    }
+   Desloca('DDissertativa9');
+</SCRIPT>
+<style type='text/css'>
+<!-- .eDImagemEfeito1 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DImagemEfeito1'
+    ID='DImagemEfeito1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 42;
+           LEFT: 58;
+           WIDTH: 72;
+           HEIGHT: 97;
+     z-index: 1; 
+'
+>
+<Font Color='#000000'>
+<IMG
+     Name="ImagemEfeito1"
+class='eDImagemEfeito1'
+     Id="ImagemEfeito1"
+     SRC="VENTILADOR.jpg"
+     Border='1'
+     WIDTH=72
+     HEIGHT=97
+>
+   </FONT>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito1');
+</SCRIPT>
+<style type='text/css'>
+<!-- .eDImagemEfeito2 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DImagemEfeito2'
+    ID='DImagemEfeito2'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 41.4;
+           LEFT: 246;
+           WIDTH: 75;
+           HEIGHT: 103;
+     z-index: 1; 
+'
+>
+<Font Color='#000000'>
+<IMG
+     Name="ImagemEfeito2"
+class='eDImagemEfeito2'
+     Id="ImagemEfeito2"
+     SRC="PNEU1.jpg"
+     Border='1'
+     WIDTH=75
+     HEIGHT=103
+>
+   </FONT>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito2');
+</SCRIPT>
+<style type='text/css'>
+<!-- .eDImagemEfeito3 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DImagemEfeito3'
+    ID='DImagemEfeito3'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 46;
+           LEFT: 429;
+           WIDTH: 95;
+           HEIGHT: 95;
+     z-index: 1; 
+'
+>
+<Font Color='#000000'>
+<IMG
+     Name="ImagemEfeito3"
+class='eDImagemEfeito3'
+     Id="ImagemEfeito3"
+     SRC="CADERNO.jpg"
+     Border='1'
+     WIDTH=95
+     HEIGHT=95
+>
+   </FONT>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito3');
+</SCRIPT>
+<style type='text/css'>
+<!-- .eDImagemEfeito4 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DImagemEfeito4'
+    ID='DImagemEfeito4'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 50;
+           LEFT: 655;
+           WIDTH: 109;
+           HEIGHT: 88;
+     z-index: 1; 
+'
+>
+<Font Color='#000000'>
+<IMG
+     Name="ImagemEfeito4"
+class='eDImagemEfeito4'
+     Id="ImagemEfeito4"
+     SRC="OLHO.jpg"
+     Border='1'
+     WIDTH=109
+     HEIGHT=88
+>
+   </FONT>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito4');
+</SCRIPT>
+<style type='text/css'>
+<!-- .eDImagemEfeito5 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DImagemEfeito5'
+    ID='DImagemEfeito5'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 236.6667;
+           LEFT: 37;
+           WIDTH: 110;
+           HEIGHT: 84;
+     z-index: 1; 
+'
+>
+<Font Color='#000000'>
+<IMG
+     Name="ImagemEfeito5"
+class='eDImagemEfeito5'
+     Id="ImagemEfeito5"
+     SRC="ALIANCA.jpg"
+     Border='1'
+     WIDTH=110
+     HEIGHT=84
+>
+   </FONT>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito5');
+</SCRIPT>
+<style type='text/css'>
+<!-- .eDImagemEfeito6 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DImagemEfeito6'
+    ID='DImagemEfeito6'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 231.3333;
+           LEFT: 250;
+           WIDTH: 91;
+           HEIGHT: 97;
+     z-index: 1; 
+'
+>
+<Font Color='#000000'>
+<IMG
+     Name="ImagemEfeito6"
+class='eDImagemEfeito6'
+     Id="ImagemEfeito6"
+     SRC="TOUCA.jpg"
+     Border='1'
+     WIDTH=91
+     HEIGHT=97
+>
+   </FONT>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito6');
+</SCRIPT>
+<style type='text/css'>
+<!-- .eDImagemEfeito7 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DImagemEfeito7'
+    ID='DImagemEfeito7'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 227.8667;
+           LEFT: 445;
+           WIDTH: 97;
+           HEIGHT: 97;
+     z-index: 1; 
+'
+>
+<Font Color='#000000'>
+<IMG
+     Name="ImagemEfeito7"
+class='eDImagemEfeito7'
+     Id="ImagemEfeito7"
+     SRC="BORRACHA.jpg"
+     Border='1'
+     WIDTH=97
+     HEIGHT=97
+>
+   </FONT>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito7');
+</SCRIPT>
+<style type='text/css'>
+<!-- .eDImagemEfeito8 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DImagemEfeito8'
+    ID='DImagemEfeito8'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 221;
+           LEFT: 634;
+           WIDTH: 96;
+           HEIGHT: 101;
+     z-index: 1; 
+'
+>
+<Font Color='#000000'>
+<IMG
+     Name="ImagemEfeito8"
+class='eDImagemEfeito8'
+     Id="ImagemEfeito8"
+     SRC="flor.jpg"
+     Border='1'
+     WIDTH=96
+     HEIGHT=101
+>
+   </FONT>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito8');
+</SCRIPT>
+<style type='text/css'>
+<!-- .eDImagemEfeito9 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DImagemEfeito9'
+    ID='DImagemEfeito9'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 408.4667;
+           LEFT: 41;
+           WIDTH: 72;
+           HEIGHT: 87;
+     z-index: 1; 
+'
+>
+<Font Color='#000000'>
+<IMG
+     Name="ImagemEfeito9"
+class='eDImagemEfeito9'
+     Id="ImagemEfeito9"
+     SRC="QUEBRACABECA1.jpg"
+     Border='1'
+     WIDTH=72
+     HEIGHT=87
+>
+   </FONT>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito9');
+</SCRIPT>
+<DIV
+     Name='DRotulo1'
+     Id='DRotulo1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: -12;
+           LEFT: 42;
+           WIDTH: 728;
+           HEIGHT: 25;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 8pt; 
+           BACKGROUND-COLOR: #804000; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo1'
+   name='lRotulo1'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo1' FACE='MS Sans Serif' COLOR='#000000'>
+    &nbsp;
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo1', false);
+   FindObj('DRotulo1').sMouseClick="";
+   colocaEstiloFonte('Rotulo1', 'MS Sans Serif', 8);
+   Desloca('DRotulo1');
+</Script>
+<DIV
+     Name='DRotulo2'
+     Id='DRotulo2'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 589;
+           LEFT: 38;
+           WIDTH: 728;
+           HEIGHT: 25;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 8pt; 
+           BACKGROUND-COLOR: #804000; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo2'
+   name='lRotulo2'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo2' FACE='MS Sans Serif' COLOR='#000000'>
+    &nbsp;
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo2', false);
+   FindObj('DRotulo2').sMouseClick="";
+   colocaEstiloFonte('Rotulo2', 'MS Sans Serif', 8);
+   Desloca('DRotulo2');
+</Script>
+<DIV
+    Name='Rotulo3D13'
+    ID='Rotulo3D13'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 14pt; 
+         TOP: 12;
+         LEFT: 55;
+         WIDTH: 702.4667;
+         HEIGHT: 27;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D13' FACE='Arial' COLOR='#000000'>
+      ARRASTE E COMPLETE A PALAVRA COM A LETRA QUE ESTÁ FALTANDO
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D13', 'Arial', 14);
+   Desloca('Rotulo3D13');
+</SCRIPT>
+<DIV
+     Name='DRotulo3'
+     Id='DRotulo3'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 11;
+           LEFT: 54;
+           WIDTH: 702.4667;
+           HEIGHT: 26;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo3'
+   name='lRotulo3'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo3' FACE='Arial' COLOR='#FFFF00'>
+    ARRASTE E COMPLETE A PALAVRA COM A LETRA QUE ESTÁ FALTANDO
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo3', false);
+   FindObj('DRotulo3').sMouseClick="";
+   colocaEstiloFonte('Rotulo3', 'Arial', 14);
+   Desloca('DRotulo3');
+</Script>
+<DIV
+     Name='DRotulo4'
+     Id='DRotulo4'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 150;
+           LEFT: 52;
+           WIDTH: 122.4667;
+           HEIGHT: 23;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo4'
+   name='lRotulo4'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo4' FACE='Arial' COLOR='#000000'>
+    ENTILADOR
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo4', false);
+   FindObj('DRotulo4').sMouseClick="";
+   colocaEstiloFonte('Rotulo4', 'Arial', 14);
+   Desloca('DRotulo4');
+</Script>
+<DIV
+     Name='DRotulo5'
+     Id='DRotulo5'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 152;
+           LEFT: 262;
+           WIDTH: 50.46667;
+           HEIGHT: 23;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo5'
+   name='lRotulo5'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo5' FACE='Arial' COLOR='#000000'>
+    NEU
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo5', false);
+   FindObj('DRotulo5').sMouseClick="";
+   colocaEstiloFonte('Rotulo5', 'Arial', 14);
+   Desloca('DRotulo5');
+</Script>
+<DIV
+     Name='DRotulo6'
+     Id='DRotulo6'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 153;
+           LEFT: 461;
+           WIDTH: 92.46667;
+           HEIGHT: 23;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo6'
+   name='lRotulo6'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo6' FACE='Arial' COLOR='#000000'>
+    ADERNO
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo6', false);
+   FindObj('DRotulo6').sMouseClick="";
+   colocaEstiloFonte('Rotulo6', 'Arial', 14);
+   Desloca('DRotulo6');
+</Script>
+<DIV
+     Name='DRotulo7'
+     Id='DRotulo7'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 150;
+           LEFT: 691;
+           WIDTH: 51.46667;
+           HEIGHT: 23;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo7'
+   name='lRotulo7'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo7' FACE='Arial' COLOR='#000000'>
+    LHO
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo7', false);
+   FindObj('DRotulo7').sMouseClick="";
+   colocaEstiloFonte('Rotulo7', 'Arial', 14);
+   Desloca('DRotulo7');
+</Script>
+<DIV
+     Name='DRotulo8'
+     Id='DRotulo8'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 336;
+           LEFT: 62;
+           WIDTH: 122.4667;
+           HEIGHT: 23;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo8'
+   name='lRotulo8'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo8' FACE='Arial' COLOR='#000000'>
+    LIANÇA
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo8', false);
+   FindObj('DRotulo8').sMouseClick="";
+   colocaEstiloFonte('Rotulo8', 'Arial', 14);
+   Desloca('DRotulo8');
+</Script>
+<DIV
+     Name='DRotulo9'
+     Id='DRotulo9'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 334;
+           LEFT: 282;
+           WIDTH: 66.46667;
+           HEIGHT: 23;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo9'
+   name='lRotulo9'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo9' FACE='Arial' COLOR='#000000'>
+    OUCA
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo9', false);
+   FindObj('DRotulo9').sMouseClick="";
+   colocaEstiloFonte('Rotulo9', 'Arial', 14);
+   Desloca('DRotulo9');
+</Script>
+<DIV
+     Name='DRotulo10'
+     Id='DRotulo10'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 332;
+           LEFT: 465;
+           WIDTH: 105.4667;
+           HEIGHT: 23;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo10'
+   name='lRotulo10'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo10' FACE='Arial' COLOR='#000000'>
+    ORRACHA
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo10', false);
+   FindObj('DRotulo10').sMouseClick="";
+   colocaEstiloFonte('Rotulo10', 'Arial', 14);
+   Desloca('DRotulo10');
+</Script>
+<DIV
+     Name='DRotulo11'
+     Id='DRotulo11'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 328;
+           LEFT: 669;
+           WIDTH: 51.46667;
+           HEIGHT: 23;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo11'
+   name='lRotulo11'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo11' FACE='Arial' COLOR='#000000'>
+    LOR
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo11', false);
+   FindObj('DRotulo11').sMouseClick="";
+   colocaEstiloFonte('Rotulo11', 'Arial', 14);
+   Desloca('DRotulo11');
+</Script>
+<DIV
+     Name='DRotulo12'
+     Id='DRotulo12'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 503;
+           LEFT: 45;
+           WIDTH: 164.4667;
+           HEIGHT: 23;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 14pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo12'
+   name='lRotulo12'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo12' FACE='Arial' COLOR='#000000'>
+    UEBRA-CABEÇA
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo12', false);
+   FindObj('DRotulo12').sMouseClick="";
+   colocaEstiloFonte('Rotulo12', 'Arial', 14);
+   Desloca('DRotulo12');
+</Script>
+<script type='Text/javascript'>
+<!--
+  SET_DHTML('DSoltarRot1'+NO_DRAG,'DArrastar1','DSoltarRot2'+NO_DRAG,'DArrastar2','DSoltarRot3'+NO_DRAG,'DArrastar3','DSoltarRot4'+NO_DRAG,'DArrastar4','DSoltarRot5'+NO_DRAG,'DArrastar5','DSoltarRot6'+NO_DRAG,'DArrastar6','DSoltarRot7'+NO_DRAG,'DArrastar7','DSoltarRot8'+NO_DRAG,'DArrastar8','DSoltarRot9'+NO_DRAG,'DArrastar9');
+  var n_Arrastar=9;
+  dd.elements['DSoltarRot1'].hide();
+  var objeto_sol1=FindObj('DSoltar1');
+  objeto_sol1.indice_arrastar=1;
+  objeto_sol1.x_ini=10;
+  objeto_sol1.y_ini=146;
+  objeto_sol1.width=37;
+  objeto_sol1.height=31;
+  objeto_sol1.feito=0;
+  objeto_sol1.caption='V';
+  var objeto_ar1=FindObj('DArrastar1');
+  objeto_ar1.tipoobj=8;
+  objeto_ar1.indice_soltar=1;
+  objeto_ar1.x_ini=673;
+  objeto_ar1.y_ini=463;
+  objeto_ar1.width=37;
+  objeto_ar1.height=31;
+  objeto_ar1.caption='V';
+  dd.elements['DSoltarRot2'].hide();
+  var objeto_sol2=FindObj('DSoltar2');
+  objeto_sol2.indice_arrastar=2;
+  objeto_sol2.x_ini=222;
+  objeto_sol2.y_ini=148;
+  objeto_sol2.width=37;
+  objeto_sol2.height=31;
+  objeto_sol2.feito=0;
+  objeto_sol2.caption='P';
+  var objeto_ar2=FindObj('DArrastar2');
+  objeto_ar2.tipoobj=8;
+  objeto_ar2.indice_soltar=2;
+  objeto_ar2.x_ini=522;
+  objeto_ar2.y_ini=462;
+  objeto_ar2.width=37;
+  objeto_ar2.height=31;
+  objeto_ar2.caption='P';
+  dd.elements['DSoltarRot3'].hide();
+  var objeto_sol3=FindObj('DSoltar3');
+  objeto_sol3.indice_arrastar=3;
+  objeto_sol3.x_ini=418;
+  objeto_sol3.y_ini=147;
+  objeto_sol3.width=37;
+  objeto_sol3.height=31;
+  objeto_sol3.feito=0;
+  objeto_sol3.caption='C';
+  var objeto_ar3=FindObj('DArrastar3');
+  objeto_ar3.tipoobj=8;
+  objeto_ar3.indice_soltar=3;
+  objeto_ar3.x_ini=623;
+  objeto_ar3.y_ini=464;
+  objeto_ar3.width=37;
+  objeto_ar3.height=31;
+  objeto_ar3.caption='C';
+  dd.elements['DSoltarRot4'].hide();
+  var objeto_sol4=FindObj('DSoltar4');
+  objeto_sol4.indice_arrastar=4;
+  objeto_sol4.x_ini=651;
+  objeto_sol4.y_ini=144;
+  objeto_sol4.width=37;
+  objeto_sol4.height=31;
+  objeto_sol4.feito=0;
+  objeto_sol4.caption='O';
+  var objeto_ar4=FindObj('DArrastar4');
+  objeto_ar4.tipoobj=8;
+  objeto_ar4.indice_soltar=4;
+  objeto_ar4.x_ini=477;
+  objeto_ar4.y_ini=462;
+  objeto_ar4.width=37;
+  objeto_ar4.height=31;
+  objeto_ar4.caption='O';
+  dd.elements['DSoltarRot5'].hide();
+  var objeto_sol5=FindObj('DSoltar5');
+  objeto_sol5.indice_arrastar=5;
+  objeto_sol5.x_ini=21;
+  objeto_sol5.y_ini=331;
+  objeto_sol5.width=37;
+  objeto_sol5.height=31;
+  objeto_sol5.feito=0;
+  objeto_sol5.caption='A';
+  var objeto_ar5=FindObj('DArrastar5');
+  objeto_ar5.tipoobj=8;
+  objeto_ar5.indice_soltar=5;
+  objeto_ar5.x_ini=569;
+  objeto_ar5.y_ini=462;
+  objeto_ar5.width=37;
+  objeto_ar5.height=31;
+  objeto_ar5.caption='A';
+  dd.elements['DSoltarRot6'].hide();
+  var objeto_sol6=FindObj('DSoltar6');
+  objeto_sol6.indice_arrastar=6;
+  objeto_sol6.x_ini=243;
+  objeto_sol6.y_ini=330;
+  objeto_sol6.width=37;
+  objeto_sol6.height=31;
+  objeto_sol6.feito=0;
+  objeto_sol6.caption='T';
+  var objeto_ar6=FindObj('DArrastar6');
+  objeto_ar6.tipoobj=8;
+  objeto_ar6.indice_soltar=6;
+  objeto_ar6.x_ini=525;
+  objeto_ar6.y_ini=504;
+  objeto_ar6.width=37;
+  objeto_ar6.height=31;
+  objeto_ar6.caption='T';
+  dd.elements['DSoltarRot7'].hide();
+  var objeto_sol7=FindObj('DSoltar7');
+  objeto_sol7.indice_arrastar=7;
+  objeto_sol7.x_ini=426;
+  objeto_sol7.y_ini=327;
+  objeto_sol7.width=37;
+  objeto_sol7.height=31;
+  objeto_sol7.feito=0;
+  objeto_sol7.caption='B';
+  var objeto_ar7=FindObj('DArrastar7');
+  objeto_ar7.tipoobj=8;
+  objeto_ar7.indice_soltar=7;
+  objeto_ar7.x_ini=572;
+  objeto_ar7.y_ini=504;
+  objeto_ar7.width=37;
+  objeto_ar7.height=31;
+  objeto_ar7.caption='B';
+  dd.elements['DSoltarRot8'].hide();
+  var objeto_sol8=FindObj('DSoltar8');
+  objeto_sol8.indice_arrastar=8;
+  objeto_sol8.x_ini=630;
+  objeto_sol8.y_ini=324;
+  objeto_sol8.width=37;
+  objeto_sol8.height=31;
+  objeto_sol8.feito=0;
+  objeto_sol8.caption='F';
+  var objeto_ar8=FindObj('DArrastar8');
+  objeto_ar8.tipoobj=8;
+  objeto_ar8.indice_soltar=8;
+  objeto_ar8.x_ini=478;
+  objeto_ar8.y_ini=502;
+  objeto_ar8.width=37;
+  objeto_ar8.height=31;
+  objeto_ar8.caption='F';
+  dd.elements['DSoltarRot9'].hide();
+  var objeto_sol9=FindObj('DSoltar9');
+  objeto_sol9.indice_arrastar=9;
+  objeto_sol9.x_ini=6;
+  objeto_sol9.y_ini=497;
+  objeto_sol9.width=37;
+  objeto_sol9.height=31;
+  objeto_sol9.feito=0;
+  objeto_sol9.caption='Q';
+  var objeto_ar9=FindObj('DArrastar9');
+  objeto_ar9.tipoobj=8;
+  objeto_ar9.indice_soltar=9;
+  objeto_ar9.x_ini=625;
+  objeto_ar9.y_ini=505;
+  objeto_ar9.width=37;
+  objeto_ar9.height=31;
+  objeto_ar9.caption='Q';
+  carregado=true;
+//-->
+</script>
+<SCRIPT Language='JavaScript'>
+  var tFundo=window.setInterval('mostraAnimas()',200);
+  function mostraAnimas() {
+    window.clearInterval(tFundo);
+    obj = FindObj('DAnimacao1');
+    obj.style.visibility="visible";
+    obj = FindObj('DAnimacao2');
+    obj.style.visibility="visible";
+  }
+</SCRIPT>
+</BODY>
+</HTML>

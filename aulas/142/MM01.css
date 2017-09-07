@@ -1,0 +1,17 @@
+#DAnimacao1{
+  position:absolute; 
+  top: 533;
+  left: 718;
+  width: 83;
+  height: 67;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#Linha1 {
+  position: absolute; 
+  top: 522;
+  left: -2;
+  width: 798;
+  height: 0;
+  z-index: 0; 
+}

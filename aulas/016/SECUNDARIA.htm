@@ -1,0 +1,1023 @@
+<HTML ID="SECUNDARIA"
+      xmlns:v='urn:schemas-microsoft-com:vml'>
+<HEAD>
+<META NAME="Gerador de HTML" CONTENT = "Visual Class">
+<META Name=Codigo Content=SECUNDÁRIA>
+<META Name=Data Content=00:00:00>
+<META Name=Materia Content=>
+<META Name=Título Content=Fundo chaves-TelaSecundária (todos os controles)>
+<META Name=Autor Content=Diego>
+<META Name=Assunto Content=>
+<META Name=Alvo Content=>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<TITLE>Fundo chaves-TelaSecundária (todos os controles)</TITLE>
+</HEAD>
+<BODY
+      OnLoad="Janela_Load(); "
+      BGCOLOR="#000000"
+>
+<span id=somspan STYLE='
+    POSITION:Absolute;
+    TOP: -10;
+    LEFT: -10;
+    WIDTH: 0;
+    HEIGHT: 0;'
+></span>
+<IMG ID='ImagemFundo'
+     Name='ImagemFundo'
+     SRC='cenario_definitivo_2.jpg'
+     Border='0' 
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 0;
+           LEFT: 0;
+           z-index: 0; 
+'>
+<SCRIPT Language='JavaScript'
+        src = 'source.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'SECUNDARIA.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Avaliacao.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'>
+ var telaTemExercicio = true;
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'ativaswf.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'dragdrop.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Arrasta.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Animacao3.js'>
+</SCRIPT>
+<DIV ID='rotuloMovel'
+     NAME='rotuloMovel'
+     STYLE='backGround-color: #FFFF00; 
+            color: #000000; 
+            font-Weight: 700; font-family: Arial; font-size:10pt; visibility: hidden; position: absolute; z-index: 5'>
+</DIV>
+<SCRIPT>
+   Desloca('ImagemFundo');
+</Script>
+<style type='text/css'>
+<!--
+   A {text-decoration: none; color: none}
+-->
+</style>
+<Script Language=JavaScript>
+   var maxTentativas = 0;
+   var tentativas = 0;
+   var nomeTela = 'SECUNDARIA';
+   var PrimeiroLink = null;
+   var somswf=2;
+</Script>
+<script>
+sRotMovAni1 = " Avançar ";
+</script>
+<DIV
+    Name='DAnimacao1'
+    ID='DAnimacao1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 558;
+           LEFT: 736;
+           WIDTH: 58;
+           HEIGHT: 33;
+     z-index: 3; 
+         VISIBILITY: hidden; 
+   '
+   OnMouseOver="Hint(sRotMovAni1, true);AnimaMouseClick('Animacao1', 'bverav1.gif'); "
+   OnMouseOut="Hint('', false);AnimaMouseClick('Animacao1', 'SET12DIR.gif'); "
+>
+<A 
+   id='lAnimacao1'
+   name='lAnimacao1'
+   Href=#
+   OnClick="AnimaMouseClick('Animacao1', 'bverav1.gif'); link_click('210408_17.htm', '0', true); "
+   OnMouseOver="Hint(sRotMovAni1, true);AnimaMouseClick('Animacao1', 'bverav1.gif'); "
+   OnMouseOut="Hint('', false);AnimaMouseClick('Animacao1', 'SET12DIR.gif'); "
+>
+<IMG Id='Animacao1'
+     Name='Animacao1'
+     alt=' Avançar '
+     Src='SET12DIR.gif'
+     WIDTH=58
+     HEIGHT=33
+     Border=0
+>
+</A>
+</DIV>
+<Script Language='JavaScript'>
+   obj = FindObj('DAnimacao1');
+   obj.sMouseOver="Hint(sRotMovAni1, true);AnimaMouseClick('Animacao1', 'bverav1.gif'); ";
+   obj.sMouseOut="Hint('', false);AnimaMouseClick('Animacao1', 'SET12DIR.gif'); ";
+    removeHref('lAnimacao1', true);
+    removeAlt('Animacao1');
+</Script>
+<script>
+sRotMovAni2 = " Sair ";
+</script>
+<DIV
+    Name='DAnimacao2'
+    ID='DAnimacao2'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 562;
+           LEFT: 620;
+           WIDTH: 108;
+           HEIGHT: 22;
+     z-index: 3; 
+         VISIBILITY: hidden; 
+   '
+   OnMouseOver="Hint(sRotMovAni2, true);AnimaMouseClick('Animacao2', 'bversa1.gif'); "
+   OnMouseOut="Hint('', false);AnimaMouseClick('Animacao2', 'sair.gif'); "
+>
+<A 
+   id='lAnimacao2'
+   name='lAnimacao2'
+   Href=#
+   OnClick="AnimaMouseClick('Animacao2', 'bversa1.gif');  window.close(); "
+   OnMouseOver="Hint(sRotMovAni2, true);AnimaMouseClick('Animacao2', 'bversa1.gif'); "
+   OnMouseOut="Hint('', false);AnimaMouseClick('Animacao2', 'sair.gif'); "
+>
+<IMG Id='Animacao2'
+     Name='Animacao2'
+     alt=' Sair '
+     Src='sair.gif'
+     WIDTH=108
+     HEIGHT=22
+     Border=0
+>
+</A>
+</DIV>
+<Script Language='JavaScript'>
+   obj = FindObj('DAnimacao2');
+   obj.sMouseOver="Hint(sRotMovAni2, true);AnimaMouseClick('Animacao2', 'bversa1.gif'); ";
+   obj.sMouseOut="Hint('', false);AnimaMouseClick('Animacao2', 'sair.gif'); ";
+    removeHref('lAnimacao2', true);
+    removeAlt('Animacao2');
+</Script>
+<script>
+sRotMovAni3 = " Voltar ";
+</script>
+<DIV
+    Name='DAnimacao3'
+    ID='DAnimacao3'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 559;
+           LEFT: 552;
+           WIDTH: 58;
+           HEIGHT: 33;
+     z-index: 3; 
+         VISIBILITY: hidden; 
+   '
+   OnMouseOver="Hint(sRotMovAni3, true);AnimaMouseClick('Animacao3', 'bverec1.gif'); "
+   OnMouseOut="Hint('', false);AnimaMouseClick('Animacao3', 'SET12ESQ.gif'); "
+>
+<A 
+   id='lAnimacao3'
+   name='lAnimacao3'
+   Href=#
+   OnClick="AnimaMouseClick('Animacao3', 'bverec1.gif');  volta(); "
+   OnMouseOver="Hint(sRotMovAni3, true);AnimaMouseClick('Animacao3', 'bverec1.gif'); "
+   OnMouseOut="Hint('', false);AnimaMouseClick('Animacao3', 'SET12ESQ.gif'); "
+>
+<IMG Id='Animacao3'
+     Name='Animacao3'
+     alt=' Voltar '
+     Src='SET12ESQ.gif'
+     WIDTH=58
+     HEIGHT=33
+     Border=0
+>
+</A>
+</DIV>
+<Script Language='JavaScript'>
+   obj = FindObj('DAnimacao3');
+   obj.sMouseOver="Hint(sRotMovAni3, true);AnimaMouseClick('Animacao3', 'bverec1.gif'); ";
+   obj.sMouseOut="Hint('', false);AnimaMouseClick('Animacao3', 'SET12ESQ.gif'); ";
+    removeHref('lAnimacao3', true);
+    removeAlt('Animacao3');
+</Script>
+<DIV
+    Name='DSoltar1'
+    ID='DSoltar1'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 168;
+         LEFT: 46;
+         WIDTH: 71;
+         HEIGHT: 55;
+         z-index: 4; 
+         border-style: inset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         layer-background-color: #C0C0C0
+'
+>
+<A 
+   id='lSoltar1'
+   name='lSoltar1'
+   HREF='#'
+>
+<IMG
+     SRC='giftrans.gif'
+     Border='0'
+     WIDTH=60
+     HEIGHT=40
+>
+</A>
+</DIV>
+   <DIV
+      Name='DSoltarRot1'
+      ID='DSoltarRot1'
+      Align='Center'
+      Style='
+          Position: absolute; 
+          Left: 51; 
+          Top: 184; 
+          Width: 66; 
+          font-size: 14pt; 
+          font-family: MS Sans Serif; 
+          z-index: 4; 
+          Text-Align: Center
+'
+>
+        <FONT COLOR='#FF0000'>
+            BO
+        </FONT>
+</DIV>
+<DIV
+    Name='DArrastar1'
+    ID='DArrastar1'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 498;
+         LEFT: 457;
+         WIDTH: 72;
+         HEIGHT: 53;
+         z-index: 4; 
+         border-style: outset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         font-size: 20pt; 
+         font-family: Comic Sans MS; 
+         Text-Align: Center;
+         layer-background-color: #C0C0C0;
+'
+>
+        <FONT COLOR='#000000' STYLE='
+             POSITION:Relative; 
+             TOP: 0'> 
+            BO
+        </FONT>
+</DIV>
+<Script>
+   FindObj('DArrastar1').som='';
+</Script>
+<DIV
+    Name='DSoltar2'
+    ID='DSoltar2'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 164;
+         LEFT: 186;
+         WIDTH: 71;
+         HEIGHT: 55;
+         z-index: 4; 
+         border-style: inset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         layer-background-color: #C0C0C0
+'
+>
+<A 
+   id='lSoltar2'
+   name='lSoltar2'
+   HREF='#'
+>
+<IMG
+     SRC='giftrans.gif'
+     Border='0'
+     WIDTH=60
+     HEIGHT=40
+>
+</A>
+</DIV>
+   <DIV
+      Name='DSoltarRot2'
+      ID='DSoltarRot2'
+      Align='Center'
+      Style='
+          Position: absolute; 
+          Left: 191; 
+          Top: 180; 
+          Width: 66; 
+          font-size: 14pt; 
+          font-family: MS Sans Serif; 
+          z-index: 4; 
+          Text-Align: Center
+'
+>
+        <FONT COLOR='#FF0000'>
+            CA
+        </FONT>
+</DIV>
+<DIV
+    Name='DArrastar2'
+    ID='DArrastar2'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 494;
+         LEFT: 177;
+         WIDTH: 72;
+         HEIGHT: 53;
+         z-index: 4; 
+         border-style: outset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         font-size: 20pt; 
+         font-family: Comic Sans MS; 
+         Text-Align: Center;
+         layer-background-color: #C0C0C0;
+'
+>
+        <FONT COLOR='#000000' STYLE='
+             POSITION:Relative; 
+             TOP: 0'> 
+            CA
+        </FONT>
+</DIV>
+<Script>
+   FindObj('DArrastar2').som='';
+</Script>
+<DIV
+    Name='DSoltar3'
+    ID='DSoltar3'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 164;
+         LEFT: 327;
+         WIDTH: 71;
+         HEIGHT: 55;
+         z-index: 4; 
+         border-style: inset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         layer-background-color: #C0C0C0
+'
+>
+<A 
+   id='lSoltar3'
+   name='lSoltar3'
+   HREF='#'
+>
+<IMG
+     SRC='giftrans.gif'
+     Border='0'
+     WIDTH=60
+     HEIGHT=40
+>
+</A>
+</DIV>
+   <DIV
+      Name='DSoltarRot3'
+      ID='DSoltarRot3'
+      Align='Center'
+      Style='
+          Position: absolute; 
+          Left: 332; 
+          Top: 180; 
+          Width: 66; 
+          font-size: 14pt; 
+          font-family: MS Sans Serif; 
+          z-index: 4; 
+          Text-Align: Center
+'
+>
+        <FONT COLOR='#FF0000'>
+            RE
+        </FONT>
+</DIV>
+<DIV
+    Name='DArrastar3'
+    ID='DArrastar3'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 395;
+         LEFT: 108;
+         WIDTH: 72;
+         HEIGHT: 53;
+         z-index: 4; 
+         border-style: outset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         font-size: 20pt; 
+         font-family: Comic Sans MS; 
+         Text-Align: Center;
+         layer-background-color: #C0C0C0;
+'
+>
+        <FONT COLOR='#000000' STYLE='
+             POSITION:Relative; 
+             TOP: 0'> 
+            RE
+        </FONT>
+</DIV>
+<Script>
+   FindObj('DArrastar3').som='';
+</Script>
+<DIV
+    Name='DSoltar4'
+    ID='DSoltar4'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 159;
+         LEFT: 458;
+         WIDTH: 71;
+         HEIGHT: 55;
+         z-index: 4; 
+         border-style: inset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         layer-background-color: #C0C0C0
+'
+>
+<A 
+   id='lSoltar4'
+   name='lSoltar4'
+   HREF='#'
+>
+<IMG
+     SRC='giftrans.gif'
+     Border='0'
+     WIDTH=60
+     HEIGHT=40
+>
+</A>
+</DIV>
+   <DIV
+      Name='DSoltarRot4'
+      ID='DSoltarRot4'
+      Align='Center'
+      Style='
+          Position: absolute; 
+          Left: 463; 
+          Top: 174; 
+          Width: 66; 
+          font-size: 14pt; 
+          font-family: MS Sans Serif; 
+          z-index: 4; 
+          Text-Align: Center
+'
+>
+        <FONT COLOR='#FF0000'>
+            SA
+        </FONT>
+</DIV>
+<DIV
+    Name='DArrastar4'
+    ID='DArrastar4'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 394;
+         LEFT: 523;
+         WIDTH: 72;
+         HEIGHT: 53;
+         z-index: 4; 
+         border-style: outset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         font-size: 20pt; 
+         font-family: Comic Sans MS; 
+         Text-Align: Center;
+         layer-background-color: #C0C0C0;
+'
+>
+        <FONT COLOR='#000000' STYLE='
+             POSITION:Relative; 
+             TOP: 0'> 
+            SA
+        </FONT>
+</DIV>
+<Script>
+   FindObj('DArrastar4').som='';
+</Script>
+<DIV
+    Name='DSoltar5'
+    ID='DSoltar5'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 159;
+         LEFT: 582;
+         WIDTH: 71;
+         HEIGHT: 55;
+         z-index: 4; 
+         border-style: inset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         layer-background-color: #C0C0C0
+'
+>
+<A 
+   id='lSoltar5'
+   name='lSoltar5'
+   HREF='#'
+>
+<IMG
+     SRC='giftrans.gif'
+     Border='0'
+     WIDTH=60
+     HEIGHT=40
+>
+</A>
+</DIV>
+   <DIV
+      Name='DSoltarRot5'
+      ID='DSoltarRot5'
+      Align='Center'
+      Style='
+          Position: absolute; 
+          Left: 587; 
+          Top: 174; 
+          Width: 66; 
+          font-size: 14pt; 
+          font-family: MS Sans Serif; 
+          z-index: 4; 
+          Text-Align: Center
+'
+>
+        <FONT COLOR='#FF0000'>
+            LA
+        </FONT>
+</DIV>
+<DIV
+    Name='DArrastar5'
+    ID='DArrastar5'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 396;
+         LEFT: 391;
+         WIDTH: 72;
+         HEIGHT: 53;
+         z-index: 4; 
+         border-style: outset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         font-size: 20pt; 
+         font-family: Comic Sans MS; 
+         Text-Align: Center;
+         layer-background-color: #C0C0C0;
+'
+>
+        <FONT COLOR='#000000' STYLE='
+             POSITION:Relative; 
+             TOP: 0'> 
+            LA
+        </FONT>
+</DIV>
+<Script>
+   FindObj('DArrastar5').som='';
+</Script>
+<DIV
+    Name='DSoltar6'
+    ID='DSoltar6'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 157;
+         LEFT: 703;
+         WIDTH: 71;
+         HEIGHT: 55;
+         z-index: 4; 
+         border-style: inset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         layer-background-color: #C0C0C0
+'
+>
+<A 
+   id='lSoltar6'
+   name='lSoltar6'
+   HREF='#'
+>
+<IMG
+     SRC='giftrans.gif'
+     Border='0'
+     WIDTH=60
+     HEIGHT=40
+>
+</A>
+</DIV>
+   <DIV
+      Name='DSoltarRot6'
+      ID='DSoltarRot6'
+      Align='Center'
+      Style='
+          Position: absolute; 
+          Left: 708; 
+          Top: 172; 
+          Width: 66; 
+          font-size: 14pt; 
+          font-family: MS Sans Serif; 
+          z-index: 4; 
+          Text-Align: Center
+'
+>
+        <FONT COLOR='#FF0000'>
+            BO
+        </FONT>
+</DIV>
+<DIV
+    Name='DArrastar6'
+    ID='DArrastar6'
+    STYLE='
+         POSITION:Absolute; 
+         TOP: 398;
+         LEFT: 252;
+         WIDTH: 72;
+         HEIGHT: 53;
+         z-index: 4; 
+         border-style: outset; 
+         border-width: 2; 
+         background-color: #C0C0C0; 
+         font-size: 20pt; 
+         font-family: Comic Sans MS; 
+         Text-Align: Center;
+         layer-background-color: #C0C0C0;
+'
+>
+        <FONT COLOR='#000000' STYLE='
+             POSITION:Relative; 
+             TOP: 0'> 
+            BO
+        </FONT>
+</DIV>
+<Script>
+   FindObj('DArrastar6').som='';
+</Script>
+<style type='text/css'>
+<!-- .eDImagemEfeito1 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DImagemEfeito1'
+    ID='DImagemEfeito1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 86;
+           LEFT: 41;
+           WIDTH: 79;
+           HEIGHT: 67;
+     z-index: 1; 
+'
+>
+<Font Color='#000000'>
+<IMG
+     Name="ImagemEfeito1"
+class='eDImagemEfeito1'
+     Id="ImagemEfeito1"
+     SRC="BOLA 01.jpg"
+     Border='1'
+     WIDTH=79
+     HEIGHT=67
+>
+   </FONT>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito1');
+</SCRIPT>
+<style type='text/css'>
+<!-- .eDImagemEfeito2 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DImagemEfeito2'
+    ID='DImagemEfeito2'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 85;
+           LEFT: 183;
+           WIDTH: 79;
+           HEIGHT: 67;
+     z-index: 1; 
+'
+>
+<Font Color='#000000'>
+<IMG
+     Name="ImagemEfeito2"
+class='eDImagemEfeito2'
+     Id="ImagemEfeito2"
+     SRC="casa.jpg"
+     Border='1'
+     WIDTH=79
+     HEIGHT=67
+>
+   </FONT>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito2');
+</SCRIPT>
+<style type='text/css'>
+<!-- .eDImagemEfeito3 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DImagemEfeito3'
+    ID='DImagemEfeito3'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 85;
+           LEFT: 321;
+           WIDTH: 79;
+           HEIGHT: 67;
+     z-index: 1; 
+'
+>
+<Font Color='#000000'>
+<IMG
+     Name="ImagemEfeito3"
+class='eDImagemEfeito3'
+     Id="ImagemEfeito3"
+     SRC="relogio.jpg"
+     Border='1'
+     WIDTH=79
+     HEIGHT=67
+>
+   </FONT>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito3');
+</SCRIPT>
+<style type='text/css'>
+<!-- .eDImagemEfeito4 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DImagemEfeito4'
+    ID='DImagemEfeito4'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 83;
+           LEFT: 454;
+           WIDTH: 79;
+           HEIGHT: 67;
+     z-index: 1; 
+'
+>
+<Font Color='#000000'>
+<IMG
+     Name="ImagemEfeito4"
+class='eDImagemEfeito4'
+     Id="ImagemEfeito4"
+     SRC="sapo.jpg"
+     Border='1'
+     WIDTH=79
+     HEIGHT=67
+>
+   </FONT>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito4');
+</SCRIPT>
+<style type='text/css'>
+<!-- .eDImagemEfeito5 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DImagemEfeito5'
+    ID='DImagemEfeito5'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 80;
+           LEFT: 576;
+           WIDTH: 79;
+           HEIGHT: 67;
+     z-index: 1; 
+'
+>
+<Font Color='#000000'>
+<IMG
+     Name="ImagemEfeito5"
+class='eDImagemEfeito5'
+     Id="ImagemEfeito5"
+     SRC="LAPIS.jpg"
+     Border='1'
+     WIDTH=79
+     HEIGHT=67
+>
+   </FONT>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito5');
+</SCRIPT>
+<style type='text/css'>
+<!-- .eDImagemEfeito6 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DImagemEfeito6'
+    ID='DImagemEfeito6'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 80;
+           LEFT: 698;
+           WIDTH: 79;
+           HEIGHT: 67;
+     z-index: 1; 
+'
+>
+<Font Color='#000000'>
+<IMG
+     Name="ImagemEfeito6"
+class='eDImagemEfeito6'
+     Id="ImagemEfeito6"
+     SRC="boca.jpg"
+     Border='1'
+     WIDTH=79
+     HEIGHT=67
+>
+   </FONT>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito6');
+</SCRIPT>
+<DIV
+    Name='Rotulo3D11'
+    ID='Rotulo3D11'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 16pt; 
+         TOP: 22;
+         LEFT: 105;
+         WIDTH: 625.5333;
+         HEIGHT: 35;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D11' FACE='Comic Sans MS' COLOR='#000000'>
+      ENCAIXE A PRIMEIRA SÍLABA DO NOME DAS FIGURAS.
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D11', 'Comic Sans MS', 16);
+   Desloca('Rotulo3D11');
+</SCRIPT>
+<DIV
+     Name='DRotulo1'
+     Id='DRotulo1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 21;
+           LEFT: 104;
+           WIDTH: 625.5333;
+           HEIGHT: 34;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 16pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo1'
+   name='lRotulo1'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo1' FACE='Comic Sans MS' COLOR='#FFFF00'>
+    ENCAIXE A PRIMEIRA SÍLABA DO NOME DAS FIGURAS.
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo1', false);
+   FindObj('DRotulo1').sMouseClick="";
+   colocaEstiloFonte('Rotulo1', 'Comic Sans MS', 16);
+   Desloca('DRotulo1');
+</Script>
+<script type='Text/javascript'>
+<!--
+  SET_DHTML('DSoltarRot1'+NO_DRAG,'DArrastar1','DSoltarRot2'+NO_DRAG,'DArrastar2','DSoltarRot3'+NO_DRAG,'DArrastar3','DSoltarRot4'+NO_DRAG,'DArrastar4','DSoltarRot5'+NO_DRAG,'DArrastar5','DSoltarRot6'+NO_DRAG,'DArrastar6');
+  var n_Arrastar=6;
+  dd.elements['DSoltarRot1'].hide();
+  var objeto_sol1=FindObj('DSoltar1');
+  objeto_sol1.indice_arrastar=1;
+  objeto_sol1.x_ini=46;
+  objeto_sol1.y_ini=168;
+  objeto_sol1.width=71;
+  objeto_sol1.height=55;
+  objeto_sol1.feito=0;
+  objeto_sol1.caption='BO';
+  var objeto_ar1=FindObj('DArrastar1');
+  objeto_ar1.tipoobj=8;
+  objeto_ar1.indice_soltar=1;
+  objeto_ar1.x_ini=457;
+  objeto_ar1.y_ini=498;
+  objeto_ar1.width=72;
+  objeto_ar1.height=53;
+  objeto_ar1.caption='BO';
+  dd.elements['DSoltarRot2'].hide();
+  var objeto_sol2=FindObj('DSoltar2');
+  objeto_sol2.indice_arrastar=2;
+  objeto_sol2.x_ini=186;
+  objeto_sol2.y_ini=164;
+  objeto_sol2.width=71;
+  objeto_sol2.height=55;
+  objeto_sol2.feito=0;
+  objeto_sol2.caption='CA';
+  var objeto_ar2=FindObj('DArrastar2');
+  objeto_ar2.tipoobj=8;
+  objeto_ar2.indice_soltar=2;
+  objeto_ar2.x_ini=177;
+  objeto_ar2.y_ini=494;
+  objeto_ar2.width=72;
+  objeto_ar2.height=53;
+  objeto_ar2.caption='CA';
+  dd.elements['DSoltarRot3'].hide();
+  var objeto_sol3=FindObj('DSoltar3');
+  objeto_sol3.indice_arrastar=3;
+  objeto_sol3.x_ini=327;
+  objeto_sol3.y_ini=164;
+  objeto_sol3.width=71;
+  objeto_sol3.height=55;
+  objeto_sol3.feito=0;
+  objeto_sol3.caption='RE';
+  var objeto_ar3=FindObj('DArrastar3');
+  objeto_ar3.tipoobj=8;
+  objeto_ar3.indice_soltar=3;
+  objeto_ar3.x_ini=108;
+  objeto_ar3.y_ini=395;
+  objeto_ar3.width=72;
+  objeto_ar3.height=53;
+  objeto_ar3.caption='RE';
+  dd.elements['DSoltarRot4'].hide();
+  var objeto_sol4=FindObj('DSoltar4');
+  objeto_sol4.indice_arrastar=4;
+  objeto_sol4.x_ini=458;
+  objeto_sol4.y_ini=159;
+  objeto_sol4.width=71;
+  objeto_sol4.height=55;
+  objeto_sol4.feito=0;
+  objeto_sol4.caption='SA';
+  var objeto_ar4=FindObj('DArrastar4');
+  objeto_ar4.tipoobj=8;
+  objeto_ar4.indice_soltar=4;
+  objeto_ar4.x_ini=523;
+  objeto_ar4.y_ini=394;
+  objeto_ar4.width=72;
+  objeto_ar4.height=53;
+  objeto_ar4.caption='SA';
+  dd.elements['DSoltarRot5'].hide();
+  var objeto_sol5=FindObj('DSoltar5');
+  objeto_sol5.indice_arrastar=5;
+  objeto_sol5.x_ini=582;
+  objeto_sol5.y_ini=159;
+  objeto_sol5.width=71;
+  objeto_sol5.height=55;
+  objeto_sol5.feito=0;
+  objeto_sol5.caption='LA';
+  var objeto_ar5=FindObj('DArrastar5');
+  objeto_ar5.tipoobj=8;
+  objeto_ar5.indice_soltar=5;
+  objeto_ar5.x_ini=391;
+  objeto_ar5.y_ini=396;
+  objeto_ar5.width=72;
+  objeto_ar5.height=53;
+  objeto_ar5.caption='LA';
+  dd.elements['DSoltarRot6'].hide();
+  var objeto_sol6=FindObj('DSoltar6');
+  objeto_sol6.indice_arrastar=6;
+  objeto_sol6.x_ini=703;
+  objeto_sol6.y_ini=157;
+  objeto_sol6.width=71;
+  objeto_sol6.height=55;
+  objeto_sol6.feito=0;
+  objeto_sol6.caption='BO';
+  var objeto_ar6=FindObj('DArrastar6');
+  objeto_ar6.tipoobj=8;
+  objeto_ar6.indice_soltar=6;
+  objeto_ar6.x_ini=252;
+  objeto_ar6.y_ini=398;
+  objeto_ar6.width=72;
+  objeto_ar6.height=53;
+  objeto_ar6.caption='BO';
+  carregado=true;
+//-->
+</script>
+<SCRIPT Language='JavaScript'>
+  var tFundo=window.setInterval('mostraAnimas()',200);
+  function mostraAnimas() {
+    window.clearInterval(tFundo);
+    obj = FindObj('DAnimacao1');
+    obj.style.visibility="visible";
+    obj = FindObj('DAnimacao2');
+    obj.style.visibility="visible";
+    obj = FindObj('DAnimacao3');
+    obj.style.visibility="visible";
+  }
+</SCRIPT>
+</BODY>
+</HTML>

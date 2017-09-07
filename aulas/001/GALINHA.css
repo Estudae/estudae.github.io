@@ -1,0 +1,126 @@
+#DSoltarImg1{
+  position:absolute; 
+  top: 180;
+  left: 216;
+  width: 102;
+  height: 113;
+     z-index: 4; 
+}
+.DArrastarImg1{
+  position:absolute; 
+  top: 283.333333333333;
+  left: 92;
+  width: 102;
+  height: 113;
+     z-index: 5; 
+}
+#DSoltarImg2{
+  position:absolute; 
+  top: 180;
+  left: 318.2;
+  width: 102;
+  height: 113;
+     z-index: 4; 
+}
+.DArrastarImg2{
+  position:absolute; 
+  top: 409.333333333333;
+  left: 366.666666666667;
+  width: 102;
+  height: 113;
+     z-index: 5; 
+}
+#DSoltarImg3{
+  position:absolute; 
+  top: 180;
+  left: 420.466666666667;
+  width: 102;
+  height: 113;
+     z-index: 4; 
+}
+.DArrastarImg3{
+  position:absolute; 
+  top: 160;
+  left: 36;
+  width: 102;
+  height: 113;
+     z-index: 5; 
+}
+#DSoltarImg4{
+  position:absolute; 
+  top: 293.333333333333;
+  left: 216;
+  width: 102;
+  height: 113;
+     z-index: 4; 
+}
+.DArrastarImg4{
+  position:absolute; 
+  top: 160;
+  left: 619.333333333333;
+  width: 102;
+  height: 113;
+     z-index: 5; 
+}
+#DSoltarImg5{
+  position:absolute; 
+  top: 293.333333333333;
+  left: 318.2;
+  width: 102;
+  height: 113;
+     z-index: 4; 
+}
+.DArrastarImg5{
+  position:absolute; 
+  top: 409.333333333333;
+  left: 233.333333333333;
+  width: 102;
+  height: 113;
+     z-index: 5; 
+}
+#DSoltarImg6{
+  position:absolute; 
+  top: 293.333333333333;
+  left: 420.466666666667;
+  width: 102;
+  height: 113;
+     z-index: 4; 
+}
+.DArrastarImg6{
+  position:absolute; 
+  top: 283.333333333333;
+  left: 550;
+  width: 102;
+  height: 113;
+     z-index: 5; 
+}
+.DGroupRotulo1{
+  position: absolute;
+  top: 21.6666666666667;
+  left: 73.3333333333333;
+  width: 669.666666666667;
+  height: 109;
+  overflow: hidden; 
+  font-size: 28px; 
+ z-index: 3;
+}
+#DRotuloTrans2{
+  position:absolute; 
+  top: 494;
+  left: 731;
+  width: 53;
+  height: 42;
+     cursor: pointer; 
+     z-index: 3; 
+  text-decoration: none; 
+}
+#DRotuloTrans3{
+  position:absolute; 
+  top: 437;
+  left: 738;
+  width: 53;
+  height: 42;
+     cursor: pointer; 
+     z-index: 3; 
+  text-decoration: none; 
+}

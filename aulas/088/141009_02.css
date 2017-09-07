@@ -1,0 +1,29 @@
+#DAnimacao1{
+  position:absolute; 
+  top: 4;
+  left: 762;
+  width: 35;
+  height: 35;
+     z-index: 3; 
+  visibility: hidden; 
+}
+.DGroupRotulo1{
+  position: absolute;
+  top: 220;
+  left: 323;
+  width: 209.533333333333;
+  height: 117;
+  overflow: hidden; 
+  font-size: 61px; 
+ z-index: 3;
+}
+.DGroupRotulo2{
+  position: absolute;
+  top: 368;
+  left: 233;
+  width: 371.533333333333;
+  height: 34;
+  overflow: hidden; 
+  font-size: 16px; 
+ z-index: 3;
+}

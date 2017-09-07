@@ -1,0 +1,1149 @@
+<HTML ID="ARRASTAR"
+      xmlns:v='urn:schemas-microsoft-com:vml'>
+<HEAD>
+<META NAME="Gerador de HTML" CONTENT = "Visual Class">
+<META Name=Codigo Content=ARRASTAR>
+<META Name=Data Content=00:00:00>
+<META Name=Materia Content=>
+<META Name=Título Content=tela verde>
+<META Name=Autor Content=rosilene>
+<META Name=Assunto Content=>
+<META Name=Alvo Content=>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<TITLE>tela verde</TITLE>
+</HEAD>
+<BODY
+      OnLoad="Janela_Load(); "
+      BGCOLOR="#000000"
+>
+<span id=somspan STYLE='
+    POSITION:Absolute;
+    TOP: -10;
+    LEFT: -10;
+    WIDTH: 0;
+    HEIGHT: 0;'
+></span>
+<IMG ID='ImagemFundo'
+     Name='ImagemFundo'
+     SRC='FUNDO.jpg'
+     Border='0' 
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 0;
+           LEFT: 0;
+           z-index: 0; 
+'>
+<SCRIPT Language='JavaScript'
+        src = 'source.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'ARRASTAR.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Avaliacao.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'>
+ var telaTemExercicio = true;
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'ativaswf.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'dragdrop.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Arrasta.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Animacao3.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Preenchimento.js'>
+</SCRIPT>
+<DIV ID='rotuloMovel'
+     NAME='rotuloMovel'
+     STYLE='backGround-color: #FFFF00; 
+            color: #000000; 
+            font-Weight: 700; font-family: Arial; font-size:10pt; visibility: hidden; position: absolute; z-index: 5'>
+</DIV>
+<SCRIPT>
+   Desloca('ImagemFundo');
+</Script>
+<style type='text/css'>
+<!--
+   A {text-decoration: none; color: none}
+-->
+</style>
+<Script Language=JavaScript>
+   var maxTentativas = 0;
+   var tentativas = 0;
+   var nomeTela = 'ARRASTAR';
+   var PrimeiroLink = null;
+   var somswf=2;
+</Script>
+<script>
+sRotMovAni1 = " Avançar ";
+</script>
+<DIV
+    Name='DAnimacao1'
+    ID='DAnimacao1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 556;
+           LEFT: 733;
+           WIDTH: 58;
+           HEIGHT: 33;
+     z-index: 3; 
+         VISIBILITY: hidden; 
+   '
+   OnMouseOver="Hint(sRotMovAni1, true);AnimaMouseClick('Animacao1', 'SET12DIR.gif'); "
+   OnMouseOut="Hint('', false);AnimaMouseClick('Animacao1', 'SET12DIR.gif'); "
+>
+<A 
+   id='lAnimacao1'
+   name='lAnimacao1'
+   Href=#
+   OnClick="AnimaMouseClick('Animacao1', 'SET12DIR.gif'); link_click('arrastar 2.htm', '0', true); "
+   OnMouseOver="Hint(sRotMovAni1, true);AnimaMouseClick('Animacao1', 'SET12DIR.gif'); "
+   OnMouseOut="Hint('', false);AnimaMouseClick('Animacao1', 'SET12DIR.gif'); "
+>
+<IMG Id='Animacao1'
+     Name='Animacao1'
+     alt=' Avançar '
+     Src='SET12DIR.gif'
+     WIDTH=58
+     HEIGHT=33
+     Border=0
+>
+</A>
+</DIV>
+<Script Language='JavaScript'>
+   obj = FindObj('DAnimacao1');
+   obj.sMouseOver="Hint(sRotMovAni1, true);AnimaMouseClick('Animacao1', 'SET12DIR.gif'); ";
+   obj.sMouseOut="Hint('', false);AnimaMouseClick('Animacao1', 'SET12DIR.gif'); ";
+    removeHref('lAnimacao1', true);
+    removeAlt('Animacao1');
+</Script>
+<script>
+sRotMovAni2 = " Sair ";
+</script>
+<DIV
+    Name='DAnimacao2'
+    ID='DAnimacao2'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 4;
+           LEFT: 762;
+           WIDTH: 35;
+           HEIGHT: 35;
+     z-index: 3; 
+         VISIBILITY: hidden; 
+   '
+   OnMouseOver="Hint(sRotMovAni2, true);AnimaMouseClick('Animacao2', 'sair3.gif'); "
+   OnMouseOut="Hint('', false);AnimaMouseClick('Animacao2', 'sair3.gif'); "
+>
+<A 
+   id='lAnimacao2'
+   name='lAnimacao2'
+   Href=#
+   OnClick="AnimaMouseClick('Animacao2', 'sair3.gif');  window.close(); "
+   OnMouseOver="Hint(sRotMovAni2, true);AnimaMouseClick('Animacao2', 'sair3.gif'); "
+   OnMouseOut="Hint('', false);AnimaMouseClick('Animacao2', 'sair3.gif'); "
+>
+<IMG Id='Animacao2'
+     Name='Animacao2'
+     alt=' Sair '
+     Src='sair3.gif'
+     WIDTH=35
+     HEIGHT=35
+     Border=0
+>
+</A>
+</DIV>
+<Script Language='JavaScript'>
+   obj = FindObj('DAnimacao2');
+   obj.sMouseOver="Hint(sRotMovAni2, true);AnimaMouseClick('Animacao2', 'sair3.gif'); ";
+   obj.sMouseOut="Hint('', false);AnimaMouseClick('Animacao2', 'sair3.gif'); ";
+    removeHref('lAnimacao2', true);
+    removeAlt('Animacao2');
+</Script>
+<style type='text/css'>
+<!-- .eSoltarImg1 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DSoltarImg1'
+    ID='DSoltarImg1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 180.7333;
+           LEFT: 28;
+           WIDTH: 59;
+           HEIGHT: 54;
+     z-index: 4; 
+'
+>
+<A 
+   id='lSoltarImg1'
+   name='lSoltarImg1'
+>
+<FONT Color=#000000>
+<IMG
+     name='SoltarImg1'
+     id='SoltarImg1'
+class='eSoltarImg1'
+     SRC="interrogacao3.jpg"
+     Border='0'
+     WIDTH=59
+     HEIGHT=55.26667
+>
+</FONT>
+</A>
+</DIV>
+<style type='text/css'>
+<!-- .eArrastarImg1 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DArrastarImg1'
+    ID='DArrastarImg1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 416;
+           LEFT: 691;
+           WIDTH: 56;
+           HEIGHT: 59;
+     z-index: 4; 
+'
+>
+<A 
+   id='lArrastarImg1'
+   name='lArrastarImg1'
+>
+<FONT Color=#000000>
+<IMG
+     name='ArrastarImg1'
+     id='ArrastarImg1'
+class='eArrastarImg1'
+     SRC='abelha 1.jpg'
+     Border=1
+     WIDTH=56
+     HEIGHT=59
+>
+</FONT>
+</A>
+</DIV>
+<style type='text/css'>
+<!-- .eSoltarImg2 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DSoltarImg2'
+    ID='DSoltarImg2'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 180;
+           LEFT: 94;
+           WIDTH: 59;
+           HEIGHT: 54;
+     z-index: 4; 
+'
+>
+<A 
+   id='lSoltarImg2'
+   name='lSoltarImg2'
+>
+<FONT Color=#000000>
+<IMG
+     name='SoltarImg2'
+     id='SoltarImg2'
+class='eSoltarImg2'
+     SRC="interrogacao3.jpg"
+     Border='0'
+     WIDTH=59
+     HEIGHT=55.26667
+>
+</FONT>
+</A>
+</DIV>
+<style type='text/css'>
+<!-- .eArrastarImg2 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DArrastarImg2'
+    ID='DArrastarImg2'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 411;
+           LEFT: 464;
+           WIDTH: 64;
+           HEIGHT: 59;
+     z-index: 4; 
+'
+>
+<A 
+   id='lArrastarImg2'
+   name='lArrastarImg2'
+>
+<FONT Color=#000000>
+<IMG
+     name='ArrastarImg2'
+     id='ArrastarImg2'
+class='eArrastarImg2'
+     SRC='aviao_1.jpg'
+     Border=1
+     WIDTH=64
+     HEIGHT=59
+>
+</FONT>
+</A>
+</DIV>
+<style type='text/css'>
+<!-- .eSoltarImg3 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DSoltarImg3'
+    ID='DSoltarImg3'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 181;
+           LEFT: 164;
+           WIDTH: 59;
+           HEIGHT: 54;
+     z-index: 4; 
+'
+>
+<A 
+   id='lSoltarImg3'
+   name='lSoltarImg3'
+>
+<FONT Color=#000000>
+<IMG
+     name='SoltarImg3'
+     id='SoltarImg3'
+class='eSoltarImg3'
+     SRC="interrogacao3.jpg"
+     Border='0'
+     WIDTH=59
+     HEIGHT=55.26667
+>
+</FONT>
+</A>
+</DIV>
+<style type='text/css'>
+<!-- .eArrastarImg3 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DArrastarImg3'
+    ID='DArrastarImg3'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 417;
+           LEFT: 156;
+           WIDTH: 56;
+           HEIGHT: 59;
+     z-index: 4; 
+'
+>
+<A 
+   id='lArrastarImg3'
+   name='lArrastarImg3'
+>
+<FONT Color=#000000>
+<IMG
+     name='ArrastarImg3'
+     id='ArrastarImg3'
+class='eArrastarImg3'
+     SRC='anel.jpg'
+     Border=1
+     WIDTH=56
+     HEIGHT=59
+>
+</FONT>
+</A>
+</DIV>
+<style type='text/css'>
+<!-- .eSoltarImg4 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DSoltarImg4'
+    ID='DSoltarImg4'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 180;
+           LEFT: 275;
+           WIDTH: 59;
+           HEIGHT: 54;
+     z-index: 4; 
+'
+>
+<A 
+   id='lSoltarImg4'
+   name='lSoltarImg4'
+>
+<FONT Color=#000000>
+<IMG
+     name='SoltarImg4'
+     id='SoltarImg4'
+class='eSoltarImg4'
+     SRC="interrogacao3.jpg"
+     Border='0'
+     WIDTH=59
+     HEIGHT=55.26667
+>
+</FONT>
+</A>
+</DIV>
+<style type='text/css'>
+<!-- .eArrastarImg4 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DArrastarImg4'
+    ID='DArrastarImg4'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 347;
+           LEFT: 555;
+           WIDTH: 56;
+           HEIGHT: 59;
+     z-index: 4; 
+'
+>
+<A 
+   id='lArrastarImg4'
+   name='lArrastarImg4'
+>
+<FONT Color=#000000>
+<IMG
+     name='ArrastarImg4'
+     id='ArrastarImg4'
+class='eArrastarImg4'
+     SRC='elefante_1.jpg'
+     Border=1
+     WIDTH=56
+     HEIGHT=59
+>
+</FONT>
+</A>
+</DIV>
+<style type='text/css'>
+<!-- .eSoltarImg5 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DSoltarImg5'
+    ID='DSoltarImg5'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 182;
+           LEFT: 370;
+           WIDTH: 59;
+           HEIGHT: 54;
+     z-index: 4; 
+'
+>
+<A 
+   id='lSoltarImg5'
+   name='lSoltarImg5'
+>
+<FONT Color=#000000>
+<IMG
+     name='SoltarImg5'
+     id='SoltarImg5'
+class='eSoltarImg5'
+     SRC="interrogacao3.jpg"
+     Border='0'
+     WIDTH=59
+     HEIGHT=55.26667
+>
+</FONT>
+</A>
+</DIV>
+<style type='text/css'>
+<!-- .eArrastarImg5 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DArrastarImg5'
+    ID='DArrastarImg5'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 317;
+           LEFT: 130;
+           WIDTH: 56;
+           HEIGHT: 59;
+     z-index: 4; 
+'
+>
+<A 
+   id='lArrastarImg5'
+   name='lArrastarImg5'
+>
+<FONT Color=#000000>
+<IMG
+     name='ArrastarImg5'
+     id='ArrastarImg5'
+class='eArrastarImg5'
+     SRC='indio_1.jpg'
+     Border=1
+     WIDTH=56
+     HEIGHT=59
+>
+</FONT>
+</A>
+</DIV>
+<style type='text/css'>
+<!-- .eSoltarImg6 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DSoltarImg6'
+    ID='DSoltarImg6'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 182;
+           LEFT: 433;
+           WIDTH: 59;
+           HEIGHT: 54;
+     z-index: 4; 
+'
+>
+<A 
+   id='lSoltarImg6'
+   name='lSoltarImg6'
+>
+<FONT Color=#000000>
+<IMG
+     name='SoltarImg6'
+     id='SoltarImg6'
+class='eSoltarImg6'
+     SRC="interrogacao3.jpg"
+     Border='0'
+     WIDTH=59
+     HEIGHT=55.26667
+>
+</FONT>
+</A>
+</DIV>
+<style type='text/css'>
+<!-- .eArrastarImg6 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DArrastarImg6'
+    ID='DArrastarImg6'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 341;
+           LEFT: 14;
+           WIDTH: 58;
+           HEIGHT: 59;
+     z-index: 4; 
+'
+>
+<A 
+   id='lArrastarImg6'
+   name='lArrastarImg6'
+>
+<FONT Color=#000000>
+<IMG
+     name='ArrastarImg6'
+     id='ArrastarImg6'
+class='eArrastarImg6'
+     SRC='igreja_1.jpg'
+     Border=1
+     WIDTH=58
+     HEIGHT=59
+>
+</FONT>
+</A>
+</DIV>
+<style type='text/css'>
+<!-- .eSoltarImg7 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DSoltarImg7'
+    ID='DSoltarImg7'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 186;
+           LEFT: 532;
+           WIDTH: 59;
+           HEIGHT: 54;
+     z-index: 4; 
+'
+>
+<A 
+   id='lSoltarImg7'
+   name='lSoltarImg7'
+>
+<FONT Color=#000000>
+<IMG
+     name='SoltarImg7'
+     id='SoltarImg7'
+class='eSoltarImg7'
+     SRC="interrogacao3.jpg"
+     Border='0'
+     WIDTH=59
+     HEIGHT=55.26667
+>
+</FONT>
+</A>
+</DIV>
+<style type='text/css'>
+<!-- .eArrastarImg7 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DArrastarImg7'
+    ID='DArrastarImg7'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 323;
+           LEFT: 396;
+           WIDTH: 56;
+           HEIGHT: 59;
+     z-index: 4; 
+'
+>
+<A 
+   id='lArrastarImg7'
+   name='lArrastarImg7'
+>
+<FONT Color=#000000>
+<IMG
+     name='ArrastarImg7'
+     id='ArrastarImg7'
+class='eArrastarImg7'
+     SRC='ovo.jpg'
+     Border=1
+     WIDTH=56
+     HEIGHT=59
+>
+</FONT>
+</A>
+</DIV>
+<style type='text/css'>
+<!-- .eSoltarImg8 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DSoltarImg8'
+    ID='DSoltarImg8'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 187;
+           LEFT: 596;
+           WIDTH: 59;
+           HEIGHT: 54;
+     z-index: 4; 
+'
+>
+<A 
+   id='lSoltarImg8'
+   name='lSoltarImg8'
+>
+<FONT Color=#000000>
+<IMG
+     name='SoltarImg8'
+     id='SoltarImg8'
+class='eSoltarImg8'
+     SRC="interrogacao3.jpg"
+     Border='0'
+     WIDTH=59
+     HEIGHT=55.26667
+>
+</FONT>
+</A>
+</DIV>
+<style type='text/css'>
+<!-- .eArrastarImg8 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DArrastarImg8'
+    ID='DArrastarImg8'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 352;
+           LEFT: 277;
+           WIDTH: 56;
+           HEIGHT: 59;
+     z-index: 4; 
+'
+>
+<A 
+   id='lArrastarImg8'
+   name='lArrastarImg8'
+>
+<FONT Color=#000000>
+<IMG
+     name='ArrastarImg8'
+     id='ArrastarImg8'
+class='eArrastarImg8'
+     SRC='olho_1.jpg'
+     Border=1
+     WIDTH=56
+     HEIGHT=59
+>
+</FONT>
+</A>
+</DIV>
+<style type='text/css'>
+<!-- .eDImagemEfeito1 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DImagemEfeito1'
+    ID='DImagemEfeito1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 124;
+           LEFT: 89;
+           WIDTH: 45;
+           HEIGHT: 41;
+     z-index: 1; 
+'
+>
+<Font Color='#000000'>
+<IMG
+     Name="ImagemEfeito1"
+class='eDImagemEfeito1'
+     Id="ImagemEfeito1"
+     SRC="letra a.jpg"
+     Border='1'
+     WIDTH=45
+     HEIGHT=41
+>
+   </FONT>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito1');
+</SCRIPT>
+<style type='text/css'>
+<!-- .eDImagemEfeito2 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DImagemEfeito2'
+    ID='DImagemEfeito2'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 125;
+           LEFT: 279;
+           WIDTH: 45;
+           HEIGHT: 41;
+     z-index: 1; 
+'
+>
+<Font Color='#000000'>
+<IMG
+     Name="ImagemEfeito2"
+class='eDImagemEfeito2'
+     Id="ImagemEfeito2"
+     SRC="letra e.jpg"
+     Border='1'
+     WIDTH=45
+     HEIGHT=41
+>
+   </FONT>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito2');
+</SCRIPT>
+<style type='text/css'>
+<!-- .eDImagemEfeito3 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DImagemEfeito3'
+    ID='DImagemEfeito3'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 124;
+           LEFT: 407;
+           WIDTH: 45;
+           HEIGHT: 41;
+     z-index: 1; 
+'
+>
+<Font Color='#000000'>
+<IMG
+     Name="ImagemEfeito3"
+class='eDImagemEfeito3'
+     Id="ImagemEfeito3"
+     SRC="letra i.jpg"
+     Border='1'
+     WIDTH=45
+     HEIGHT=41
+>
+   </FONT>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito3');
+</SCRIPT>
+<style type='text/css'>
+<!-- .eDImagemEfeito4 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DImagemEfeito4'
+    ID='DImagemEfeito4'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 127;
+           LEFT: 565;
+           WIDTH: 45;
+           HEIGHT: 44;
+     z-index: 1; 
+'
+>
+<Font Color='#000000'>
+<IMG
+     Name="ImagemEfeito4"
+class='eDImagemEfeito4'
+     Id="ImagemEfeito4"
+     SRC="letra o.jpg"
+     Border='1'
+     WIDTH=45
+     HEIGHT=44
+>
+   </FONT>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito4');
+</SCRIPT>
+<style type='text/css'>
+<!-- .eDImagemEfeito5 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DImagemEfeito5'
+    ID='DImagemEfeito5'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 130;
+           LEFT: 687;
+           WIDTH: 45;
+           HEIGHT: 41;
+     z-index: 1; 
+'
+>
+<Font Color='#000000'>
+<IMG
+     Name="ImagemEfeito5"
+class='eDImagemEfeito5'
+     Id="ImagemEfeito5"
+     SRC="letra u.jpg"
+     Border='1'
+     WIDTH=45
+     HEIGHT=41
+>
+   </FONT>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito5');
+</SCRIPT>
+<style type='text/css'>
+<!-- .eDImagemEfeito6 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DImagemEfeito6'
+    ID='DImagemEfeito6'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 183;
+           LEFT: 676;
+           WIDTH: 79;
+           HEIGHT: 62;
+     z-index: 1; 
+'
+>
+<Font Color='#000000'>
+<IMG
+     Name="ImagemEfeito6"
+class='eDImagemEfeito6'
+     Id="ImagemEfeito6"
+     SRC="interrogacao3.jpg"
+     Border='1'
+     WIDTH=79
+     HEIGHT=62
+>
+   </FONT>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito6');
+</SCRIPT>
+<DIV Name='DPreenchimento1'
+     ID='DPreenchimento1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 526;
+           LEFT: 580;
+           WIDTH: 39;
+           HEIGHT: 34;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento1'
+       ID='Preenchimento1'
+       MaxLength=1
+       Size=2
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento1 = new Array();
+    vPreenchimento1[0] = 'U';
+    var objPreench = FindObj('DPreenchimento1');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento1').atual = VerificaPreenchimento(GetObj('Preenchimento1').value, vPreenchimento1, 0, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento1');
+       obj.style.backgroundColor = '#C0C0C0';
+       obj.style.color = '#0000FF';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '39px';
+       obj.style.height = '34px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '20pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento1');
+</SCRIPT>
+<DIV
+    Name='Rotulo3D11'
+    ID='Rotulo3D11'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 16pt; 
+         TOP: 527;
+         LEFT: 157;
+         WIDTH: 389.5333;
+         HEIGHT: 29;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D11' FACE='Arial' COLOR='#FFFFFF'>
+      QUAL LETRA FICOU SEM DESENHO?
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D11', 'Arial', 16);
+   Desloca('Rotulo3D11');
+</SCRIPT>
+<DIV
+     Name='DRotulo1'
+     Id='DRotulo1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 526;
+           LEFT: 156;
+           WIDTH: 389.5333;
+           HEIGHT: 28;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 16pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo1'
+   name='lRotulo1'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo1' FACE='Arial' COLOR='#FF0000'>
+    QUAL LETRA FICOU SEM DESENHO?
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo1', false);
+   FindObj('DRotulo1').sMouseClick="";
+   colocaEstiloFonte('Rotulo1', 'Arial', 16);
+   Desloca('DRotulo1');
+</Script>
+<DIV
+    Name='Rotulo3D12'
+    ID='Rotulo3D12'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 18pt; 
+         TOP: 31;
+         LEFT: 23;
+         WIDTH: 738.6;
+         HEIGHT: 34;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D12' FACE='Arial' COLOR='#FFFFFF'>
+      ARRASTE OS DESENHOS DE ACORDO COM A LETRA INICIAL.
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D12', 'Arial', 18);
+   Desloca('Rotulo3D12');
+</SCRIPT>
+<DIV
+     Name='DRotulo2'
+     Id='DRotulo2'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 30;
+           LEFT: 22;
+           WIDTH: 738.6;
+           HEIGHT: 33;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 18pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo2'
+   name='lRotulo2'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo2' FACE='Arial' COLOR='#FF0000'>
+    ARRASTE OS DESENHOS DE ACORDO COM A LETRA INICIAL.
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo2', false);
+   FindObj('DRotulo2').sMouseClick="";
+   colocaEstiloFonte('Rotulo2', 'Arial', 18);
+   Desloca('DRotulo2');
+</Script>
+<script type='Text/javascript'>
+<!--
+  SET_DHTML('DArrastarImg1','DArrastarImg2','DArrastarImg3','DArrastarImg4','DArrastarImg5','DArrastarImg6','DArrastarImg7','DArrastarImg8');
+  var objeto_s1=FindObj('DSoltarImg1');
+  objeto_s1.indice_arrastar=1;
+  objeto_s1.x_ini=28;
+  objeto_s1.y_ini=180.7333;
+  objeto_s1.width=59;
+  objeto_s1.height=54.26667;
+  objeto_s1.som='';
+  var objeto1=FindObj('DArrastarImg1');
+  objeto1.tipoobj=10;
+  objeto1.indice_soltar=1;
+  objeto1.x_ini=691;
+  objeto1.y_ini=416;
+  objeto1.width=56;
+  objeto1.height=59;
+  objeto1.imagem='abelha 1.jpg';
+  var objeto_s2=FindObj('DSoltarImg2');
+  objeto_s2.indice_arrastar=2;
+  objeto_s2.x_ini=94;
+  objeto_s2.y_ini=180;
+  objeto_s2.width=59;
+  objeto_s2.height=54.26667;
+  objeto_s2.som='';
+  var objeto2=FindObj('DArrastarImg2');
+  objeto2.tipoobj=10;
+  objeto2.indice_soltar=2;
+  objeto2.x_ini=464;
+  objeto2.y_ini=411;
+  objeto2.width=64;
+  objeto2.height=59;
+  objeto2.imagem='aviao_1.jpg';
+  var objeto_s3=FindObj('DSoltarImg3');
+  objeto_s3.indice_arrastar=3;
+  objeto_s3.x_ini=164;
+  objeto_s3.y_ini=181;
+  objeto_s3.width=59;
+  objeto_s3.height=54.26667;
+  objeto_s3.som='';
+  var objeto3=FindObj('DArrastarImg3');
+  objeto3.tipoobj=10;
+  objeto3.indice_soltar=3;
+  objeto3.x_ini=156;
+  objeto3.y_ini=417;
+  objeto3.width=56;
+  objeto3.height=59;
+  objeto3.imagem='anel.jpg';
+  var objeto_s4=FindObj('DSoltarImg4');
+  objeto_s4.indice_arrastar=4;
+  objeto_s4.x_ini=275;
+  objeto_s4.y_ini=180;
+  objeto_s4.width=59;
+  objeto_s4.height=54.26667;
+  objeto_s4.som='';
+  var objeto4=FindObj('DArrastarImg4');
+  objeto4.tipoobj=10;
+  objeto4.indice_soltar=4;
+  objeto4.x_ini=555;
+  objeto4.y_ini=347;
+  objeto4.width=56;
+  objeto4.height=59;
+  objeto4.imagem='elefante_1.jpg';
+  var objeto_s5=FindObj('DSoltarImg5');
+  objeto_s5.indice_arrastar=5;
+  objeto_s5.x_ini=370;
+  objeto_s5.y_ini=182;
+  objeto_s5.width=59;
+  objeto_s5.height=54.26667;
+  objeto_s5.som='';
+  var objeto5=FindObj('DArrastarImg5');
+  objeto5.tipoobj=10;
+  objeto5.indice_soltar=5;
+  objeto5.x_ini=130;
+  objeto5.y_ini=317;
+  objeto5.width=56;
+  objeto5.height=59;
+  objeto5.imagem='indio_1.jpg';
+  var objeto_s6=FindObj('DSoltarImg6');
+  objeto_s6.indice_arrastar=6;
+  objeto_s6.x_ini=433;
+  objeto_s6.y_ini=182;
+  objeto_s6.width=59;
+  objeto_s6.height=54.26667;
+  objeto_s6.som='';
+  var objeto6=FindObj('DArrastarImg6');
+  objeto6.tipoobj=10;
+  objeto6.indice_soltar=6;
+  objeto6.x_ini=14;
+  objeto6.y_ini=341;
+  objeto6.width=58;
+  objeto6.height=59;
+  objeto6.imagem='igreja_1.jpg';
+  var objeto_s7=FindObj('DSoltarImg7');
+  objeto_s7.indice_arrastar=7;
+  objeto_s7.x_ini=532;
+  objeto_s7.y_ini=186;
+  objeto_s7.width=59;
+  objeto_s7.height=54.26667;
+  objeto_s7.som='';
+  var objeto7=FindObj('DArrastarImg7');
+  objeto7.tipoobj=10;
+  objeto7.indice_soltar=7;
+  objeto7.x_ini=396;
+  objeto7.y_ini=323;
+  objeto7.width=56;
+  objeto7.height=59;
+  objeto7.imagem='ovo.jpg';
+  var objeto_s8=FindObj('DSoltarImg8');
+  objeto_s8.indice_arrastar=8;
+  objeto_s8.x_ini=596;
+  objeto_s8.y_ini=187;
+  objeto_s8.width=59;
+  objeto_s8.height=54.26667;
+  objeto_s8.som='';
+  var objeto8=FindObj('DArrastarImg8');
+  objeto8.tipoobj=10;
+  objeto8.indice_soltar=8;
+  objeto8.x_ini=277;
+  objeto8.y_ini=352;
+  objeto8.width=56;
+  objeto8.height=59;
+  objeto8.imagem='olho_1.jpg';
+  var n_ArrImg=8;
+  carregado=true;
+//-->
+</script>
+<SCRIPT Language='JavaScript'>
+  var tFundo=window.setInterval('mostraAnimas()',200);
+  function mostraAnimas() {
+    window.clearInterval(tFundo);
+    obj = FindObj('DAnimacao1');
+    obj.style.visibility="visible";
+    obj = FindObj('DAnimacao2');
+    obj.style.visibility="visible";
+  }
+</SCRIPT>
+</BODY>
+</HTML>

@@ -1,0 +1,207 @@
+#DAnimacao1{
+  position:absolute; 
+  top: 4;
+  left: 762;
+  width: 35;
+  height: 35;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DAnimacao2{
+  position:absolute; 
+  top: 556;
+  left: 733;
+  width: 58;
+  height: 33;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DPreenchimento1{
+  position: absolute; 
+  top: 160;
+  left: 442;
+  widt: 22;
+  height: 21;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento2{
+  position: absolute; 
+  top: 221;
+  left: 478;
+  widt: 22;
+  height: 21;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento3{
+  position: absolute; 
+  top: 222;
+  left: 442;
+  widt: 22;
+  height: 21;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento4{
+  position: absolute; 
+  top: 223;
+  left: 406;
+  widt: 22;
+  height: 21;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento5{
+  position: absolute; 
+  top: 222;
+  left: 369;
+  widt: 22;
+  height: 21;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento6{
+  position: absolute; 
+  top: 223;
+  left: 334;
+  widt: 22;
+  height: 21;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento7{
+  position: absolute; 
+  top: 223;
+  left: 296;
+  widt: 22;
+  height: 21;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento8{
+  position: absolute; 
+  top: 437;
+  left: 371;
+  widt: 22;
+  height: 21;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento9{
+  position: absolute; 
+  top: 345;
+  left: 407;
+  widt: 22;
+  height: 21;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento10{
+  position: absolute; 
+  top: 345;
+  left: 369;
+  widt: 22;
+  height: 21;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento11{
+  position: absolute; 
+  top: 345;
+  left: 334;
+  widt: 22;
+  height: 21;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento12{
+  position: absolute; 
+  top: 437;
+  left: 297;
+  widt: 22;
+  height: 21;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento13{
+  position: absolute; 
+  top: 436;
+  left: 335;
+  widt: 22;
+  height: 21;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento14{
+  position: absolute; 
+  top: 406;
+  left: 334;
+  widt: 22;
+  height: 21;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento15{
+  position: absolute; 
+  top: 375;
+  left: 335;
+  widt: 22;
+  height: 21;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento16{
+  position: absolute; 
+  top: 252;
+  left: 443;
+  widt: 22;
+  height: 21;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento17{
+  position: absolute; 
+  top: 283;
+  left: 444;
+  widt: 22;
+  height: 21;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento18{
+  position: absolute; 
+  top: 314;
+  left: 444;
+  widt: 22;
+  height: 21;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento19{
+  position: absolute; 
+  top: 345;
+  left: 443;
+  widt: 22;
+  height: 21;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento20{
+  position: absolute; 
+  top: 191;
+  left: 442;
+  widt: 22;
+  height: 21;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento21{
+  position: absolute; 
+  top: 436;
+  left: 407;
+  widt: 22;
+  height: 21;
+  padding: 0; 
+  z-index: 4; 
+}

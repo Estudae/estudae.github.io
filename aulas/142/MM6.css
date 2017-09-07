@@ -1,0 +1,10 @@
+#DRotuloTrans1{
+  position:absolute; 
+  top: 232;
+  left: 154;
+  width: 507;
+  height: 78;
+     cursor: pointer; 
+     z-index: 3; 
+  text-decoration: none; 
+}

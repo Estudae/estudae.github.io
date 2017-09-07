@@ -71,10 +71,10 @@ $(document).ready(function () {
 	if(location.hostname == '192.168.0.100'){
 	  url = 'aulas/';
 	}else{
-	  url = 'https://www.estudae.com.br/aulas/';
+	  url = 'http://www.estudae.com.br/aulas/';
 	}	
 
-	//url = 'https://www.estudae.com.br/aulas/';
+	//url = 'http://www.estudae.com.br/aulas/';
 
 	//url = 'aulas/';	
 

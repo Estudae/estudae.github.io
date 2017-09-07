@@ -1,0 +1,18 @@
+#DAnimacao1{
+  position:absolute; 
+  top: 26.9333333333333;
+  left: 717;
+  width: 59;
+  height: 50;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DAnimacao2{
+  position:absolute; 
+  top: 25;
+  left: 617;
+  width: 59;
+  height: 50;
+     z-index: 3; 
+  visibility: hidden; 
+}

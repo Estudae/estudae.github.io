@@ -1,0 +1,1850 @@
+<HTML ID="TELA03"
+      xmlns:v='urn:schemas-microsoft-com:vml'>
+<HEAD>
+<META NAME="Gerador de HTML" CONTENT = "Visual Class">
+<META Name=Codigo Content=TELA03>
+<META Name=Data Content=00:00:00>
+<META Name=Materia Content=matematica>
+<META Name=Título Content=padrao>
+<META Name=Autor Content=Danilo>
+<META Name=Assunto Content=raciocinio logico matematico>
+<META Name=Alvo Content=>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<TITLE>padrao</TITLE>
+</HEAD>
+<BODY
+      OnLoad="Janela_Load(); "
+      BGCOLOR="#000000"
+>
+<span id=somspan STYLE='
+    POSITION:Absolute;
+    TOP: -10;
+    LEFT: -10;
+    WIDTH: 0;
+    HEIGHT: 0;'
+></span>
+<IMG ID='ImagemFundo'
+     Name='ImagemFundo'
+     SRC='fuipn6ojirq.jpg'
+     Border='0' 
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 0;
+           LEFT: 0;
+           z-index: 0; 
+'>
+<SCRIPT Language='JavaScript'
+        src = 'source.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'TELA03.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Avaliacao.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'>
+ var telaTemExercicio = true;
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'ativaswf.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'RotuloTrans.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Vest.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'TesteVest.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Giras.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Preenchimento.js'>
+</SCRIPT>
+<SCRIPT>
+   Desloca('ImagemFundo');
+</Script>
+<style type='text/css'>
+<!--
+   A {text-decoration: none; color: none}
+-->
+</style>
+<Script Language=JavaScript>
+   var maxTentativas = 0;
+   var tentativas = 0;
+   var nomeTela = 'TELA03';
+   var PrimeiroLink = null;
+   var somswf=2;
+</Script>
+<DIV Name='DPreenchimento1'
+     ID='DPreenchimento1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 107;
+           LEFT: 35;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento1'
+       ID='Preenchimento1'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento1 = new Array();
+    vPreenchimento1[0] = '19';
+    var objPreench = FindObj('DPreenchimento1');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento1').atual = VerificaPreenchimento(GetObj('Preenchimento1').value, vPreenchimento1, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento1');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento1');
+</SCRIPT>
+<DIV Name='DPreenchimento2'
+     ID='DPreenchimento2'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 195;
+           LEFT: 38;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento2'
+       ID='Preenchimento2'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento2 = new Array();
+    vPreenchimento2[0] = '18';
+    var objPreench = FindObj('DPreenchimento2');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento2').atual = VerificaPreenchimento(GetObj('Preenchimento2').value, vPreenchimento2, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento2');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento2');
+</SCRIPT>
+<DIV Name='DPreenchimento3'
+     ID='DPreenchimento3'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 108;
+           LEFT: 117;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento3'
+       ID='Preenchimento3'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento3 = new Array();
+    vPreenchimento3[0] = '21';
+    var objPreench = FindObj('DPreenchimento3');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento3').atual = VerificaPreenchimento(GetObj('Preenchimento3').value, vPreenchimento3, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento3');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento3');
+</SCRIPT>
+<DIV Name='DPreenchimento4'
+     ID='DPreenchimento4'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 241;
+           LEFT: 117;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento4'
+       ID='Preenchimento4'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento4 = new Array();
+    vPreenchimento4[0] = '13';
+    var objPreench = FindObj('DPreenchimento4');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento4').atual = VerificaPreenchimento(GetObj('Preenchimento4').value, vPreenchimento4, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento4');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento4');
+</SCRIPT>
+<DIV Name='DPreenchimento5'
+     ID='DPreenchimento5'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 150;
+           LEFT: 37;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento5'
+       ID='Preenchimento5'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento5 = new Array();
+    vPreenchimento5[0] = '31';
+    var objPreench = FindObj('DPreenchimento5');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento5').atual = VerificaPreenchimento(GetObj('Preenchimento5').value, vPreenchimento5, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento5');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento5');
+</SCRIPT>
+<DIV Name='DPreenchimento6'
+     ID='DPreenchimento6'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 287;
+           LEFT: 38;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento6'
+       ID='Preenchimento6'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento6 = new Array();
+    vPreenchimento6[0] = '43';
+    var objPreench = FindObj('DPreenchimento6');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento6').atual = VerificaPreenchimento(GetObj('Preenchimento6').value, vPreenchimento6, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento6');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento6');
+</SCRIPT>
+<DIV Name='DPreenchimento7'
+     ID='DPreenchimento7'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 151;
+           LEFT: 117;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento7'
+       ID='Preenchimento7'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento7 = new Array();
+    vPreenchimento7[0] = '33';
+    var objPreench = FindObj('DPreenchimento7');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento7').atual = VerificaPreenchimento(GetObj('Preenchimento7').value, vPreenchimento7, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento7');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento7');
+</SCRIPT>
+<DIV Name='DPreenchimento8'
+     ID='DPreenchimento8'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 330;
+           LEFT: 38;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento8'
+       ID='Preenchimento8'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento8 = new Array();
+    vPreenchimento8[0] = '49';
+    var objPreench = FindObj('DPreenchimento8');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento8').atual = VerificaPreenchimento(GetObj('Preenchimento8').value, vPreenchimento8, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento8');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento8');
+</SCRIPT>
+<DIV Name='DPreenchimento9'
+     ID='DPreenchimento9'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 241;
+           LEFT: 38;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento9'
+       ID='Preenchimento9'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento9 = new Array();
+    vPreenchimento9[0] = '11';
+    var objPreench = FindObj('DPreenchimento9');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento9').atual = VerificaPreenchimento(GetObj('Preenchimento9').value, vPreenchimento9, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento9');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento9');
+</SCRIPT>
+<DIV Name='DPreenchimento10'
+     ID='DPreenchimento10'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 287;
+           LEFT: 116;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento10'
+       ID='Preenchimento10'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento10 = new Array();
+    vPreenchimento10[0] = '45';
+    var objPreench = FindObj('DPreenchimento10');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento10').atual = VerificaPreenchimento(GetObj('Preenchimento10').value, vPreenchimento10, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento10');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento10');
+</SCRIPT>
+<DIV Name='DPreenchimento11'
+     ID='DPreenchimento11'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 195;
+           LEFT: 117;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento11'
+       ID='Preenchimento11'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento11 = new Array();
+    vPreenchimento11[0] = '20';
+    var objPreench = FindObj('DPreenchimento11');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento11').atual = VerificaPreenchimento(GetObj('Preenchimento11').value, vPreenchimento11, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento11');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento11');
+</SCRIPT>
+<DIV Name='DPreenchimento12'
+     ID='DPreenchimento12'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 332;
+           LEFT: 115;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento12'
+       ID='Preenchimento12'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento12 = new Array();
+    vPreenchimento12[0] = '51';
+    var objPreench = FindObj('DPreenchimento12');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento12').atual = VerificaPreenchimento(GetObj('Preenchimento12').value, vPreenchimento12, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento12');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento12');
+</SCRIPT>
+<DIV Name='DPreenchimento13'
+     ID='DPreenchimento13'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 374;
+           LEFT: 39;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento13'
+       ID='Preenchimento13'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento13 = new Array();
+    vPreenchimento13[0] = '57';
+    var objPreench = FindObj('DPreenchimento13');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento13').atual = VerificaPreenchimento(GetObj('Preenchimento13').value, vPreenchimento13, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento13');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento13');
+</SCRIPT>
+<DIV Name='DPreenchimento14'
+     ID='DPreenchimento14'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 375;
+           LEFT: 115;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento14'
+       ID='Preenchimento14'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento14 = new Array();
+    vPreenchimento14[0] = '59';
+    var objPreench = FindObj('DPreenchimento14');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento14').atual = VerificaPreenchimento(GetObj('Preenchimento14').value, vPreenchimento14, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento14');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento14');
+</SCRIPT>
+<DIV Name='DPreenchimento15'
+     ID='DPreenchimento15'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 419;
+           LEFT: 39;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento15'
+       ID='Preenchimento15'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento15 = new Array();
+    vPreenchimento15[0] = '42';
+    var objPreench = FindObj('DPreenchimento15');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento15').atual = VerificaPreenchimento(GetObj('Preenchimento15').value, vPreenchimento15, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento15');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento15');
+</SCRIPT>
+<DIV Name='DPreenchimento16'
+     ID='DPreenchimento16'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 420;
+           LEFT: 114;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento16'
+       ID='Preenchimento16'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento16 = new Array();
+    vPreenchimento16[0] = '44';
+    var objPreench = FindObj('DPreenchimento16');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento16').atual = VerificaPreenchimento(GetObj('Preenchimento16').value, vPreenchimento16, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento16');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento16');
+</SCRIPT>
+<DIV Name='DPreenchimento17'
+     ID='DPreenchimento17'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 118;
+           LEFT: 463;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento17'
+       ID='Preenchimento17'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento17 = new Array();
+    vPreenchimento17[0] = '41';
+    var objPreench = FindObj('DPreenchimento17');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento17').atual = VerificaPreenchimento(GetObj('Preenchimento17').value, vPreenchimento17, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento17');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento17');
+</SCRIPT>
+<DIV Name='DPreenchimento18'
+     ID='DPreenchimento18'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 118;
+           LEFT: 539;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento18'
+       ID='Preenchimento18'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento18 = new Array();
+    vPreenchimento18[0] = '43';
+    var objPreench = FindObj('DPreenchimento18');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento18').atual = VerificaPreenchimento(GetObj('Preenchimento18').value, vPreenchimento18, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento18');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento18');
+</SCRIPT>
+<DIV Name='DPreenchimento19'
+     ID='DPreenchimento19'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 159;
+           LEFT: 464;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento19'
+       ID='Preenchimento19'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento19 = new Array();
+    vPreenchimento19[0] = '28';
+    var objPreench = FindObj('DPreenchimento19');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento19').atual = VerificaPreenchimento(GetObj('Preenchimento19').value, vPreenchimento19, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento19');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento19');
+</SCRIPT>
+<DIV Name='DPreenchimento20'
+     ID='DPreenchimento20'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 159;
+           LEFT: 540;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento20'
+       ID='Preenchimento20'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento20 = new Array();
+    vPreenchimento20[0] = '30';
+    var objPreench = FindObj('DPreenchimento20');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento20').atual = VerificaPreenchimento(GetObj('Preenchimento20').value, vPreenchimento20, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento20');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento20');
+</SCRIPT>
+<DIV Name='DPreenchimento21'
+     ID='DPreenchimento21'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 195;
+           LEFT: 464;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento21'
+       ID='Preenchimento21'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento21 = new Array();
+    vPreenchimento21[0] = '33';
+    var objPreench = FindObj('DPreenchimento21');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento21').atual = VerificaPreenchimento(GetObj('Preenchimento21').value, vPreenchimento21, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento21');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento21');
+</SCRIPT>
+<DIV Name='DPreenchimento22'
+     ID='DPreenchimento22'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 194;
+           LEFT: 540;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento22'
+       ID='Preenchimento22'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento22 = new Array();
+    vPreenchimento22[0] = '35';
+    var objPreench = FindObj('DPreenchimento22');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento22').atual = VerificaPreenchimento(GetObj('Preenchimento22').value, vPreenchimento22, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento22');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento22');
+</SCRIPT>
+<DIV Name='DPreenchimento23'
+     ID='DPreenchimento23'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 233;
+           LEFT: 464;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento23'
+       ID='Preenchimento23'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento23 = new Array();
+    vPreenchimento23[0] = '34';
+    var objPreench = FindObj('DPreenchimento23');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento23').atual = VerificaPreenchimento(GetObj('Preenchimento23').value, vPreenchimento23, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento23');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento23');
+</SCRIPT>
+<DIV Name='DPreenchimento24'
+     ID='DPreenchimento24'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 234;
+           LEFT: 539;
+           WIDTH: 38;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento24'
+       ID='Preenchimento24'
+       MaxLength=3
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento24 = new Array();
+    vPreenchimento24[0] = '36';
+    var objPreench = FindObj('DPreenchimento24');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento24').atual = VerificaPreenchimento(GetObj('Preenchimento24').value, vPreenchimento24, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento24');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '38px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento24');
+</SCRIPT>
+<DIV
+    Name='DRotuloTrans1'
+    ID='DRotuloTrans1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 6;
+           LEFT: 622;
+           WIDTH: 35;
+           HEIGHT: 33;
+     cursor: pointer; 
+     z-index: 3; 
+           TEXT-DECORATION: none; 
+   '
+   >
+<A 
+   id='lTransRotulo1'
+   name='lTransRotulo1'
+   Href=#
+   OnClick=" volta(); "
+   OnMouseOver="Rotulo_Over('DRotuloTrans1'); trocaCor('Rotulo1', 'FF0000');"
+   OnMouseOut="Rotulo_Out('DRotuloTrans1'); trocaCor('Rotulo1', '000000');"
+>
+<IMG
+     Name='RotuloTrans1'
+     ID='RotuloTrans1'
+     SRC='giftrans.gif'
+     Border='0'
+     WIDTH=35
+     HEIGHT=33
+>
+</A>
+</DIV>
+<Script Language='JavaScript'>
+   var objeto = FindObj('DRotuloTrans1');
+    removeHref('lTransRotulo1', true);
+   Desloca('DRotuloTrans1');
+   objeto.sMouseClick=" volta(); ";
+</Script>
+<DIV
+    Name='DRotuloTrans2'
+    ID='DRotuloTrans2'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 4;
+           LEFT: 688;
+           WIDTH: 35;
+           HEIGHT: 34;
+     cursor: pointer; 
+     z-index: 3; 
+           TEXT-DECORATION: none; 
+   '
+   >
+<A 
+   id='lTransRotulo2'
+   name='lTransRotulo2'
+   Href=#
+   OnClick="verifica = false;  window.close(); "
+   OnMouseOver="Rotulo_Over('DRotuloTrans2'); trocaCor('Rotulo2', 'FF0000');"
+   OnMouseOut="Rotulo_Out('DRotuloTrans2'); trocaCor('Rotulo2', '000000');"
+>
+<IMG
+     Name='RotuloTrans2'
+     ID='RotuloTrans2'
+     SRC='giftrans.gif'
+     Border='0'
+     WIDTH=35
+     HEIGHT=34
+>
+</A>
+</DIV>
+<Script Language='JavaScript'>
+   var objeto = FindObj('DRotuloTrans2');
+    removeHref('lTransRotulo2', true);
+   Desloca('DRotuloTrans2');
+   objeto.sMouseClick="verifica = false;  window.close(); ";
+</Script>
+<DIV
+    Name='DRotuloTrans3'
+    ID='DRotuloTrans3'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 5;
+           LEFT: 754;
+           WIDTH: 35;
+           HEIGHT: 34;
+     cursor: pointer; 
+     z-index: 3; 
+           TEXT-DECORATION: none; 
+   '
+   >
+<A 
+   id='lTransRotulo3'
+   name='lTransRotulo3'
+   Href=#
+   OnClick="link_click('TELA04.htm', '0', true); "
+   OnMouseOver="Rotulo_Over('DRotuloTrans3'); trocaCor('Rotulo3', 'FF0000');"
+   OnMouseOut="Rotulo_Out('DRotuloTrans3'); trocaCor('Rotulo3', '000000');"
+>
+<IMG
+     Name='RotuloTrans3'
+     ID='RotuloTrans3'
+     SRC='giftrans.gif'
+     Border='0'
+     WIDTH=35
+     HEIGHT=34
+>
+</A>
+</DIV>
+<Script Language='JavaScript'>
+   var objeto = FindObj('DRotuloTrans3');
+    removeHref('lTransRotulo3', true);
+   Desloca('DRotuloTrans3');
+   objeto.sMouseClick="link_click('TELA04.htm', '0', true); ";
+</Script>
+<DIV
+    Name='Rotulo3D14'
+    ID='Rotulo3D14'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 16pt; 
+         TOP: 22;
+         LEFT: 15;
+         WIDTH: 387.5333;
+         HEIGHT: 29;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D14' FACE='Arial' COLOR='#000000'>
+      DÊ O SUCESSOR E O ANTECESSOR:
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D14', 'Arial', 16);
+   Desloca('Rotulo3D14');
+</SCRIPT>
+<DIV
+     Name='DRotulo4'
+     Id='DRotulo4'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 21;
+           LEFT: 14;
+           WIDTH: 387.5333;
+           HEIGHT: 28;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 16pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo4'
+   name='lRotulo4'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo4' FACE='Arial' COLOR='#FFFF80'>
+    DÊ O SUCESSOR E O ANTECESSOR:
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo4', false);
+   FindObj('DRotulo4').sMouseClick="";
+   colocaEstiloFonte('Rotulo4', 'Arial', 16);
+   Desloca('DRotulo4');
+</Script>
+<DIV
+    Name='Rotulo3D15'
+    ID='Rotulo3D15'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 16pt; 
+         TOP: 107;
+         LEFT: 84;
+         WIDTH: 33;
+         HEIGHT: 29;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D15' FACE='Arial' COLOR='#000000'>
+      20
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D15', 'Arial', 16);
+   Desloca('Rotulo3D15');
+</SCRIPT>
+<DIV
+     Name='DRotulo5'
+     Id='DRotulo5'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 106;
+           LEFT: 83;
+           WIDTH: 33;
+           HEIGHT: 28;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 16pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo5'
+   name='lRotulo5'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo5' FACE='Arial' COLOR='#FFFFFF'>
+    20
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo5', false);
+   FindObj('DRotulo5').sMouseClick="";
+   colocaEstiloFonte('Rotulo5', 'Arial', 16);
+   Desloca('DRotulo5');
+</Script>
+<DIV
+    Name='Rotulo3D16'
+    ID='Rotulo3D16'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 16pt; 
+         TOP: 151;
+         LEFT: 82;
+         WIDTH: 33;
+         HEIGHT: 29;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D16' FACE='Arial' COLOR='#000000'>
+      32
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D16', 'Arial', 16);
+   Desloca('Rotulo3D16');
+</SCRIPT>
+<DIV
+     Name='DRotulo6'
+     Id='DRotulo6'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 150;
+           LEFT: 81;
+           WIDTH: 33;
+           HEIGHT: 28;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 16pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo6'
+   name='lRotulo6'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo6' FACE='Arial' COLOR='#FFFFFF'>
+    32
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo6', false);
+   FindObj('DRotulo6').sMouseClick="";
+   colocaEstiloFonte('Rotulo6', 'Arial', 16);
+   Desloca('DRotulo6');
+</Script>
+<DIV
+    Name='Rotulo3D17'
+    ID='Rotulo3D17'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 16pt; 
+         TOP: 195;
+         LEFT: 81;
+         WIDTH: 33;
+         HEIGHT: 29;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D17' FACE='Arial' COLOR='#000000'>
+      19
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D17', 'Arial', 16);
+   Desloca('Rotulo3D17');
+</SCRIPT>
+<DIV
+     Name='DRotulo7'
+     Id='DRotulo7'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 194;
+           LEFT: 80;
+           WIDTH: 33;
+           HEIGHT: 28;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 16pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo7'
+   name='lRotulo7'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo7' FACE='Arial' COLOR='#FFFFFF'>
+    19
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo7', false);
+   FindObj('DRotulo7').sMouseClick="";
+   colocaEstiloFonte('Rotulo7', 'Arial', 16);
+   Desloca('DRotulo7');
+</Script>
+<DIV
+    Name='Rotulo3D18'
+    ID='Rotulo3D18'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 16pt; 
+         TOP: 241;
+         LEFT: 81;
+         WIDTH: 33;
+         HEIGHT: 29;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D18' FACE='Arial' COLOR='#000000'>
+      12
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D18', 'Arial', 16);
+   Desloca('Rotulo3D18');
+</SCRIPT>
+<DIV
+     Name='DRotulo8'
+     Id='DRotulo8'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 240;
+           LEFT: 80;
+           WIDTH: 33;
+           HEIGHT: 28;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 16pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo8'
+   name='lRotulo8'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo8' FACE='Arial' COLOR='#FFFFFF'>
+    12
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo8', false);
+   FindObj('DRotulo8').sMouseClick="";
+   colocaEstiloFonte('Rotulo8', 'Arial', 16);
+   Desloca('DRotulo8');
+</Script>
+<DIV
+    Name='Rotulo3D19'
+    ID='Rotulo3D19'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 16pt; 
+         TOP: 286;
+         LEFT: 80;
+         WIDTH: 33;
+         HEIGHT: 29;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D19' FACE='Arial' COLOR='#000000'>
+      44
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D19', 'Arial', 16);
+   Desloca('Rotulo3D19');
+</SCRIPT>
+<DIV
+     Name='DRotulo9'
+     Id='DRotulo9'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 285;
+           LEFT: 79;
+           WIDTH: 33;
+           HEIGHT: 28;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 16pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo9'
+   name='lRotulo9'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo9' FACE='Arial' COLOR='#FFFFFF'>
+    44
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo9', false);
+   FindObj('DRotulo9').sMouseClick="";
+   colocaEstiloFonte('Rotulo9', 'Arial', 16);
+   Desloca('DRotulo9');
+</Script>
+<DIV
+    Name='Rotulo3D110'
+    ID='Rotulo3D110'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 16pt; 
+         TOP: 330;
+         LEFT: 81;
+         WIDTH: 33;
+         HEIGHT: 29;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D110' FACE='Arial' COLOR='#000000'>
+      50
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D110', 'Arial', 16);
+   Desloca('Rotulo3D110');
+</SCRIPT>
+<DIV
+     Name='DRotulo10'
+     Id='DRotulo10'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 329;
+           LEFT: 80;
+           WIDTH: 33;
+           HEIGHT: 28;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 16pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo10'
+   name='lRotulo10'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo10' FACE='Arial' COLOR='#FFFFFF'>
+    50
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo10', false);
+   FindObj('DRotulo10').sMouseClick="";
+   colocaEstiloFonte('Rotulo10', 'Arial', 16);
+   Desloca('DRotulo10');
+</Script>
+<DIV
+    Name='Rotulo3D111'
+    ID='Rotulo3D111'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 16pt; 
+         TOP: 373;
+         LEFT: 81;
+         WIDTH: 33;
+         HEIGHT: 29;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D111' FACE='Arial' COLOR='#000000'>
+      58
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D111', 'Arial', 16);
+   Desloca('Rotulo3D111');
+</SCRIPT>
+<DIV
+     Name='DRotulo11'
+     Id='DRotulo11'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 372;
+           LEFT: 80;
+           WIDTH: 33;
+           HEIGHT: 28;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 16pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo11'
+   name='lRotulo11'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo11' FACE='Arial' COLOR='#FFFFFF'>
+    58
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo11', false);
+   FindObj('DRotulo11').sMouseClick="";
+   colocaEstiloFonte('Rotulo11', 'Arial', 16);
+   Desloca('DRotulo11');
+</Script>
+<DIV
+    Name='Rotulo3D112'
+    ID='Rotulo3D112'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 16pt; 
+         TOP: 419;
+         LEFT: 81;
+         WIDTH: 33;
+         HEIGHT: 29;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D112' FACE='Arial' COLOR='#000000'>
+      43
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D112', 'Arial', 16);
+   Desloca('Rotulo3D112');
+</SCRIPT>
+<DIV
+     Name='DRotulo12'
+     Id='DRotulo12'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 418;
+           LEFT: 80;
+           WIDTH: 33;
+           HEIGHT: 28;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 16pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo12'
+   name='lRotulo12'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo12' FACE='Arial' COLOR='#FFFFFF'>
+    43
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo12', false);
+   FindObj('DRotulo12').sMouseClick="";
+   colocaEstiloFonte('Rotulo12', 'Arial', 16);
+   Desloca('DRotulo12');
+</Script>
+<DIV
+    Name='Rotulo3D113'
+    ID='Rotulo3D113'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 16pt; 
+         TOP: 118;
+         LEFT: 507;
+         WIDTH: 33;
+         HEIGHT: 29;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D113' FACE='Arial' COLOR='#000000'>
+      42
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D113', 'Arial', 16);
+   Desloca('Rotulo3D113');
+</SCRIPT>
+<DIV
+     Name='DRotulo13'
+     Id='DRotulo13'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 117;
+           LEFT: 506;
+           WIDTH: 33;
+           HEIGHT: 28;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 16pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo13'
+   name='lRotulo13'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo13' FACE='Arial' COLOR='#FFFFFF'>
+    42
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo13', false);
+   FindObj('DRotulo13').sMouseClick="";
+   colocaEstiloFonte('Rotulo13', 'Arial', 16);
+   Desloca('DRotulo13');
+</Script>
+<DIV
+    Name='Rotulo3D114'
+    ID='Rotulo3D114'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 16pt; 
+         TOP: 159;
+         LEFT: 505;
+         WIDTH: 33;
+         HEIGHT: 29;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D114' FACE='Arial' COLOR='#000000'>
+      29
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D114', 'Arial', 16);
+   Desloca('Rotulo3D114');
+</SCRIPT>
+<DIV
+     Name='DRotulo14'
+     Id='DRotulo14'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 158;
+           LEFT: 504;
+           WIDTH: 33;
+           HEIGHT: 28;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 16pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo14'
+   name='lRotulo14'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo14' FACE='Arial' COLOR='#FFFFFF'>
+    29
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo14', false);
+   FindObj('DRotulo14').sMouseClick="";
+   colocaEstiloFonte('Rotulo14', 'Arial', 16);
+   Desloca('DRotulo14');
+</Script>
+<DIV
+    Name='Rotulo3D115'
+    ID='Rotulo3D115'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 16pt; 
+         TOP: 193;
+         LEFT: 506;
+         WIDTH: 33;
+         HEIGHT: 29;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D115' FACE='Arial' COLOR='#000000'>
+      34
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D115', 'Arial', 16);
+   Desloca('Rotulo3D115');
+</SCRIPT>
+<DIV
+     Name='DRotulo15'
+     Id='DRotulo15'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 192;
+           LEFT: 505;
+           WIDTH: 33;
+           HEIGHT: 28;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 16pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo15'
+   name='lRotulo15'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo15' FACE='Arial' COLOR='#FFFFFF'>
+    34
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo15', false);
+   FindObj('DRotulo15').sMouseClick="";
+   colocaEstiloFonte('Rotulo15', 'Arial', 16);
+   Desloca('DRotulo15');
+</Script>
+<DIV
+    Name='Rotulo3D116'
+    ID='Rotulo3D116'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 16pt; 
+         TOP: 233;
+         LEFT: 506;
+         WIDTH: 33;
+         HEIGHT: 29;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D116' FACE='Arial' COLOR='#000000'>
+      35
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D116', 'Arial', 16);
+   Desloca('Rotulo3D116');
+</SCRIPT>
+<DIV
+     Name='DRotulo16'
+     Id='DRotulo16'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 232;
+           LEFT: 505;
+           WIDTH: 33;
+           HEIGHT: 28;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 16pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo16'
+   name='lRotulo16'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo16' FACE='Arial' COLOR='#FFFFFF'>
+    35
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo16', false);
+   FindObj('DRotulo16').sMouseClick="";
+   colocaEstiloFonte('Rotulo16', 'Arial', 16);
+   Desloca('DRotulo16');
+</Script>
+<Script>
+  carregado=true;
+</Script>
+</BODY>
+</HTML>

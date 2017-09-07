@@ -1,0 +1,132 @@
+#DGifAnimado1{
+  position:absolute; 
+  top: 38;
+  left: 299;
+  width: 172;
+  height: 139;
+     z-index: 1; 
+}
+#DGifAnimado2{
+  position:absolute; 
+  top: 215;
+  left: 356;
+  width: 102;
+  height: 122;
+     z-index: 1; 
+}
+#DGifAnimado3{
+  position:absolute; 
+  top: 427;
+  left: 373;
+  width: 88;
+  height: 100;
+     z-index: 1; 
+}
+#DAnimacao1{
+  position:absolute; 
+  top: 68;
+  left: 755;
+  width: 36;
+  height: 36;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DAnimacao2{
+  position:absolute; 
+  top: 9;
+  left: 754;
+  width: 36;
+  height: 36;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DPreenchimento1{
+  position: absolute; 
+  top: 310;
+  left: 499;
+  widt: 48;
+  height: 33;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento2{
+  position: absolute; 
+  top: 363;
+  left: 498;
+  widt: 48;
+  height: 33;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento3{
+  position: absolute; 
+  top: 419;
+  left: 499;
+  widt: 48;
+  height: 33;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento4{
+  position: absolute; 
+  top: 477;
+  left: 500;
+  widt: 48;
+  height: 33;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento5{
+  position: absolute; 
+  top: 532;
+  left: 499;
+  widt: 48;
+  height: 33;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento6{
+  position: absolute; 
+  top: 259;
+  left: 500;
+  widt: 48;
+  height: 33;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento7{
+  position: absolute; 
+  top: 203;
+  left: 500;
+  widt: 48;
+  height: 33;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento8{
+  position: absolute; 
+  top: 149;
+  left: 499;
+  widt: 48;
+  height: 33;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento9{
+  position: absolute; 
+  top: 93;
+  left: 500;
+  widt: 48;
+  height: 33;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento10{
+  position: absolute; 
+  top: 40;
+  left: 499;
+  widt: 48;
+  height: 33;
+  padding: 0; 
+  z-index: 4; 
+}

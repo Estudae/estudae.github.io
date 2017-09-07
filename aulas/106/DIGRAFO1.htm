@@ -1,0 +1,570 @@
+<HTML ID="DIGRAFO1"
+      xmlns:v='urn:schemas-microsoft-com:vml'>
+<HEAD>
+<META NAME="Gerador de HTML" CONTENT = "Visual Class">
+<META Name=Codigo Content=DIGRAFO1>
+<META Name=Data Content=00:00:00>
+<META Name=Materia Content=>
+<META Name=Título Content=PORTUGUES>
+<META Name=Autor Content=>
+<META Name=Assunto Content=>
+<META Name=Alvo Content=>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<TITLE>PORTUGUES</TITLE>
+</HEAD>
+<BODY
+      OnLoad="Janela_Load(); "
+      BGCOLOR="#000000"
+>
+<span id=somspan STYLE='
+    POSITION:Absolute;
+    TOP: -10;
+    LEFT: -10;
+    WIDTH: 0;
+    HEIGHT: 0;'
+></span>
+<IMG ID='ImagemFundo'
+     Name='ImagemFundo'
+     SRC='futg1b13g2z.jpg'
+     Border='0' 
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 0;
+           LEFT: 0;
+           z-index: 0; 
+'>
+<SCRIPT Language='JavaScript'
+        src = 'source.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'DIGRAFO1.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Avaliacao.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'>
+ var telaTemExercicio = true;
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'ativaswf.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Animacao3.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Preenchimento.js'>
+</SCRIPT>
+<DIV ID='rotuloMovel'
+     NAME='rotuloMovel'
+     STYLE='backGround-color: #FFFF00; 
+            color: #000000; 
+            font-Weight: 700; font-family: Arial; font-size:10pt; visibility: hidden; position: absolute; z-index: 5'>
+</DIV>
+<SCRIPT>
+   Desloca('ImagemFundo');
+</Script>
+<style type='text/css'>
+<!--
+   A {text-decoration: none; color: none}
+-->
+</style>
+<Script Language=JavaScript>
+   var maxTentativas = 0;
+   var tentativas = 0;
+   var nomeTela = 'DIGRAFO1';
+   var PrimeiroLink = null;
+   var somswf=2;
+</Script>
+<DIV
+    Name='DGifAnimado1'
+    ID='DGifAnimado1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 287;
+           LEFT: 615;
+           WIDTH: 162;
+           HEIGHT: 98;
+     z-index: 1; 
+'
+>
+<IMG
+     Name="GifAnimado1"
+     Id="GifAnimado1"
+     SRC="garfield4.gif"
+     Border='0'
+>
+</DIV>
+<SCRIPT>
+   Desloca('DGifAnimado1');
+</SCRIPT>
+<script>
+sRotMovAni1 = "AVANÇAR";
+</script>
+<style type='text/css'>
+<!-- .eAnimacao1 {border-color: #000000} -->
+</style>
+<DIV
+    Name='DAnimacao1'
+    ID='DAnimacao1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 518;
+           LEFT: 705;
+           WIDTH: 79;
+           HEIGHT: 67;
+     z-index: 3; 
+         VISIBILITY: hidden; 
+   '
+   OnMouseOver="Hint(sRotMovAni1, true);AnimaMouseClick('Animacao1', 'bazcav2.jpg'); "
+   OnMouseOut="Hint('', false);AnimaMouseClick('Animacao1', 'bazcav1.jpg'); "
+>
+<A 
+   id='lAnimacao1'
+   name='lAnimacao1'
+   Href=#
+   OnClick="AnimaMouseClick('Animacao1', 'bazcav2.jpg'); link_click('DIGRAFO2.htm', '0', true); "
+   OnMouseOver="Hint(sRotMovAni1, true);AnimaMouseClick('Animacao1', 'bazcav2.jpg'); "
+   OnMouseOut="Hint('', false);AnimaMouseClick('Animacao1', 'bazcav1.jpg'); "
+>
+<Font Color='#000000'>
+<IMG Id='Animacao1'
+     Name='Animacao1'
+class='eAnimacao1'
+     alt='AVANÇAR'
+     Src='bazcav1.jpg'
+     WIDTH=79
+     HEIGHT=67
+     Border=1
+>
+</Font>
+</A>
+</DIV>
+<Script Language='JavaScript'>
+   obj = FindObj('DAnimacao1');
+   obj.sMouseOver="Hint(sRotMovAni1, true);AnimaMouseClick('Animacao1', 'bazcav2.jpg'); ";
+   obj.sMouseOut="Hint('', false);AnimaMouseClick('Animacao1', 'bazcav1.jpg'); ";
+    removeHref('lAnimacao1', true);
+    removeAlt('Animacao1');
+</Script>
+<DIV Name='DPreenchimento1'
+     ID='DPreenchimento1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 194;
+           LEFT: 139;
+           WIDTH: 457;
+           HEIGHT: 28;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento1'
+       ID='Preenchimento1'
+       MaxLength=500
+       Size=54
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento1 = new Array();
+    vPreenchimento1[0] = 'TRÊS MIL, QUATROCENTOS E ONZE';
+    vPreenchimento1[1] = 'TRES MIL, QUATROCENTOS E ONZE';
+    var objPreench = FindObj('DPreenchimento1');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento1').atual = VerificaPreenchimento(GetObj('Preenchimento1').value, vPreenchimento1, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento1');
+       obj.style.backgroundColor = '#0000FF';
+       obj.style.color = '#80FFFF';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '457px';
+       obj.style.height = '28px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '16pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento1');
+</SCRIPT>
+<DIV Name='DPreenchimento2'
+     ID='DPreenchimento2'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 260;
+           LEFT: 137;
+           WIDTH: 457;
+           HEIGHT: 28;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento2'
+       ID='Preenchimento2'
+       MaxLength=500
+       Size=54
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento2 = new Array();
+    vPreenchimento2[0] = 'QUATRO MIL E QUINHENTOS';
+    var objPreench = FindObj('DPreenchimento2');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento2').atual = VerificaPreenchimento(GetObj('Preenchimento2').value, vPreenchimento2, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento2');
+       obj.style.backgroundColor = '#0000FF';
+       obj.style.color = '#80FFFF';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '457px';
+       obj.style.height = '28px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '16pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento2');
+</SCRIPT>
+<DIV Name='DPreenchimento3'
+     ID='DPreenchimento3'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 326;
+           LEFT: 137;
+           WIDTH: 457;
+           HEIGHT: 28;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento3'
+       ID='Preenchimento3'
+       MaxLength=500
+       Size=54
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento3 = new Array();
+    vPreenchimento3[0] = 'CINCO MIL, SETECENTOS E SESSENTA';
+    var objPreench = FindObj('DPreenchimento3');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento3').atual = VerificaPreenchimento(GetObj('Preenchimento3').value, vPreenchimento3, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento3');
+       obj.style.backgroundColor = '#0000FF';
+       obj.style.color = '#80FFFF';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '457px';
+       obj.style.height = '28px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '16pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento3');
+</SCRIPT>
+<DIV Name='DPreenchimento4'
+     ID='DPreenchimento4'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 391;
+           LEFT: 137;
+           WIDTH: 457;
+           HEIGHT: 28;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento4'
+       ID='Preenchimento4'
+       MaxLength=500
+       Size=54
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento4 = new Array();
+    vPreenchimento4[0] = 'SEIS MIL, DUZENTOS E TRINTA E UM';
+    var objPreench = FindObj('DPreenchimento4');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento4').atual = VerificaPreenchimento(GetObj('Preenchimento4').value, vPreenchimento4, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento4');
+       obj.style.backgroundColor = '#0000FF';
+       obj.style.color = '#80FFFF';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '457px';
+       obj.style.height = '28px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '16pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento4');
+</SCRIPT>
+<DIV Name='DPreenchimento5'
+     ID='DPreenchimento5'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 455;
+           LEFT: 138;
+           WIDTH: 457;
+           HEIGHT: 28;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento5'
+       ID='Preenchimento5'
+       MaxLength=500
+       Size=54
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento5 = new Array();
+    vPreenchimento5[0] = 'SETE MIL, QUATROCENTOS E CINCO';
+    var objPreench = FindObj('DPreenchimento5');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento5').atual = VerificaPreenchimento(GetObj('Preenchimento5').value, vPreenchimento5, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento5');
+       obj.style.backgroundColor = '#0000FF';
+       obj.style.color = '#80FFFF';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '457px';
+       obj.style.height = '28px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '16pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento5');
+</SCRIPT>
+<DIV
+    Name='Rotulo3D41'
+    ID='Rotulo3D41'
+     Align='Center'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 26pt; 
+         TOP: 11;
+         LEFT: 36;
+         WIDTH: 733.8666;
+         HEIGHT: 92;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<table width='100%' height='100%'><tr><td align='center'>
+<b>
+<FONT ID='Rot3D41' FACE='Arial' COLOR='#000000'>
+      ESCREVA POR EXTENSO OS NÚMEROS ABAIXO:
+</FONT>
+</b>
+</td></tr></table>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D41', 'Arial', 26);
+   Desloca('Rotulo3D41');
+</SCRIPT>
+<DIV
+    Name='Rotulo3D31'
+    ID='Rotulo3D31'
+     Align='Center'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 26pt; 
+         TOP: 10;
+         LEFT: 35;
+         WIDTH: 733.8666;
+         HEIGHT: 92;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<table width='100%' height='100%'><tr><td align='center'>
+<b>
+<FONT ID='Rot3D31' FACE='Arial' COLOR='#000000'>
+      ESCREVA POR EXTENSO OS NÚMEROS ABAIXO:
+</FONT>
+</b>
+</td></tr></table>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D31', 'Arial', 26);
+   Desloca('Rotulo3D31');
+</SCRIPT>
+<DIV
+    Name='Rotulo3D21'
+    ID='Rotulo3D21'
+     Align='Center'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 26pt; 
+         TOP: 9;
+         LEFT: 34;
+         WIDTH: 733.8666;
+         HEIGHT: 92;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<table width='100%' height='100%'><tr><td align='center'>
+<b>
+<FONT ID='Rot3D21' FACE='Arial' COLOR='#000000'>
+      ESCREVA POR EXTENSO OS NÚMEROS ABAIXO:
+</FONT>
+</b>
+</td></tr></table>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D21', 'Arial', 26);
+   Desloca('Rotulo3D21');
+</SCRIPT>
+<DIV
+    Name='Rotulo3D11'
+    ID='Rotulo3D11'
+     Align='Center'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 26pt; 
+         TOP: 8;
+         LEFT: 33;
+         WIDTH: 733.8666;
+         HEIGHT: 92;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<table width='100%' height='100%'><tr><td align='center'>
+<b>
+<FONT ID='Rot3D11' FACE='Arial' COLOR='#000000'>
+      ESCREVA POR EXTENSO OS NÚMEROS ABAIXO:
+</FONT>
+</b>
+</td></tr></table>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D11', 'Arial', 26);
+   Desloca('Rotulo3D11');
+</SCRIPT>
+<DIV
+     Name='DRotulo1'
+     Id='DRotulo1'
+     ALIGN='Center' 
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 7;
+           LEFT: 32;
+           WIDTH: 733.8666;
+           HEIGHT: 91;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 26pt; 
+           Z-INDEX: 3;
+'
+>
+<table width='100%' height='100%'><tr><td align='center'>
+<A 
+   id='lRotulo1'
+   name='lRotulo1'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo1' FACE='Arial' COLOR='#FFFF00'>
+    ESCREVA POR EXTENSO OS NÚMEROS ABAIXO:
+      </FONT>
+</b>
+</A>
+</td></tr></table>
+</DIV>
+<Script>
+    removeHref('lRotulo1', false);
+   FindObj('DRotulo1').sMouseClick="";
+   colocaEstiloFonte('Rotulo1', 'Arial', 26);
+   Desloca('DRotulo1');
+</Script>
+<DIV
+     Name='DRotulo2'
+     Id='DRotulo2'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 122;
+           LEFT: 63;
+           WIDTH: 73;
+           HEIGHT: 378;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 21pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo2'
+   name='lRotulo2'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo2' FACE='Arial' COLOR='#004000'>
+    2623<br>
+<br>
+3411<br>
+<br>
+4500<br>
+<br>
+5760<br>
+<br>
+6231<br>
+<br>
+7405
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo2', false);
+   FindObj('DRotulo2').sMouseClick="";
+   colocaEstiloFonte('Rotulo2', 'Arial', 21);
+   Desloca('DRotulo2');
+</Script>
+<DIV
+     Name='DRotulo3'
+     Id='DRotulo3'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 124;
+           LEFT: 141;
+           WIDTH: 484.6;
+           HEIGHT: 30;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 18pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo3'
+   name='lRotulo3'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo3' FACE='Arial' COLOR='#FF0000'>
+    DOIS MIL, SEISCENTOS E VINTE E TRÊS
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo3', false);
+   FindObj('DRotulo3').sMouseClick="";
+   colocaEstiloFonte('Rotulo3', 'Arial', 18);
+   Desloca('DRotulo3');
+</Script>
+<Script>
+  carregado=true;
+</Script>
+<SCRIPT Language='JavaScript'>
+  var tFundo=window.setInterval('mostraAnimas()',200);
+  function mostraAnimas() {
+    window.clearInterval(tFundo);
+    obj = FindObj('DAnimacao1');
+    obj.style.visibility="visible";
+  }
+</SCRIPT>
+</BODY>
+</HTML>

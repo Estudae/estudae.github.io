@@ -1,0 +1,36 @@
+#DGifAnimado1{
+  position:absolute; 
+  top: 207;
+  left: 351;
+  width: 110;
+  height: 142;
+     z-index: 1; 
+}
+#DAnimacao1{
+  position:absolute; 
+  top: 525;
+  left: 718;
+  width: 44;
+  height: 32;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DAnimacao2{
+  position:absolute; 
+  top: 526;
+  left: 668;
+  width: 44;
+  height: 32;
+     z-index: 3; 
+  visibility: hidden; 
+}
+.DGroupRotulo1{
+  position: absolute;
+  top: 417;
+  left: 350;
+  width: 126.2;
+  height: 71;
+  overflow: hidden; 
+  font-size: 36px; 
+ z-index: 3;
+}

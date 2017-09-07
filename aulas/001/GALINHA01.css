@@ -1,0 +1,38 @@
+.DImagemEfeito1{
+  position:absolute; 
+  top: 141;
+  left: 204;
+  width: 343;
+  height: 259;
+     z-index: 1; 
+}
+.DGroupRotulo1{
+  position: absolute;
+  top: 46;
+  left: 203;
+  width: 350.733333333333;
+  height: 38;
+  overflow: hidden; 
+  font-size: 22px; 
+ z-index: 3;
+}
+#DRotuloTrans2{
+  position:absolute; 
+  top: 495;
+  left: 734;
+  width: 54;
+  height: 42;
+     cursor: pointer; 
+     z-index: 3; 
+  text-decoration: none; 
+}
+#DRotuloTrans3{
+  position:absolute; 
+  top: 436;
+  left: 738;
+  width: 54;
+  height: 42;
+     cursor: pointer; 
+     z-index: 3; 
+  text-decoration: none; 
+}

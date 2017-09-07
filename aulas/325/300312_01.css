@@ -1,0 +1,134 @@
+#DAnimacao1{
+  position:absolute; 
+  top: 556;
+  left: 733;
+  width: 58;
+  height: 33;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DAnimacao2{
+  position:absolute; 
+  top: 4;
+  left: 762;
+  width: 35;
+  height: 35;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DPreenchimento1{
+  position: absolute; 
+  top: 150;
+  left: 301;
+  widt: 116;
+  height: 31;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento2{
+  position: absolute; 
+  top: 214;
+  left: 509;
+  widt: 116;
+  height: 31;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento3{
+  position: absolute; 
+  top: 287;
+  left: 316;
+  widt: 116;
+  height: 31;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento4{
+  position: absolute; 
+  top: 355;
+  left: 225;
+  widt: 116;
+  height: 31;
+  padding: 0; 
+  z-index: 4; 
+}
+.DGroupRotulo1{
+  position: absolute;
+  top: 147;
+  left: 47;
+  width: 253.466666666667;
+  height: 31;
+  overflow: hidden; 
+  font-size: 14px; 
+ z-index: 3;
+}
+.DGroupRotulo2{
+  position: absolute;
+  top: 19;
+  left: 130;
+  width: 556.666666666667;
+  height: 86;
+  overflow: hidden; 
+  font-size: 20px; 
+ z-index: 3;
+}
+.DGroupRotulo3{
+  position: absolute;
+  top: 216;
+  left: 46;
+  width: 461.466666666667;
+  height: 31;
+  overflow: hidden; 
+  font-size: 14px; 
+ z-index: 3;
+}
+.DGroupRotulo4{
+  position: absolute;
+  top: 283;
+  left: 46;
+  width: 271.466666666667;
+  height: 31;
+  overflow: hidden; 
+  font-size: 14px; 
+ z-index: 3;
+}
+.DGroupRotulo5{
+  position: absolute;
+  top: 351;
+  left: 46;
+  width: 180.466666666667;
+  height: 31;
+  overflow: hidden; 
+  font-size: 14px; 
+ z-index: 3;
+}
+.DGroupRotulo6{
+  position: absolute;
+  top: 217;
+  left: 633;
+  width: 113.466666666667;
+  height: 31;
+  overflow: hidden; 
+  font-size: 14px; 
+ z-index: 3;
+}
+.DGroupRotulo7{
+  position: absolute;
+  top: 286;
+  left: 437;
+  width: 168.466666666667;
+  height: 31;
+  overflow: hidden; 
+  font-size: 14px; 
+ z-index: 3;
+}
+.DGroupRotulo8{
+  position: absolute;
+  top: 357;
+  left: 345;
+  width: 248.466666666667;
+  height: 31;
+  overflow: hidden; 
+  font-size: 14px; 
+ z-index: 3;
+}

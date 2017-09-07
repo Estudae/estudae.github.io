@@ -1,0 +1,44 @@
+#DGifAnimado1{
+  position:absolute; 
+  top: 31;
+  left: 558;
+  width: 202;
+  height: 320;
+     z-index: 1; 
+}
+#DGifAnimado2{
+  position:absolute; 
+  top: 349;
+  left: 294;
+  width: 204;
+  height: 182;
+     z-index: 1; 
+}
+#DAnimacao1{
+  position:absolute; 
+  top: 517;
+  left: 708;
+  width: 79;
+  height: 67;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DAnimacao2{
+  position:absolute; 
+  top: 517;
+  left: 16;
+  width: 79;
+  height: 67;
+     z-index: 3; 
+  visibility: hidden; 
+}
+.DGroupRotulo1{
+  position: absolute;
+  top: 137;
+  left: 39;
+  width: 487;
+  height: 100;
+  overflow: hidden; 
+  font-size: 60px; 
+ z-index: 3;
+}

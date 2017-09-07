@@ -1,0 +1,139 @@
+#DSoltar1{
+  position:absolute; 
+  top: 310;
+  left: 175;
+  width: 571;
+  height: 33;
+  z-index: 4; 
+}
+#DSoltarRot1{
+  position: absolute; 
+  left: 180; 
+  top: 316; 
+  width: 566; 
+  font-size: 14px; 
+  font-family: Arial; 
+  z-index: 4; 
+  text-Align: center;
+}
+.DArrastar1 {
+  position: absolute; 
+  top: 432;
+  left: 28;
+  width: 571;
+  height: 33;
+  z-index: 5; 
+}
+#DSoltar2{
+  position:absolute; 
+  top: 76;
+  left: 118;
+  width: 571;
+  height: 33;
+  z-index: 4; 
+}
+#DSoltarRot2{
+  position: absolute; 
+  left: 123; 
+  top: 82; 
+  width: 566; 
+  font-size: 14px; 
+  font-family: Arial; 
+  z-index: 4; 
+  text-Align: center;
+}
+.DArrastar2 {
+  position: absolute; 
+  top: 484;
+  left: 28;
+  width: 571;
+  height: 33;
+  z-index: 5; 
+}
+#DSoltar3{
+  position:absolute; 
+  top: 203;
+  left: 159;
+  width: 571;
+  height: 33;
+  z-index: 4; 
+}
+#DSoltarRot3{
+  position: absolute; 
+  left: 164; 
+  top: 208; 
+  width: 566; 
+  font-size: 14px; 
+  font-family: Arial; 
+  z-index: 4; 
+  text-Align: center;
+}
+.DArrastar3 {
+  position: absolute; 
+  top: 532;
+  left: 28;
+  width: 571;
+  height: 32;
+  z-index: 5; 
+}
+.DImagemEfeito1{
+  position:absolute; 
+  top: 568;
+  left: 770;
+  width: 29;
+  height: 30;
+     cursor: pointer; 
+     z-index: 1; 
+}
+.DImagemEfeito2{
+  position:absolute; 
+  top: 569;
+  left: 651;
+  width: 29;
+  height: 28;
+     cursor: pointer; 
+     z-index: 1; 
+}
+.DImagemEfeito3{
+  position:absolute; 
+  top: 569;
+  left: 524;
+  width: 29;
+  height: 28;
+     cursor: pointer; 
+     z-index: 1; 
+}
+.DImagemEfeito4{
+  position:absolute; 
+  top: 41.9333333333333;
+  left: 13;
+  width: 80;
+  height: 114;
+     z-index: 1; 
+}
+.DImagemEfeito5{
+  position:absolute; 
+  top: 178;
+  left: 7;
+  width: 136;
+  height: 80;
+     z-index: 1; 
+}
+.DImagemEfeito6{
+  position:absolute; 
+  top: 271;
+  left: 9;
+  width: 152;
+  height: 126;
+     z-index: 1; 
+}
+.DGroupRotulo1{
+  position: absolute;
+  top: 1;
+  left: 3;
+  width: 804.533333333333;
+  height: 25;
+  overflow: hidden; 
+  font-size: 16px; 
+ z-index: 3;
+}

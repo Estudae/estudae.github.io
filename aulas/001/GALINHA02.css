@@ -1,0 +1,220 @@
+#DSoltar1{
+  position:absolute; 
+  top: 369;
+  left: 85;
+  width: 57;
+  height: 37;
+  z-index: 4; 
+}
+#DSoltarRot1{
+  position: absolute; 
+  left: 90; 
+  top: 376; 
+  width: 52; 
+  font-size: 14px; 
+  font-family: MS Sans Serif; 
+  z-index: 4; 
+  text-Align: center;
+}
+.DArrastar1 {
+  position: absolute; 
+  top: 548;
+  left: 343;
+  width: 51;
+  height: 43;
+  z-index: 5; 
+}
+#DSoltar2{
+  position:absolute; 
+  top: 370;
+  left: 155;
+  width: 57;
+  height: 37;
+  z-index: 4; 
+}
+#DSoltarRot2{
+  position: absolute; 
+  left: 160; 
+  top: 376; 
+  width: 52; 
+  font-size: 14px; 
+  font-family: MS Sans Serif; 
+  z-index: 4; 
+  text-Align: center;
+}
+.DArrastar2 {
+  position: absolute; 
+  top: 526;
+  left: 249;
+  width: 51;
+  height: 43;
+  z-index: 5; 
+}
+#DSoltar3{
+  position:absolute; 
+  top: 371;
+  left: 225;
+  width: 57;
+  height: 37;
+  z-index: 4; 
+}
+#DSoltarRot3{
+  position: absolute; 
+  left: 230; 
+  top: 378; 
+  width: 52; 
+  font-size: 14px; 
+  font-family: MS Sans Serif; 
+  z-index: 4; 
+  text-Align: center;
+}
+.DArrastar3 {
+  position: absolute; 
+  top: 527;
+  left: 452;
+  width: 51;
+  height: 43;
+  z-index: 5; 
+}
+#DSoltar4{
+  position:absolute; 
+  top: 371;
+  left: 294;
+  width: 57;
+  height: 37;
+  z-index: 4; 
+}
+#DSoltarRot4{
+  position: absolute; 
+  left: 299; 
+  top: 378; 
+  width: 52; 
+  font-size: 14px; 
+  font-family: MS Sans Serif; 
+  z-index: 4; 
+  text-Align: center;
+}
+.DArrastar4 {
+  position: absolute; 
+  top: 549;
+  left: 174;
+  width: 51;
+  height: 43;
+  z-index: 5; 
+}
+#DSoltar5{
+  position:absolute; 
+  top: 371;
+  left: 365;
+  width: 57;
+  height: 37;
+  z-index: 4; 
+}
+#DSoltarRot5{
+  position: absolute; 
+  left: 370; 
+  top: 378; 
+  width: 52; 
+  font-size: 14px; 
+  font-family: MS Sans Serif; 
+  z-index: 4; 
+  text-Align: center;
+}
+.DArrastar5 {
+  position: absolute; 
+  top: 551;
+  left: 561;
+  width: 51;
+  height: 43;
+  z-index: 5; 
+}
+#DSoltar6{
+  position:absolute; 
+  top: 372;
+  left: 430;
+  width: 57;
+  height: 37;
+  z-index: 4; 
+}
+#DSoltarRot6{
+  position: absolute; 
+  left: 435; 
+  top: 378; 
+  width: 52; 
+  font-size: 14px; 
+  font-family: MS Sans Serif; 
+  z-index: 4; 
+  text-Align: center;
+}
+.DArrastar6 {
+  position: absolute; 
+  top: 528;
+  left: 74;
+  width: 51;
+  height: 43;
+  z-index: 5; 
+}
+#DSoltar7{
+  position:absolute; 
+  top: 373;
+  left: 497;
+  width: 57;
+  height: 37;
+  z-index: 4; 
+}
+#DSoltarRot7{
+  position: absolute; 
+  left: 502; 
+  top: 380; 
+  width: 52; 
+  font-size: 14px; 
+  font-family: MS Sans Serif; 
+  z-index: 4; 
+  text-Align: center;
+}
+.DArrastar7 {
+  position: absolute; 
+  top: 516;
+  left: 648;
+  width: 51;
+  height: 43;
+  z-index: 5; 
+}
+.DImagemEfeito1{
+  position:absolute; 
+  top: 43.3333333333333;
+  left: 270;
+  width: 217;
+  height: 303;
+     z-index: 1; 
+}
+.DGroupRotulo1{
+  position: absolute;
+  top: 15;
+  left: 26;
+  width: 612;
+  height: 50;
+  overflow: hidden; 
+  font-size: 16px; 
+ z-index: 3;
+}
+#DRotuloTrans2{
+  position:absolute; 
+  top: 495;
+  left: 734;
+  width: 54;
+  height: 42;
+     cursor: pointer; 
+     z-index: 3; 
+  text-decoration: none; 
+}
+#DRotuloTrans3{
+  position:absolute; 
+  top: 436;
+  left: 738;
+  width: 54;
+  height: 42;
+     cursor: pointer; 
+     z-index: 3; 
+  text-decoration: none; 
+}

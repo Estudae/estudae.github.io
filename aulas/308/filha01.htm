@@ -1,0 +1,171 @@
+<HTML ID="filha01"
+      xmlns:v='urn:schemas-microsoft-com:vml'>
+<HEAD>
+<META NAME="Gerador de HTML" CONTENT = "Visual Class">
+<META Name=Codigo Content=filha01>
+<META Name=Data Content=09/03/2008>
+<META Name=Materia Content=matematica>
+<META Name=Título Content=grafico>
+<META Name=Autor Content=>
+<META Name=Assunto Content=grafico de vendas>
+<META Name=Alvo Content=>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<TITLE>grafico</TITLE>
+</HEAD>
+<BODY
+      OnLoad="Janela_Load(); "
+      BGCOLOR="#FFFFFF"
+>
+<SCRIPT Language='JavaScript'
+        src = 'source.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'>
+ var telaTemExercicio = false;
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'ativaswf.js'>
+</SCRIPT>
+<span id=somspan STYLE='
+    POSITION:Absolute;
+    TOP: -10;
+    LEFT: -10;
+    WIDTH: 0;
+    HEIGHT: 0;'
+></span>
+<style type='text/css'>
+<!--
+   A {text-decoration: none; color: none}
+-->
+</style>
+<Script Language=JavaScript>
+   var maxTentativas = 0;
+   var tentativas = 0;
+   var nomeTela = 'filha01';
+   var PrimeiroLink = null;
+   var somswf=2;
+</Script>
+<DIV
+    Name='DImagemEfeito1'
+    ID='DImagemEfeito1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 88;
+           LEFT: -1;
+           WIDTH: 702;
+           HEIGHT: 302;
+     z-index: 1; 
+'
+>
+<IMG
+     Name="ImagemEfeito1"
+     Id="ImagemEfeito1"
+     SRC="graficodiscos.jpg"
+     Border='0'
+     WIDTH=702
+     HEIGHT=302
+>
+</DIV>
+<SCRIPT>
+   Desloca('DImagemEfeito1');
+</SCRIPT>
+<DIV
+    Name='DImagemEfeito2'
+    ID='DImagemEfeito2'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 453;
+           LEFT: 303;
+           WIDTH: 61;
+           HEIGHT: 52;
+     cursor: pointer; 
+     z-index: 1; 
+'
+>
+<A 
+   id=lImagemEfeito2
+   name=lImagemEfeito2
+   Href=#
+   OnClick=" window.close(); "
+>
+<IMG
+     Name="ImagemEfeito2"
+     Id="ImagemEfeito2"
+     SRC="sair2.jpg"
+     Border='0'
+     WIDTH=61
+     HEIGHT=52
+>
+</A>
+</DIV>
+<SCRIPT>
+    removeHref('lImagemEfeito2', true);
+   Desloca('DImagemEfeito2');
+</SCRIPT>
+<DIV
+     Name='DRotulo1'
+     Id='DRotulo1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 13;
+           LEFT: 28;
+           WIDTH: 463;
+           HEIGHT: 32;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 21pt; 
+           BACKGROUND-COLOR: #FFFFFF; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo1'
+   name='lRotulo1'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo1' FACE='Arial' COLOR='#000000'>
+    QUEM MAIS VENDEU EM 1995
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo1', false);
+   FindObj('DRotulo1').sMouseClick="";
+   colocaEstiloFonte('Rotulo1', 'Arial', 21);
+   Desloca('DRotulo1');
+</Script>
+<DIV
+     Name='DRotulo2'
+     Id='DRotulo2'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 49;
+           LEFT: 44;
+           WIDTH: 463;
+           HEIGHT: 32;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 12pt; 
+           BACKGROUND-COLOR: #FFFFFF; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo2'
+   name='lRotulo2'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo2' FACE='Arial' COLOR='#000000'>
+    Em milhares de discos
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo2', false);
+   FindObj('DRotulo2').sMouseClick="";
+   colocaEstiloFonte('Rotulo2', 'Arial', 12);
+   Desloca('DRotulo2');
+</Script>
+</BODY>
+</HTML>

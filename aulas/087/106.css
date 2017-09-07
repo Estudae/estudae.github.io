@@ -1,0 +1,87 @@
+#DGifAnimado1{
+  position:absolute; 
+  top: 102;
+  left: 604;
+  width: 82;
+  height: 69;
+     z-index: 1; 
+}
+#DAnimacao1{
+  position:absolute; 
+  top: 554;
+  left: 372;
+  width: 39;
+  height: 37;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#DAnimacao2{
+  position:absolute; 
+  top: 554;
+  left: 418;
+  width: 39;
+  height: 37;
+     z-index: 3; 
+  visibility: hidden; 
+}
+#Linha1 {
+  position: absolute; 
+  top: 442;
+  left: 718;
+  width: 39;
+  height: 0;
+  z-index: 0; 
+}
+#Linha2 {
+  position: absolute; 
+  top: 529;
+  left: 722;
+  width: 40;
+  height: 1;
+  z-index: 0; 
+}
+#DPreenchimento1{
+  position: absolute; 
+  top: 146;
+  left: 351;
+  widt: 78;
+  height: 31;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento2{
+  position: absolute; 
+  top: 421;
+  left: 725;
+  widt: 29;
+  height: 28;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento3{
+  position: absolute; 
+  top: 506;
+  left: 730;
+  widt: 29;
+  height: 28;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento4{
+  position: absolute; 
+  top: 458;
+  left: 726;
+  widt: 29;
+  height: 28;
+  padding: 0; 
+  z-index: 4; 
+}
+#DPreenchimento5{
+  position: absolute; 
+  top: 544;
+  left: 731;
+  widt: 29;
+  height: 28;
+  padding: 0; 
+  z-index: 4; 
+}
