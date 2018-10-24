@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="Video Aulas, tutoriais, dicas, todos os assuntos abordados de forma objetiva, estudae sem enrolação e perda de tempo. Estudaê!">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="Video, Aula, redes, computadores, java, astronomia">
+    <meta name="author" content="Diego Previero">
+    <!--Open Graph Facebook-->
+    <meta property="fb:app_id" content="1089276837817231" />
+    <meta property="og:url" content="http://www.estudae.com.br" />
+    <meta property="og:type" content="article" />
+    <meta property="article:author" content="https://www.facebook.com/kikoprevi">
+    <meta property="og:title" content="Treinamentos em tecnologia" />
+    <meta property="og:description" content="Video Aulas, Tutoriais e Dicas, todos os assuntos abordados de forma objetiva, sem enrolação e perda de tempo." />
+    <meta property="og:image" content="http://www.estudae.com.br/images/wallpaper_estudae.png" />
+    <meta property="og:see_also" content="http://www.estudae.com.br/astronomia.html">
+    <meta property="og:see_also" content="http://www.estudae.com.br/itau.html">
+    <meta property="og:locale" content="pt_BR" />
+    <!--Fim do Open Graph-->
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/style-menu.css">
+    <link rel="icon" href="../../favicon.png">
+    <title>Estudaê! - Treinamentos em tecnologia</title>
+    
+    <style type="text/css">
+        .imagem {
+            width:98%;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            border: 2px solid black;           
+        }
+        
+        .imagem-pq {
+            width:50%;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            border: 2px solid black;           
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div id="container clearfix">
+       
+        <header class="clearfix">
+            <div id="logo">
+                <a href="index.html">
+                <h1>
+                    <img src="../../images/logo_estudae.svg" alt="Estudaê" style="width:140px;">
+                </h1>
+                </a>
+            </div>
+            <!--check box para ativacao do menu responsivo-->
+            <input type="checkbox" id="control-nav" />
+            <label for="control-nav" class="control-nav"></label>
+            <label for="control-nav" class="control-nav-close"></label>
+            <nav id="menu">
+                <ul class="list-auto">
+                    <li><a href="aulaonline.html" target="_blank">Aula Online</a></li>
+                    <li><a href="#">Dicas e Tutoriais</a></li>
+                    <li><a href="#">Vídeo Aulas</a></li>
+                    <li><a href="lista.html" target="_blank">EMEFs</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div id="conteudo">
+          
+          <article class="row clearfix">
+
+                <div class="">
+                
+                    <h1>Tutorial de download e instalação do Java JDK 11 e configuração das variáveis de ambiente no Windows</h1>   
+                    <p>A primeira coisa que precisamos fazer é acessar o link abaixo:</p>
+                    <p><a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html?ssSourceSiteId=otnpt">Clique Aqui para baixar o Java SE 11 LTS</a></p>
+                    <p>A tela abaixo será aberta, clique no botão DOWNLOAD.</p>
+                    <img class="imagem" src="imagens/java04.png" alt="dropbox" />
+                    <p>Precisamos aceitar os termos de uso clicacando em "Accept Licensing Agreement", somente assim será liberado o download.</p>
+                    <img class="imagem" src="imagens/java05.png" alt="dropbox" />
+                    <p>Escolha a versão correspondente ao seu sistema operacional.</p>
+                    <img class="imagem" src="imagens/java06.png" alt="dropbox" />
+                    <p>Agora clique no link abaixo para realizar o download do editor de textos Notepad++.</p>
+                    <p><a href="https://notepad-plus-plus.org/download/v7.5.9.html">Clique Aqui para baixar o Notepad++</a></p>
+                    <p>Escolha entre as versões de 32 e 64 bits, de acordo com o seu sistema operacional, conforme as imagens abaixo:</p>
+                    <img class="imagem" src="imagens/notepad01.png" alt="dropbox" />
+                    <img class="imagem" src="imagens/notepad02.png" alt="dropbox" />
+                    
+                    <h2>Configuração das Variáveis de Ambiente no Windows</h2>
+                    <p>No Windows explorer clique com botão direito em "Este Computador" e escolha a poção "Propriedades".</p>
+                    <img class="imagem-pq" src="imagens/variaveis01.png" alt="dropbox" />
+                    <p>Clique em "Configurações avançadas do sistema"</p>
+                    <img class="imagem-pq" src="imagens/variaveis02.png" alt="dropbox" />
+                    <p>Na janela que irá se abrir clique em "Variáveis de Ambiente"</p>
+                    <img class="imagem-pq" src="imagens/variaveis03.png" alt="dropbox" />
+                    
+                    <h2>Vamos criar duas variáveis de sistema e modificar uma terceira conforme será explicado abaixo:</h2>
+                    
+                    <p>Na seção "Variáveis de Sistema" vamos clicar no botão NOVO.</p>
+                    <img class="imagem-pq" src="imagens/variaveis04.png" alt="dropbox" />
+                    
+                    <p>A janela abaixo será exibida</p>
+                    <p>Vamos preencher com os seguintes valores:</p>
+                    <p>Nome da variável: JAVA_HOME</p>
+                    <p>Valor da variável: C:\Program Files\Java\jdk-10.0.2</p>
+                    <p><i>Em Valor da variável você vai preencher com o caminho onde está instalado o Java no seu computador, esse valor muda para cada computador, fique atento a isso.</i></p>
+                    <p>Você pode verificar o local onde está instalado seu Java conforme a imagem abaixo:</p>
+                    <img class="imagem" src="imagens/variaveis08.png" alt="dropbox" />
+                    <p>O resultado será esse da imagem abaixo:</p>
+                    <img class="imagem-pq" src="imagens/variaveis06.png" alt="dropbox" />
+                    
+                    <p>Clique novamente em NOVO para criarmos a segunda variável</p>
+                    <p>Vamos preencher com os seguintes valores:</p>
+                    <p>Nome da variável: CLASSPATH</p>
+                    <p>Valor da variável: .;%JAVA_HOME%</p>
+                    <img class="imagem-pq" src="imagens/variaveis05.png" alt="dropbox" />
+                    
+                    <p>Ainda na janela de Variáveis de Sistema vamos alterar a variável PATH, clique nela e em seguida clique em EDITAR.</p>
+                    <p>A janela abaixo será exibida, vamos clicar em NOVO</p>
+                    <p>Valor da variável: %JAVA_HOME%\bin\</p>
+                    <img class="imagem-pq" src="imagens/variaveis07.png" alt="dropbox" />
+                    <p>Pronto, se você fez tudo corretamente seu ambiente de desenvolvimento está configurado.</p>
+                    <p>Para testarmos vamos abrir um prompt do sistema, para isso pressione no seu teclado a tecla SUPER (aquela com a bandeira do Windows) e a tecla da letra R juntas, a janela abixo será exibida:</p>
+                    <img class="imagem-pq" src="imagens/variaveis11.jpg" alt="dropbox" />
+                    <p>digite CMD e tecle ENTER</p>
+                    <p>Na janela que se abriu digite o seguinte comando:</p>
+                    <p>java -version</p>
+                    <p>Se o resultado for parecido com o mostrado abaixo Parabéns deu tudo certo.</p>
+                    <p>Esse comando exibe a versão do motor de execução de programas Java.</p>
+                    <img class="imagem-pq" src="imagens/variaveis09.png" alt="dropbox" />
+                    <p>Vamos testar se o compilador também está funcionando, para isso digite o seguinte comando:</p>
+                    <p>javac -version</p>
+                    <img class="imagem-pq" src="imagens/variaveis10.png" alt="dropbox" />
+                    
+                    
+                   
+                </div>
+            </article>
+            
+          
+            
+
+        
+            
+        </div>
+        
+        <footer id="fixed_footer">
+
+            <div id="social">
+                <ul>
+                    <li><a href=# id="fb" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
+                    <li><a href='https://www.linkedin.com/in/diego-previero-49745846' id="li" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href=# id="yt"><i class="fa fa-youtube" target="_blank"></i></a></li>
+                    <!--<li><a href=# id="gh"><i class="fa fa-github" target="_blank"></i></a></li>
+                        <li><a href=# id="tw"><i class="fa fa-twitter" target="_blank"></i></a></li>-->
+                </ul>
+            </div>
+                        
+            <p><span>Estudaê! - Desenvolvido por Kiko Previero - <a href='../../politicas-de-privacidade.html'>Políticas de Privacidade</a></span></p>
+        </footer>
+        
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+</body>
+
+</html>
