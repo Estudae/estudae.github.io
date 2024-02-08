@@ -5,12 +5,12 @@
 <META Name=Codigo Content=081108_07>
 <META Name=Data Content=5/3/2008>
 <META Name=Materia Content=>
-<META Name=TÌtulo Content=Tela Inicial L·pis>
+<META Name=T√≠tulo Content=Tela Inicial L√°pis>
 <META Name=Autor Content=Diego>
 <META Name=Assunto Content=>
 <META Name=Alvo Content=>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<TITLE>Tela Inicial L·pis</TITLE>
+<TITLE>Tela Inicial L√°pis</TITLE>
 </HEAD>
 <BODY
       OnLoad="Janela_Load(); "
@@ -128,7 +128,7 @@ sRotMovAni1 = " Sair ";
     removeAlt('Animacao1');
 </Script>
 <script>
-sRotMovAni2 = " AvanÁar ";
+sRotMovAni2 = " Avan√ßar ";
 </script>
 <DIV
     Name='DAnimacao2'
@@ -155,7 +155,7 @@ sRotMovAni2 = " AvanÁar ";
 >
 <IMG Id='Animacao2'
      Name='Animacao2'
-     alt=' AvanÁar '
+     alt=' Avan√ßar '
      Src='SET12DIR.gif'
      WIDTH=58
      HEIGHT=33
@@ -543,7 +543,7 @@ sRotMovAni2 = " AvanÁar ";
 <SCRIPT>
     vPreenchimento10 = new Array();
     vPreenchimento10[0] = 'U';
-    vPreenchimento10[1] = '⁄';
+    vPreenchimento10[1] = '√ö';
     var objPreench = FindObj('DPreenchimento10');
     objPreench.atual = 0;
     objPreench.codVerf = "FindObj('DPreenchimento10').atual = VerificaPreenchimento(GetObj('Preenchimento10').value, vPreenchimento10, 1, 0);";
@@ -895,7 +895,7 @@ sRotMovAni2 = " AvanÁar ";
 <SCRIPT>
     vPreenchimento19 = new Array();
     vPreenchimento19[0] = 'I';
-    vPreenchimento19[1] = 'Õ';
+    vPreenchimento19[1] = '√ç';
     var objPreench = FindObj('DPreenchimento19');
     objPreench.atual = 0;
     objPreench.codVerf = "FindObj('DPreenchimento19').atual = VerificaPreenchimento(GetObj('Preenchimento19').value, vPreenchimento19, 1, 0);";
@@ -1123,42 +1123,4 @@ sRotMovAni2 = " AvanÁar ";
 <INPUT Type='Text' Name='Preenchimento25'
        ID='Preenchimento25'
        MaxLength=1
-       Size=1
->
-</FORM>
-</DIV>
-<SCRIPT>
-    vPreenchimento25 = new Array();
-    vPreenchimento25[0] = 'R';
-    var objPreench = FindObj('DPreenchimento25');
-    objPreench.atual = 0;
-    objPreench.codVerf = "FindObj('DPreenchimento25').atual = VerificaPreenchimento(GetObj('Preenchimento25').value, vPreenchimento25, 1, 0);";
-    if (!NS4) {
-       var obj = FindObj('Preenchimento25');
-       obj.style.backgroundColor = '#FFFFFF';
-       obj.style.color = '#0000FF';
-       obj.style.borderWidth = '1px';
-       obj.style.borderStyle = 'solid';
-       obj.style.width = '41px';
-       obj.style.height = '33px';
-       obj.style.fontFamily = 'Comic Sans MS';
-       obj.style.fontSize = '17pt';
-       obj.style.fontWeight = 'bold';
-    }
-   Desloca('DPreenchimento25');
-</SCRIPT>
-<Script>
-  carregado=true;
-</Script>
-<SCRIPT Language='JavaScript'>
-  var tFundo=window.setInterval('mostraAnimas()',200);
-  function mostraAnimas() {
-    window.clearInterval(tFundo);
-    obj = FindObj('DAnimacao1');
-    obj.style.visibility="visible";
-    obj = FindObj('DAnimacao2');
-    obj.style.visibility="visible";
-  }
-</SCRIPT>
-</BODY>
-</HTML>
+       Size=1

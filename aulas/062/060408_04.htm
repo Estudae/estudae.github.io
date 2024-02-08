@@ -5,12 +5,12 @@
 <META Name=Codigo Content=060408_04>
 <META Name=Data Content=00:00:00>
 <META Name=Materia Content=>
-<META Name=Título Content=Fundo chaves-TelaSecundária (todos os controles)>
+<META Name=TÃ­tulo Content=Fundo chaves-TelaSecundÃ¡ria (todos os controles)>
 <META Name=Autor Content=Diego>
 <META Name=Assunto Content=>
 <META Name=Alvo Content=>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<TITLE>Fundo chaves-TelaSecundária (todos os controles)</TITLE>
+<TITLE>Fundo chaves-TelaSecundÃ¡ria (todos os controles)</TITLE>
 </HEAD>
 <BODY
       OnLoad="Janela_Load(); "
@@ -76,7 +76,7 @@
    var somswf=2;
 </Script>
 <script>
-sRotMovAni1 = " Avançar ";
+sRotMovAni1 = " AvanÃ§ar ";
 </script>
 <DIV
     Name='DAnimacao1'
@@ -103,7 +103,7 @@ sRotMovAni1 = " Avançar ";
 >
 <IMG Id='Animacao1'
      Name='Animacao1'
-     alt=' Avançar '
+     alt=' AvanÃ§ar '
      Src='SET12DIR.gif'
      WIDTH=58
      HEIGHT=33
@@ -650,7 +650,7 @@ sRotMovAni3 = " Voltar ";
 <table width='100%' height='100%'><tr><td align='center'>
 <b>
 <FONT ID='Rot3D11' FACE='Comic Sans MS' COLOR='#000000'>
-      COMPLETE A SEQUÊNCIA CONFORME O QUE SE PEDE.
+      COMPLETE A SEQUÃŠNCIA CONFORME O QUE SE PEDE.
 </FONT>
 </b>
 </td></tr></table>
@@ -682,7 +682,7 @@ sRotMovAni3 = " Voltar ";
 >
 <b>
      <FONT ID='Rotulo1' FACE='Comic Sans MS' COLOR='#FFFF00'>
-    COMPLETE A SEQUÊNCIA CONFORME O QUE SE PEDE.
+    COMPLETE A SEQUÃŠNCIA CONFORME O QUE SE PEDE.
       </FONT>
 </b>
 </A>
@@ -1306,140 +1306,4 @@ sRotMovAni3 = " Voltar ";
 </Script>
 <DIV
     Name='Rotulo3D112'
-    ID='Rotulo3D112'
-     Align='Center'
-     STYLE='
-         POSITION:Absolute; 
-         FONT-SIZE: 12pt; 
-         TOP: 241;
-         LEFT: 475;
-         WIDTH: 57.4;
-         HEIGHT: 28;
-         OVERFLOW: hidden; 
-         Z-INDEX: 1; 
-'>
-<table width='100%' height='100%'><tr><td align='center'>
-<b>
-<FONT ID='Rot3D112' FACE='Comic Sans MS' COLOR='#000000'>
-      - 3 =
-</FONT>
-</b>
-</td></tr></table>
-</DIV>
-<SCRIPT>
-   colocaEstiloFonte('Rot3D112', 'Comic Sans MS', 12);
-   Desloca('Rotulo3D112');
-</SCRIPT>
-<DIV
-     Name='DRotulo12'
-     Id='DRotulo12'
-     ALIGN='Center' 
-     STYLE='
-           POSITION:Absolute; 
-           TOP: 240;
-           LEFT: 474;
-           WIDTH: 57.4;
-           HEIGHT: 27;
-           OVERFLOW: hidden; 
-           FONT-SIZE: 12pt; 
-           Z-INDEX: 3;
-'
->
-<table width='100%' height='100%'><tr><td align='center'>
-<A 
-   id='lRotulo12'
-   name='lRotulo12'
-   Href=#
->
-<b>
-     <FONT ID='Rotulo12' FACE='Comic Sans MS' COLOR='#FF0000'>
-    - 3 =
-      </FONT>
-</b>
-</A>
-</td></tr></table>
-</DIV>
-<Script>
-    removeHref('lRotulo12', false);
-   FindObj('DRotulo12').sMouseClick="";
-   colocaEstiloFonte('Rotulo12', 'Comic Sans MS', 12);
-   Desloca('DRotulo12');
-</Script>
-<DIV
-    Name='Rotulo3D113'
-    ID='Rotulo3D113'
-     Align='Center'
-     STYLE='
-         POSITION:Absolute; 
-         FONT-SIZE: 12pt; 
-         TOP: 238;
-         LEFT: 585;
-         WIDTH: 95.4;
-         HEIGHT: 28;
-         OVERFLOW: hidden; 
-         Z-INDEX: 1; 
-'>
-<table width='100%' height='100%'><tr><td align='center'>
-<b>
-<FONT ID='Rot3D113' FACE='Comic Sans MS' COLOR='#000000'>
-      DOBRO = 
-</FONT>
-</b>
-</td></tr></table>
-</DIV>
-<SCRIPT>
-   colocaEstiloFonte('Rot3D113', 'Comic Sans MS', 12);
-   Desloca('Rotulo3D113');
-</SCRIPT>
-<DIV
-     Name='DRotulo13'
-     Id='DRotulo13'
-     ALIGN='Center' 
-     STYLE='
-           POSITION:Absolute; 
-           TOP: 237;
-           LEFT: 584;
-           WIDTH: 95.4;
-           HEIGHT: 27;
-           OVERFLOW: hidden; 
-           FONT-SIZE: 12pt; 
-           Z-INDEX: 3;
-'
->
-<table width='100%' height='100%'><tr><td align='center'>
-<A 
-   id='lRotulo13'
-   name='lRotulo13'
-   Href=#
->
-<b>
-     <FONT ID='Rotulo13' FACE='Comic Sans MS' COLOR='#FFFF00'>
-    DOBRO = 
-      </FONT>
-</b>
-</A>
-</td></tr></table>
-</DIV>
-<Script>
-    removeHref('lRotulo13', false);
-   FindObj('DRotulo13').sMouseClick="";
-   colocaEstiloFonte('Rotulo13', 'Comic Sans MS', 12);
-   Desloca('DRotulo13');
-</Script>
-<Script>
-  carregado=true;
-</Script>
-<SCRIPT Language='JavaScript'>
-  var tFundo=window.setInterval('mostraAnimas()',200);
-  function mostraAnimas() {
-    window.clearInterval(tFundo);
-    obj = FindObj('DAnimacao1');
-    obj.style.visibility="visible";
-    obj = FindObj('DAnimacao2');
-    obj.style.visibility="visible";
-    obj = FindObj('DAnimacao3');
-    obj.style.visibility="visible";
-  }
-</SCRIPT>
-</BODY>
-</HTML>
+ 

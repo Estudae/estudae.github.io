@@ -1,0 +1,9 @@
+<HTML>
+<HEAD>
+<TITLE>Som de Fundo</TITLE>
+</HEAD>
+<BODY BgColor='#000000'>
+<Embed Name='objSom' id='objSom' width=1 height=1 hidden=true Loop=0 Volume=1 MasterSound src='_xxxx.asf'>
+<img src='speaker.gif'>
+</BODY>
+</HTML>
