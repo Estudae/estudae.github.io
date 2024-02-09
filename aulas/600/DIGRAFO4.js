@@ -62,7 +62,7 @@ eval(FindObj('DPreenchimento1').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. Refa�a os exerc�cios.';
+         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
        }
        recoloqueArrastar = true;
    }
@@ -91,7 +91,7 @@ eval(FindObj('DPreenchimento2').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. Refa�a os exerc�cios.';
+         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
        }
        recoloqueArrastar = true;
    }
@@ -120,7 +120,7 @@ eval(FindObj('DPreenchimento3').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. Refa�a os exerc�cios.';
+         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
        }
        recoloqueArrastar = true;
    }
@@ -149,7 +149,7 @@ eval(FindObj('DPreenchimento4').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. Refa�a os exerc�cios.';
+         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
        }
        recoloqueArrastar = true;
    }
@@ -178,7 +178,7 @@ eval(FindObj('DPreenchimento5').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. Refa�a os exerc�cios.';
+         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
        }
        recoloqueArrastar = true;
    }
@@ -207,7 +207,7 @@ eval(FindObj('DPreenchimento6').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. Refa�a os exerc�cios.';
+         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
        }
        recoloqueArrastar = true;
    }
@@ -236,7 +236,7 @@ eval(FindObj('DPreenchimento7').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. Refa�a os exerc�cios.';
+         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
        }
        recoloqueArrastar = true;
    }
@@ -265,7 +265,7 @@ eval(FindObj('DPreenchimento8').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. Refa�a os exerc�cios.';
+         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
        }
        recoloqueArrastar = true;
    }
@@ -294,7 +294,7 @@ eval(FindObj('DPreenchimento9').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. Refa�a os exerc�cios.';
+         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
        }
        recoloqueArrastar = true;
    }
@@ -323,7 +323,7 @@ eval(FindObj('DPreenchimento10').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. Refa�a os exerc�cios.';
+         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
        }
        recoloqueArrastar = true;
    }
@@ -352,7 +352,7 @@ eval(FindObj('DPreenchimento11').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. Refa�a os exerc�cios.';
+         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
        }
        recoloqueArrastar = true;
    }
@@ -381,7 +381,7 @@ eval(FindObj('DPreenchimento12').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. Refa�a os exerc�cios.';
+         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
        }
        recoloqueArrastar = true;
    }
@@ -430,15 +430,15 @@ eval(FindObj('DPreenchimento12').codVerf);
       if (mensagem_tela_parabens!='') {
         alert(mensagem_tela_parabens);
       } else {
-        alert('Parab�ns');
+        alert('ParabÃ©ns');
       }
    }
  }
 }
 else
 {
-   alert('Aguarde at� que a p�gina seja carregada completamente.');
-   return('Aguarde at� que a p�gina seja carregada completamente.');
+   alert('Aguarde atÃ© que a pÃ¡gina seja carregada completamente.');
+   return('Aguarde atÃ© que a pÃ¡gina seja carregada completamente.');
 }
 }
 // -->
