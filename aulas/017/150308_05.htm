@@ -6,11 +6,11 @@
 <META Name=Codigo Content=150308_05>
 <META Name=Data Content=00:00:00>
 <META Name=Materia Content=>
-<META Name=TÃ­tulo Content=Encaixadinhos>
+<META Name=Título Content=Encaixadinhos>
 <META Name=Autor Content=rosilene>
 <META Name=Assunto Content=>
 <META Name=Alvo Content=>
-<META http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
 <TITLE>Encaixadinhos</TITLE>
 <link rel='stylesheet' type='text/css' href='150308_05.css' />
 <script class='jsbin' src='jqueryMin.js'></script>
@@ -1160,7 +1160,7 @@ class='eDImagem1'
 '>
 <b>
 <FONT ID='Rot3D13' FACE='Comic Sans MS' COLOR='#FFFFFF'>
-      DIGITAR A SEQUÃŠNCIA OBSERVANDO OS DESENHOS
+      DIGITAR A SEQUÊNCIA OBSERVANDO OS DESENHOS
 </FONT>
 </b>
 </DIV>
@@ -1183,7 +1183,7 @@ class='eDImagem1'
 >
 <b>
      <FONT ID='Rotulo3' FACE='Comic Sans MS' COLOR='#0000FF'>
-    DIGITAR A SEQUÃŠNCIA OBSERVANDO OS DESENHOS
+    DIGITAR A SEQUÊNCIA OBSERVANDO OS DESENHOS
       </FONT>
 </b>
 </A>
@@ -1347,4 +1347,115 @@ function pararSonsTela() {
   objeto_s6.y_ini=237;
   objeto_s6.width=98;
   objeto_s6.height=87;
-  objeto_s6.som='';
+  objeto_s6.som='';
+  var objeto6=FindObj('DArrastarImg6');
+  var posXArrImg6 = getPositionX(objeto6);
+  objeto6.tipoobj=10;
+  objeto6.indice_soltar=6;
+  objeto6.x_ini=posXArrImg6;
+  objeto6.y_ini=147;
+  objeto6.width=93;
+  objeto6.height=87;
+  objeto6.imagem='DESENHO-6.jpg';
+  objeto6.clicar=0
+
+  $('.DArrastarImg6').bind('touchstart', startMoveArrSol);
+  $('.DArrastarImg6').bind('touchmove', moveMoveArrSol);
+  $('.DArrastarImg6').bind('touchend', endMoveArrSol);
+
+  var objeto_s7=FindObj('DSoltarImg7');
+  var posXSolImg7 = getPositionX(objeto_s7);
+  objeto_s7.indice_arrastar=7;
+  objeto_s7.x_ini=posXSolImg7;
+  objeto_s7.y_ini=138;
+  objeto_s7.width=98;
+  objeto_s7.height=87;
+  objeto_s7.som='';
+  var objeto7=FindObj('DArrastarImg7');
+  var posXArrImg7 = getPositionX(objeto7);
+  objeto7.tipoobj=10;
+  objeto7.indice_soltar=7;
+  objeto7.x_ini=posXArrImg7;
+  objeto7.y_ini=341;
+  objeto7.width=93;
+  objeto7.height=87;
+  objeto7.imagem='DESENHO-7.jpg';
+  objeto7.clicar=0
+
+  $('.DArrastarImg7').bind('touchstart', startMoveArrSol);
+  $('.DArrastarImg7').bind('touchmove', moveMoveArrSol);
+  $('.DArrastarImg7').bind('touchend', endMoveArrSol);
+
+  var objeto_s8=FindObj('DSoltarImg8');
+  var posXSolImg8 = getPositionX(objeto_s8);
+  objeto_s8.indice_arrastar=8;
+  objeto_s8.x_ini=posXSolImg8;
+  objeto_s8.y_ini=236;
+  objeto_s8.width=96;
+  objeto_s8.height=87;
+  objeto_s8.som='';
+  var objeto8=FindObj('DArrastarImg8');
+  var posXArrImg8 = getPositionX(objeto8);
+  objeto8.tipoobj=10;
+  objeto8.indice_soltar=8;
+  objeto8.x_ini=posXArrImg8;
+  objeto8.y_ini=243;
+  objeto8.width=93;
+  objeto8.height=87;
+  objeto8.imagem='DESENHO-8.jpg';
+  objeto8.clicar=0
+
+  $('.DArrastarImg8').bind('touchstart', startMoveArrSol);
+  $('.DArrastarImg8').bind('touchmove', moveMoveArrSol);
+  $('.DArrastarImg8').bind('touchend', endMoveArrSol);
+
+  var objeto_s9=FindObj('DSoltarImg9');
+  var posXSolImg9 = getPositionX(objeto_s9);
+  objeto_s9.indice_arrastar=9;
+  objeto_s9.x_ini=posXSolImg9;
+  objeto_s9.y_ini=233;
+  objeto_s9.width=98;
+  objeto_s9.height=87;
+  objeto_s9.som='';
+  var objeto9=FindObj('DArrastarImg9');
+  var posXArrImg9 = getPositionX(objeto9);
+  objeto9.tipoobj=10;
+  objeto9.indice_soltar=9;
+  objeto9.x_ini=posXArrImg9;
+  objeto9.y_ini=343;
+  objeto9.width=93;
+  objeto9.height=87;
+  objeto9.imagem='DESENHO-9.jpg';
+  objeto9.clicar=0
+
+  $('.DArrastarImg9').bind('touchstart', startMoveArrSol);
+  $('.DArrastarImg9').bind('touchmove', moveMoveArrSol);
+  $('.DArrastarImg9').bind('touchend', endMoveArrSol);
+
+  var n_ArrImg=9;
+  carregado=true;
+//-->
+</script>
+<Script>
+if (navigator.appName.indexOf('Microsoft Internet')!=-1){ 
+  var flash;
+  flash=FindObj('DSomFlash3');
+  flash.style.left='-1px';
+  flash=FindObj('DSomFlash2');
+  flash.style.left='-1px';
+}
+</Script>
+<SCRIPT Language='JavaScript'>
+  var tFundo=window.setInterval('mostraAnimas()',200);
+  function mostraAnimas() {
+    window.clearInterval(tFundo);
+    obj = FindObj('DAnimacao1');
+    obj.style.visibility="visible";
+    obj = FindObj('DAnimacao2');
+    obj.style.visibility="visible";
+    obj = FindObj('DAnimacao3');
+    obj.style.visibility="visible";
+  }
+</SCRIPT>
+</BODY>
+</HTML>

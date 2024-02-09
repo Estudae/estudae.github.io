@@ -5,11 +5,11 @@
 <META Name=Codigo Content=040408_03>
 <META Name=Data Content=00:00:00>
 <META Name=Materia Content=>
-<META Name=TÃ­tulo Content=Parcela que falta 03>
+<META Name=Título Content=Parcela que falta 03>
 <META Name=Autor Content=Diego>
 <META Name=Assunto Content=>
 <META Name=Alvo Content=>
-<META http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
 <TITLE>Parcela que falta 03</TITLE>
 </HEAD>
 <BODY
@@ -85,7 +85,7 @@
    var somswf=2;
 </Script>
 <script>
-sRotMovAni1 = " AvanÃ§ar ";
+sRotMovAni1 = " Avançar ";
 </script>
 <DIV
     Name='DAnimacao1'
@@ -112,7 +112,7 @@ sRotMovAni1 = " AvanÃ§ar ";
 >
 <IMG Id='Animacao1'
      Name='Animacao1'
-     alt=' AvanÃ§ar '
+     alt=' Avançar '
      Src='bverav2.gif'
      WIDTH=44
      HEIGHT=32
@@ -698,7 +698,7 @@ sRotMovAni3 = " Voltar ";
 <table width='100%' height='100%'><tr><td align='center'>
 <b>
 <FONT ID='Rot3D11' FACE='Comic Sans MS' COLOR='#000000'>
-      VOCÃŠ TEM O TOTAL E DEVE ACHAR A PARCELA QUE FALTA
+      VOCÊ TEM O TOTAL E DEVE ACHAR A PARCELA QUE FALTA
 </FONT>
 </b>
 </td></tr></table>
@@ -730,7 +730,7 @@ sRotMovAni3 = " Voltar ";
 >
 <b>
      <FONT ID='Rotulo1' FACE='Comic Sans MS' COLOR='#FFFF00'>
-    VOCÃŠ TEM O TOTAL E DEVE ACHAR A PARCELA QUE FALTA
+    VOCÊ TEM O TOTAL E DEVE ACHAR A PARCELA QUE FALTA
       </FONT>
 </b>
 </A>
@@ -1319,4 +1319,103 @@ sRotMovAni3 = " Voltar ";
      Name='DRotulo12'
      Id='DRotulo12'
      STYLE='
-    
+           POSITION:Absolute; 
+           TOP: 412;
+           LEFT: 415;
+           WIDTH: 173.6667;
+           HEIGHT: 42;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 20pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo12'
+   name='lRotulo12'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo12' FACE='Comic Sans MS' COLOR='#FF0000'>
+    0 + 1 + 7 =
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo12', false);
+   FindObj('DRotulo12').sMouseClick="";
+   colocaEstiloFonte('Rotulo12', 'Comic Sans MS', 20);
+   Desloca('DRotulo12');
+</Script>
+<DIV
+    Name='Rotulo3D113'
+    ID='Rotulo3D113'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 20pt; 
+         TOP: 484;
+         LEFT: 416;
+         WIDTH: 173.6667;
+         HEIGHT: 43;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<b>
+<FONT ID='Rot3D113' FACE='Comic Sans MS' COLOR='#C0C0C0'>
+      4 + 4 + 0 =
+</FONT>
+</b>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D113', 'Comic Sans MS', 20);
+   Desloca('Rotulo3D113');
+</SCRIPT>
+<DIV
+     Name='DRotulo13'
+     Id='DRotulo13'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 483;
+           LEFT: 415;
+           WIDTH: 173.6667;
+           HEIGHT: 42;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 20pt; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo13'
+   name='lRotulo13'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo13' FACE='Comic Sans MS' COLOR='#FF0000'>
+    4 + 4 + 0 =
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo13', false);
+   FindObj('DRotulo13').sMouseClick="";
+   colocaEstiloFonte('Rotulo13', 'Comic Sans MS', 20);
+   Desloca('DRotulo13');
+</Script>
+<Script>
+  carregado=true;
+</Script>
+<SCRIPT Language='JavaScript'>
+  var tFundo=window.setInterval('mostraAnimas()',200);
+  function mostraAnimas() {
+    window.clearInterval(tFundo);
+    obj = FindObj('DAnimacao1');
+    obj.style.visibility="visible";
+    obj = FindObj('DAnimacao2');
+    obj.style.visibility="visible";
+    obj = FindObj('DAnimacao3');
+    obj.style.visibility="visible";
+  }
+</SCRIPT>
+</BODY>
+</HTML>

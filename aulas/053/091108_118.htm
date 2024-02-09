@@ -6,12 +6,12 @@
 <META Name=Codigo Content=091108_118>
 <META Name=Data Content=05/03/2008>
 <META Name=Materia Content=>
-<META Name=TÃ­tulo Content=Tela Inicial LÃ¡pis>
+<META Name=Título Content=Tela Inicial Lápis>
 <META Name=Autor Content=Diego>
 <META Name=Assunto Content=>
 <META Name=Alvo Content=>
-<META http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<TITLE>Tela Inicial LÃ¡pis</TITLE>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<TITLE>Tela Inicial Lápis</TITLE>
 <link rel='stylesheet' type='text/css' href='091108_118.css' />
 <script class='jsbin' src='jqueryMin.js'></script>
 </HEAD>
@@ -124,7 +124,7 @@
     vetOp[0] = 'O';
     vetpreenchimentotela[11] = new Fill('', vetOp, '091108_118.htm');
     vetOp = new Array();
-    vetOp[0] = 'Ãƒ';
+    vetOp[0] = 'Ã';
     vetOp[1] = 'A';
     vetpreenchimentotela[12] = new Fill('', vetOp, '091108_118.htm');
     vetOp = new Array();
@@ -137,7 +137,7 @@
     vetOp[0] = 'A';
     vetpreenchimentotela[15] = new Fill('', vetOp, '091108_118.htm');
     vetOp = new Array();
-    vetOp[0] = 'Ãƒ';
+    vetOp[0] = 'Ã';
     vetOp[1] = 'A';
     vetpreenchimentotela[16] = new Fill('', vetOp, '091108_118.htm');
     vetOp = new Array();
@@ -171,7 +171,7 @@
     vetOp[0] = 'I';
     vetpreenchimentotela[26] = new Fill('', vetOp, '091108_118.htm');
     vetOp = new Array();
-    vetOp[0] = 'Ãƒ';
+    vetOp[0] = 'Ã';
     vetOp[1] = 'A';
     vetpreenchimentotela[27] = new Fill('', vetOp, '091108_118.htm');
     vetOp = new Array();
@@ -190,7 +190,7 @@
     vetOp[0] = 'T';
     vetpreenchimentotela[32] = new Fill('', vetOp, '091108_118.htm');
     vetOp = new Array();
-    vetOp[0] = 'Ãƒ';
+    vetOp[0] = 'Ã';
     vetOp[1] = 'A';
     vetpreenchimentotela[33] = new Fill('', vetOp, '091108_118.htm');
     vetOp = new Array();
@@ -204,7 +204,7 @@
     vetpreenchimentotela[36] = new Fill('', vetOp, '091108_118.htm');
 </script>
 <script>
-sRotMovAni1 = " AvanÃ§ar ";
+sRotMovAni1 = " Avançar ";
 </script>
 <DIV
     Name='DAnimacao1'
@@ -222,7 +222,7 @@ sRotMovAni1 = " AvanÃ§ar ";
 >
 <IMG Id='Animacao1'
      Name='Animacao1'
-     alt=' AvanÃ§ar '
+     alt=' Avançar '
      Src='SET12DIR.gif'
      WIDTH=58
      HEIGHT=33
@@ -681,7 +681,7 @@ sRotMovAni2 = " Sair ";
 </DIV>
 <SCRIPT>
     vPreenchimento13 = new Array();
-    vPreenchimento13[0] = 'Ãƒ';
+    vPreenchimento13[0] = 'Ã';
     vPreenchimento13[1] = 'A';
     var objPreench = FindObj('DPreenchimento13');
     objPreench.atual = 0;
@@ -814,7 +814,7 @@ sRotMovAni2 = " Sair ";
 </DIV>
 <SCRIPT>
     vPreenchimento17 = new Array();
-    vPreenchimento17[0] = 'Ãƒ';
+    vPreenchimento17[0] = 'Ã';
     vPreenchimento17[1] = 'A';
     var objPreench = FindObj('DPreenchimento17');
     objPreench.atual = 0;
@@ -1052,4 +1052,462 @@ sRotMovAni2 = " Sair ";
     objPreench.codVerf = "FindObj('DPreenchimento24').atual = VerificaPreenchimento(GetObj('Preenchimento24').value, vPreenchimento24, 1, 0);";
     if (!NS4) {
        var obj = FindObj('Preenchimento24');
-       obj.s
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#FF0000';
+       obj.style.borderWidth = '0px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '17px';
+       obj.style.height = '21px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '12px';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento24');
+</SCRIPT>
+</div>
+<div class = 'divpreenchimentolacuna'>
+<DIV Name='DPreenchimento25'
+     ID='DPreenchimento25'
+>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento25'
+       ID='Preenchimento25'
+       MaxLength=1
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento25 = new Array();
+    vPreenchimento25[0] = 'A';
+    var objPreench = FindObj('DPreenchimento25');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento25').atual = VerificaPreenchimento(GetObj('Preenchimento25').value, vPreenchimento25, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento25');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#FF0000';
+       obj.style.borderWidth = '0px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '17px';
+       obj.style.height = '21px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '12px';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento25');
+</SCRIPT>
+</div>
+<div class = 'divpreenchimentolacuna'>
+<DIV Name='DPreenchimento26'
+     ID='DPreenchimento26'
+>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento26'
+       ID='Preenchimento26'
+       MaxLength=1
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento26 = new Array();
+    vPreenchimento26[0] = 'O';
+    var objPreench = FindObj('DPreenchimento26');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento26').atual = VerificaPreenchimento(GetObj('Preenchimento26').value, vPreenchimento26, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento26');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#FF0000';
+       obj.style.borderWidth = '0px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '17px';
+       obj.style.height = '21px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '12px';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento26');
+</SCRIPT>
+</div>
+<div class = 'divpreenchimentolacuna'>
+<DIV Name='DPreenchimento27'
+     ID='DPreenchimento27'
+>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento27'
+       ID='Preenchimento27'
+       MaxLength=1
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento27 = new Array();
+    vPreenchimento27[0] = 'I';
+    var objPreench = FindObj('DPreenchimento27');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento27').atual = VerificaPreenchimento(GetObj('Preenchimento27').value, vPreenchimento27, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento27');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#FF0000';
+       obj.style.borderWidth = '0px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '17px';
+       obj.style.height = '21px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '12px';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento27');
+</SCRIPT>
+</div>
+<div class = 'divpreenchimentolacuna'>
+<DIV Name='DPreenchimento28'
+     ID='DPreenchimento28'
+>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento28'
+       ID='Preenchimento28'
+       MaxLength=1
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento28 = new Array();
+    vPreenchimento28[0] = 'Ã';
+    vPreenchimento28[1] = 'A';
+    var objPreench = FindObj('DPreenchimento28');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento28').atual = VerificaPreenchimento(GetObj('Preenchimento28').value, vPreenchimento28, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento28');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#FF0000';
+       obj.style.borderWidth = '0px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '17px';
+       obj.style.height = '21px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '12px';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento28');
+</SCRIPT>
+</div>
+<div class = 'divpreenchimentolacuna'>
+<DIV Name='DPreenchimento29'
+     ID='DPreenchimento29'
+>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento29'
+       ID='Preenchimento29'
+       MaxLength=1
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento29 = new Array();
+    vPreenchimento29[0] = 'M';
+    var objPreench = FindObj('DPreenchimento29');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento29').atual = VerificaPreenchimento(GetObj('Preenchimento29').value, vPreenchimento29, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento29');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#FF0000';
+       obj.style.borderWidth = '0px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '17px';
+       obj.style.height = '21px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '12px';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento29');
+</SCRIPT>
+</div>
+<div class = 'divpreenchimentolacuna'>
+<DIV Name='DPreenchimento30'
+     ID='DPreenchimento30'
+>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento30'
+       ID='Preenchimento30'
+       MaxLength=1
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento30 = new Array();
+    vPreenchimento30[0] = 'E';
+    var objPreench = FindObj('DPreenchimento30');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento30').atual = VerificaPreenchimento(GetObj('Preenchimento30').value, vPreenchimento30, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento30');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#FF0000';
+       obj.style.borderWidth = '0px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '17px';
+       obj.style.height = '21px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '12px';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento30');
+</SCRIPT>
+</div>
+<div class = 'divpreenchimentolacuna'>
+<DIV Name='DPreenchimento31'
+     ID='DPreenchimento31'
+>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento31'
+       ID='Preenchimento31'
+       MaxLength=1
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento31 = new Array();
+    vPreenchimento31[0] = 'M';
+    var objPreench = FindObj('DPreenchimento31');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento31').atual = VerificaPreenchimento(GetObj('Preenchimento31').value, vPreenchimento31, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento31');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#FF0000';
+       obj.style.borderWidth = '0px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '17px';
+       obj.style.height = '21px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '12px';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento31');
+</SCRIPT>
+</div>
+<div class = 'divpreenchimentolacuna'>
+<DIV Name='DPreenchimento32'
+     ID='DPreenchimento32'
+>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento32'
+       ID='Preenchimento32'
+       MaxLength=1
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento32 = new Array();
+    vPreenchimento32[0] = 'B';
+    var objPreench = FindObj('DPreenchimento32');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento32').atual = VerificaPreenchimento(GetObj('Preenchimento32').value, vPreenchimento32, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento32');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#FF0000';
+       obj.style.borderWidth = '0px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '17px';
+       obj.style.height = '21px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '12px';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento32');
+</SCRIPT>
+</div>
+<div class = 'divpreenchimentolacuna'>
+<DIV Name='DPreenchimento33'
+     ID='DPreenchimento33'
+>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento33'
+       ID='Preenchimento33'
+       MaxLength=1
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento33 = new Array();
+    vPreenchimento33[0] = 'T';
+    var objPreench = FindObj('DPreenchimento33');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento33').atual = VerificaPreenchimento(GetObj('Preenchimento33').value, vPreenchimento33, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento33');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#FF0000';
+       obj.style.borderWidth = '0px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '17px';
+       obj.style.height = '21px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '12px';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento33');
+</SCRIPT>
+</div>
+<div class = 'divpreenchimentolacuna'>
+<DIV Name='DPreenchimento34'
+     ID='DPreenchimento34'
+>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento34'
+       ID='Preenchimento34'
+       MaxLength=1
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento34 = new Array();
+    vPreenchimento34[0] = 'Ã';
+    vPreenchimento34[1] = 'A';
+    var objPreench = FindObj('DPreenchimento34');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento34').atual = VerificaPreenchimento(GetObj('Preenchimento34').value, vPreenchimento34, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento34');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#FF0000';
+       obj.style.borderWidth = '0px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '17px';
+       obj.style.height = '21px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '12px';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento34');
+</SCRIPT>
+</div>
+<div class = 'divpreenchimentolacuna'>
+<DIV Name='DPreenchimento35'
+     ID='DPreenchimento35'
+>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento35'
+       ID='Preenchimento35'
+       MaxLength=1
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento35 = new Array();
+    vPreenchimento35[0] = 'A';
+    var objPreench = FindObj('DPreenchimento35');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento35').atual = VerificaPreenchimento(GetObj('Preenchimento35').value, vPreenchimento35, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento35');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#FF0000';
+       obj.style.borderWidth = '0px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '17px';
+       obj.style.height = '21px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '12px';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento35');
+</SCRIPT>
+</div>
+<div class = 'divpreenchimentolacuna'>
+<DIV Name='DPreenchimento36'
+     ID='DPreenchimento36'
+>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento36'
+       ID='Preenchimento36'
+       MaxLength=1
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento36 = new Array();
+    vPreenchimento36[0] = 'I';
+    var objPreench = FindObj('DPreenchimento36');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento36').atual = VerificaPreenchimento(GetObj('Preenchimento36').value, vPreenchimento36, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento36');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#FF0000';
+       obj.style.borderWidth = '0px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '17px';
+       obj.style.height = '21px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '12px';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento36');
+</SCRIPT>
+</div>
+<div class = 'divpreenchimentolacuna'>
+<DIV Name='DPreenchimento37'
+     ID='DPreenchimento37'
+>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento37'
+       ID='Preenchimento37'
+       MaxLength=1
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento37 = new Array();
+    vPreenchimento37[0] = 'V';
+    var objPreench = FindObj('DPreenchimento37');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento37').atual = VerificaPreenchimento(GetObj('Preenchimento37').value, vPreenchimento37, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento37');
+       obj.style.backgroundColor = '#FFFFFF';
+       obj.style.color = '#FF0000';
+       obj.style.borderWidth = '0px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '17px';
+       obj.style.height = '21px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '12px';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento37');
+</SCRIPT>
+</div>
+<Script>
+  carregado=true;
+</Script>
+<SCRIPT Language='JavaScript'>
+  var tFundo=window.setInterval('mostraAnimas()',200);
+  function mostraAnimas() {
+    window.clearInterval(tFundo);
+    obj = FindObj('DAnimacao1');
+    obj.style.visibility="visible";
+    obj = FindObj('DAnimacao2');
+    obj.style.visibility="visible";
+  }
+</SCRIPT>
+</BODY>
+</HTML>

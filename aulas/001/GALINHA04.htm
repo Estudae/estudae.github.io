@@ -6,11 +6,11 @@
 <META Name=Codigo Content=GALINHA04>
 <META Name=Data Content=00:00:00>
 <META Name=Materia Content=PORTUGUES>
-<META Name=TÃ­tulo Content=A GALINHA DO VIZINHO>
+<META Name=Título Content=A GALINHA DO VIZINHO>
 <META Name=Autor Content=Danilo>
 <META Name=Assunto Content=A GALINHA DO VIZINHO>
 <META Name=Alvo Content=>
-<META http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
 <TITLE>A GALINHA DO VIZINHO</TITLE>
 <link rel='stylesheet' type='text/css' href='GALINHA04.css' />
 <script class='jsbin' src='jqueryMin.js'></script>
@@ -578,7 +578,7 @@
 '>
 <b>
 <FONT ID='Rot3D11' FACE='Arial' COLOR='#000000'>
-      COMPLETE A MÃšSICA COLOCANDO OS NUMERAIS
+      COMPLETE A MÚSICA COLOCANDO OS NUMERAIS
 </FONT>
 </b>
 </DIV>
@@ -601,7 +601,7 @@
 >
 <b>
      <FONT ID='Rotulo1' FACE='Arial' COLOR='#FF8080'>
-    COMPLETE A MÃšSICA COLOCANDO OS NUMERAIS
+    COMPLETE A MÚSICA COLOCANDO OS NUMERAIS
       </FONT>
 </b>
 </A>
@@ -1545,4 +1545,29 @@
   var posXSol10 = getPositionX(objeto_sol10);
   objeto_sol10.indice_arrastar=10;
   objeto_sol10.x_ini=posXSol10;
-  obje
+  objeto_sol10.y_ini=552;
+  objeto_sol10.width=42;
+  objeto_sol10.height=32;
+  objeto_sol10.feito=0;
+  objeto_sol10.som='';
+  objeto_sol10.caption='10';
+  objeto_sol10.img='sol_GALINHA04_10b.bmp';
+  var objeto_ar10=FindObj('DArrastar10');
+  var posXArr10 = getPositionX(objeto_ar10);
+  objeto_ar10.tipoobj=8;
+  objeto_ar10.indice_soltar=10;
+  objeto_ar10.x_ini=posXArr10;
+  objeto_ar10.y_ini=438;
+  objeto_ar10.width=51;
+  objeto_ar10.height=37;
+  objeto_ar10.caption='10';
+
+  $('.DArrastar10').bind('touchstart', startMoveArrSol);
+  $('.DArrastar10').bind('touchmove', moveMoveArrSol);
+  $('.DArrastar10').bind('touchend', endMoveArrSol);
+
+  carregado=true;
+//-->
+</script>
+</BODY>
+</HTML>

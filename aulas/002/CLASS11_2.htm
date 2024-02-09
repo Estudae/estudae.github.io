@@ -5,11 +5,11 @@
 <META Name=Codigo Content=CLASS11_2>
 <META Name=Data Content=00:00:00>
 <META Name=Materia Content=L.P>
-<META Name=TÃ­tulo Content=COMPLETE COM AS VOGAIS>
+<META Name=Título Content=COMPLETE COM AS VOGAIS>
 <META Name=Autor Content=MARLY>
 <META Name=Assunto Content=>
-<META Name=Alvo Content=1Âº ANO>
-<META http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<META Name=Alvo Content=1º ANO>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
 <TITLE>COMPLETE COM AS VOGAIS</TITLE>
 </HEAD>
 <BODY
@@ -76,7 +76,7 @@
    var somswf=2;
 </Script>
 <script>
-sRotMovAni1 = " AvanÃ§ar ";
+sRotMovAni1 = " Avançar ";
 </script>
 <DIV
     Name='DAnimacao1'
@@ -103,7 +103,7 @@ sRotMovAni1 = " AvanÃ§ar ";
 >
 <IMG Id='Animacao1'
      Name='Animacao1'
-     alt=' AvanÃ§ar '
+     alt=' Avançar '
      Src='SET12DIR.gif'
      WIDTH=58
      HEIGHT=33
@@ -1332,3 +1332,91 @@ class='eDImagemEfeito6'
       </FONT>
 </b>
 </A>
+</DIV>
+<Script>
+    removeHref('lRotulo13', false);
+   FindObj('DRotulo13').sMouseClick="";
+   colocaEstiloFonte('Rotulo13', 'MS Sans Serif', 20);
+   Desloca('DRotulo13');
+</Script>
+<DIV
+     Name='DRotulo14'
+     Id='DRotulo14'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 442;
+           LEFT: 595;
+           WIDTH: 35.66667;
+           HEIGHT: 33;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 20pt; 
+           BACKGROUND-COLOR: #80FFFF; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo14'
+   name='lRotulo14'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo14' FACE='MS Sans Serif' COLOR='#0000FF'>
+    P
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo14', false);
+   FindObj('DRotulo14').sMouseClick="";
+   colocaEstiloFonte('Rotulo14', 'MS Sans Serif', 20);
+   Desloca('DRotulo14');
+</Script>
+<DIV
+     Name='DRotulo15'
+     Id='DRotulo15'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 441;
+           LEFT: 677;
+           WIDTH: 35.66667;
+           HEIGHT: 33;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 20pt; 
+           BACKGROUND-COLOR: #80FFFF; 
+           Z-INDEX: 3;
+'
+>
+<A 
+   id='lRotulo15'
+   name='lRotulo15'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo15' FACE='MS Sans Serif' COLOR='#0000FF'>
+    T
+      </FONT>
+</b>
+</A>
+</DIV>
+<Script>
+    removeHref('lRotulo15', false);
+   FindObj('DRotulo15').sMouseClick="";
+   colocaEstiloFonte('Rotulo15', 'MS Sans Serif', 20);
+   Desloca('DRotulo15');
+</Script>
+<Script>
+  carregado=true;
+</Script>
+<SCRIPT Language='JavaScript'>
+  var tFundo=window.setInterval('mostraAnimas()',200);
+  function mostraAnimas() {
+    window.clearInterval(tFundo);
+    obj = FindObj('DAnimacao1');
+    obj.style.visibility="visible";
+    obj = FindObj('DAnimacao2');
+    obj.style.visibility="visible";
+  }
+</SCRIPT>
+</BODY>
+</HTML>

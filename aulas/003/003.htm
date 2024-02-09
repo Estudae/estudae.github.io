@@ -5,11 +5,11 @@
 <META Name=Codigo Content=003>
 <META Name=Data Content=00:00:00>
 <META Name=Materia Content=>
-<META Name=TÃ­tulo Content=TELA 03>
+<META Name=Título Content=TELA 03>
 <META Name=Autor Content=>
 <META Name=Assunto Content=>
 <META Name=Alvo Content=>
-<META http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
 <TITLE>TELA 03</TITLE>
 </HEAD>
 <BODY
@@ -119,7 +119,7 @@ sRotMovAni1 = " Sair ";
     removeAlt('Animacao1');
 </Script>
 <script>
-sRotMovAni2 = " AvanÃ§ar ";
+sRotMovAni2 = " Avançar ";
 </script>
 <DIV
     Name='DAnimacao2'
@@ -146,7 +146,7 @@ sRotMovAni2 = " AvanÃ§ar ";
 >
 <IMG Id='Animacao2'
      Name='Animacao2'
-     alt=' AvanÃ§ar '
+     alt=' Avançar '
      Src='SET12DIR.gif'
      WIDTH=58
      HEIGHT=33
@@ -1076,4 +1076,203 @@ sRotMovAni2 = " AvanÃ§ar ";
 <DIV Name='DPreenchimento20'
      ID='DPreenchimento20'
      STYLE='
-           POSITION:Absolute;
+           POSITION:Absolute; 
+           TOP: 426;
+           LEFT: 301;
+           WIDTH: 199;
+           HEIGHT: 24;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento20'
+       ID='Preenchimento20'
+       MaxLength=500
+       Size=22
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento20 = new Array();
+    vPreenchimento20[0] = 'FERNANDA';
+    vPreenchimento20[1] = 'BIANCA';
+    vPreenchimento20[2] = 'CLARICE';
+    vPreenchimento20[3] = 'VANESSA';
+    vPreenchimento20[4] = 'RENATA';
+    vPreenchimento20[5] = 'MARIANA';
+    vPreenchimento20[6] = 'SANDRA';
+    vPreenchimento20[7] = 'RAFAELA';
+    vPreenchimento20[8] = 'ADRIANA';
+    vPreenchimento20[9] = 'CARLA';
+    var objPreench = FindObj('DPreenchimento20');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento20').atual = VerificaPreenchimento(GetObj('Preenchimento20').value, vPreenchimento20, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento20');
+       obj.style.backgroundColor = '#00FFFF';
+       obj.style.color = '#000000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '199px';
+       obj.style.height = '24px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '10pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento20');
+</SCRIPT>
+<DIV
+    Name='Rotulo3D11'
+    ID='Rotulo3D11'
+     Align='Center'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 18pt; 
+         TOP: 23;
+         LEFT: 46;
+         WIDTH: 693;
+         HEIGHT: 85;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<table width='100%' height='100%'><tr><td align='center'>
+<b>
+<FONT ID='Rot3D11' FACE='Comic Sans MS' COLOR='#FF0000'>
+      LEIA A LISTA DOS NOMES E DEPOIS SEPARE EM DOIS GRUPOS: MENINOS E MENINAS.
+</FONT>
+</b>
+</td></tr></table>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D11', 'Comic Sans MS', 18);
+   Desloca('Rotulo3D11');
+</SCRIPT>
+<DIV
+     Name='DRotulo1'
+     Id='DRotulo1'
+     ALIGN='Center' 
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 22;
+           LEFT: 45;
+           WIDTH: 693;
+           HEIGHT: 84;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 18pt; 
+           Z-INDEX: 3;
+'
+>
+<table width='100%' height='100%'><tr><td align='center'>
+<A 
+   id='lRotulo1'
+   name='lRotulo1'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo1' FACE='Comic Sans MS' COLOR='#FFFF00'>
+    LEIA A LISTA DOS NOMES E DEPOIS SEPARE EM DOIS GRUPOS: MENINOS E MENINAS.
+      </FONT>
+</b>
+</A>
+</td></tr></table>
+</DIV>
+<Script>
+    removeHref('lRotulo1', false);
+   FindObj('DRotulo1').sMouseClick="";
+   colocaEstiloFonte('Rotulo1', 'Comic Sans MS', 18);
+   Desloca('DRotulo1');
+</Script>
+<DIV
+    Name='Rotulo3D12'
+    ID='Rotulo3D12'
+     Align='Center'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 12pt; 
+         TOP: 163;
+         LEFT: 68;
+         WIDTH: 203;
+         HEIGHT: 277;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<table width='100%' height='100%'><tr><td align='center'>
+<b>
+<FONT ID='Rot3D12' FACE='Comic Sans MS' COLOR='#FF0000'>
+      FERNANDA - EDUARDO<br>
+LEONARDO - CARLOS<br>
+JULIANO - MARIANA<br>
+VANESSA - CARLA<br>
+LUAN - SANDRA<br>
+BIANCA - MATHEUS<br>
+MARCELO - RODRIGO<br>
+RAFAELA - ADRIANA<br>
+CLARICE - VICTOR<br>
+MARCOS - RENATA
+</FONT>
+</b>
+</td></tr></table>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D12', 'Comic Sans MS', 12);
+   Desloca('Rotulo3D12');
+</SCRIPT>
+<DIV
+     Name='DRotulo2'
+     Id='DRotulo2'
+     ALIGN='Center' 
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 162;
+           LEFT: 67;
+           WIDTH: 203;
+           HEIGHT: 276;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 12pt; 
+           Z-INDEX: 3;
+'
+>
+<table width='100%' height='100%'><tr><td align='center'>
+<A 
+   id='lRotulo2'
+   name='lRotulo2'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo2' FACE='Comic Sans MS' COLOR='#FFFFFF'>
+    FERNANDA - EDUARDO<br>
+LEONARDO - CARLOS<br>
+JULIANO - MARIANA<br>
+VANESSA - CARLA<br>
+LUAN - SANDRA<br>
+BIANCA - MATHEUS<br>
+MARCELO - RODRIGO<br>
+RAFAELA - ADRIANA<br>
+CLARICE - VICTOR<br>
+MARCOS - RENATA
+      </FONT>
+</b>
+</A>
+</td></tr></table>
+</DIV>
+<Script>
+    removeHref('lRotulo2', false);
+   FindObj('DRotulo2').sMouseClick="";
+   colocaEstiloFonte('Rotulo2', 'Comic Sans MS', 12);
+   Desloca('DRotulo2');
+</Script>
+<Script>
+  carregado=true;
+</Script>
+<SCRIPT Language='JavaScript'>
+  var tFundo=window.setInterval('mostraAnimas()',200);
+  function mostraAnimas() {
+    window.clearInterval(tFundo);
+    obj = FindObj('DAnimacao1');
+    obj.style.visibility="visible";
+    obj = FindObj('DAnimacao2');
+    obj.style.visibility="visible";
+  }
+</SCRIPT>
+</BODY>
+</HTML>

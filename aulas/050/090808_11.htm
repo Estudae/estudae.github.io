@@ -5,11 +5,11 @@
 <META Name=Codigo Content=090808_11>
 <META Name=Data Content=5/3/2008>
 <META Name=Materia Content=>
-<META Name=T√≠tulo Content=DESCOBRIR O NOME>
+<META Name=TÌtulo Content=DESCOBRIR O NOME>
 <META Name=Autor Content=Diego>
 <META Name=Assunto Content=>
 <META Name=Alvo Content=>
-<META http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
 <TITLE>DESCOBRIR O NOME</TITLE>
 </HEAD>
 <BODY
@@ -76,7 +76,7 @@
    var somswf=2;
 </Script>
 <script>
-sRotMovAni1 = " Avan√ßar ";
+sRotMovAni1 = " AvanÁar ";
 </script>
 <DIV
     Name='DAnimacao1'
@@ -103,7 +103,7 @@ sRotMovAni1 = " Avan√ßar ";
 >
 <IMG Id='Animacao1'
      Name='Animacao1'
-     alt=' Avan√ßar '
+     alt=' AvanÁar '
      Src='SET12DIR.gif'
      WIDTH=58
      HEIGHT=33
@@ -437,7 +437,7 @@ class='eDImagemEfeito2'
 </DIV>
 <SCRIPT>
     vPreenchimento6 = new Array();
-    vPreenchimento6[0] = '√É';
+    vPreenchimento6[0] = '√';
     var objPreench = FindObj('DPreenchimento6');
     objPreench.atual = 0;
     objPreench.codVerf = "FindObj('DPreenchimento6').atual = VerificaPreenchimento(GetObj('Preenchimento6').value, vPreenchimento6, 1, 0);";
@@ -667,7 +667,7 @@ class='eDImagemEfeito2'
 <table width='100%' height='100%'><tr><td align='center'>
 <b>
 <FONT ID='Rot3D11' FACE='Comic Sans MS' COLOR='#FFFFFF'>
-      O NOME DAS FIGURAS A SEGUIR EST√ÉO COM AS LETRAS FORA DO LUGAR. COLOQUE AS LETRAS EM ORDEM E DESCUBRA O NOME DE CADA UMA DELAS.
+      O NOME DAS FIGURAS A SEGUIR EST√O COM AS LETRAS FORA DO LUGAR. COLOQUE AS LETRAS EM ORDEM E DESCUBRA O NOME DE CADA UMA DELAS.
 </FONT>
 </b>
 </td></tr></table>
@@ -699,7 +699,7 @@ class='eDImagemEfeito2'
 >
 <b>
      <FONT ID='Rotulo1' FACE='Comic Sans MS' COLOR='#800080'>
-    O NOME DAS FIGURAS A SEGUIR EST√ÉO COM AS LETRAS FORA DO LUGAR. COLOQUE AS LETRAS EM ORDEM E DESCUBRA O NOME DE CADA UMA DELAS.
+    O NOME DAS FIGURAS A SEGUIR EST√O COM AS LETRAS FORA DO LUGAR. COLOQUE AS LETRAS EM ORDEM E DESCUBRA O NOME DE CADA UMA DELAS.
       </FONT>
 </b>
 </A>
@@ -972,7 +972,7 @@ class='eDImagemEfeito2'
 <table width='100%' height='100%'><tr><td align='center'>
 <b>
 <FONT ID='Rot3D16' FACE='Comic Sans MS' COLOR='#FFFFFF'>
-      √É
+      √
 </FONT>
 </b>
 </td></tr></table>
@@ -1004,7 +1004,7 @@ class='eDImagemEfeito2'
 >
 <b>
      <FONT ID='Rotulo6' FACE='Comic Sans MS' COLOR='#800080'>
-    √É
+    √
       </FONT>
 </b>
 </A>
@@ -1324,4 +1324,76 @@ class='eDImagemEfeito2'
 <DIV
     Name='Rotulo3D112'
     ID='Rotulo3D112'
-     Align='Center'
+     Align='Center'
+     STYLE='
+         POSITION:Absolute; 
+         FONT-SIZE: 16pt; 
+         TOP: 409;
+         LEFT: 633;
+         WIDTH: 28.53333;
+         HEIGHT: 35;
+         OVERFLOW: hidden; 
+         Z-INDEX: 1; 
+'>
+<table width='100%' height='100%'><tr><td align='center'>
+<b>
+<FONT ID='Rot3D112' FACE='Comic Sans MS' COLOR='#FFFFFF'>
+      I
+</FONT>
+</b>
+</td></tr></table>
+</DIV>
+<SCRIPT>
+   colocaEstiloFonte('Rot3D112', 'Comic Sans MS', 16);
+   Desloca('Rotulo3D112');
+</SCRIPT>
+<DIV
+     Name='DRotulo12'
+     Id='DRotulo12'
+     ALIGN='Center' 
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 408;
+           LEFT: 632;
+           WIDTH: 28.53333;
+           HEIGHT: 34;
+           OVERFLOW: hidden; 
+           FONT-SIZE: 16pt; 
+           Z-INDEX: 3;
+'
+>
+<table width='100%' height='100%'><tr><td align='center'>
+<A 
+   id='lRotulo12'
+   name='lRotulo12'
+   Href=#
+>
+<b>
+     <FONT ID='Rotulo12' FACE='Comic Sans MS' COLOR='#800080'>
+    I
+      </FONT>
+</b>
+</A>
+</td></tr></table>
+</DIV>
+<Script>
+    removeHref('lRotulo12', false);
+   FindObj('DRotulo12').sMouseClick="";
+   colocaEstiloFonte('Rotulo12', 'Comic Sans MS', 16);
+   Desloca('DRotulo12');
+</Script>
+<Script>
+  carregado=true;
+</Script>
+<SCRIPT Language='JavaScript'>
+  var tFundo=window.setInterval('mostraAnimas()',200);
+  function mostraAnimas() {
+    window.clearInterval(tFundo);
+    obj = FindObj('DAnimacao1');
+    obj.style.visibility="visible";
+    obj = FindObj('DAnimacao2');
+    obj.style.visibility="visible";
+  }
+</SCRIPT>
+</BODY>
+</HTML>

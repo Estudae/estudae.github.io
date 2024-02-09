@@ -5,11 +5,11 @@
 <META Name=Codigo Content=020908_02>
 <META Name=Data Content=00:00:00>
 <META Name=Materia Content=>
-<META Name=TÃ­tulo Content=TELA 02>
+<META Name=Título Content=TELA 02>
 <META Name=Autor Content=>
 <META Name=Assunto Content=>
 <META Name=Alvo Content=>
-<META http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
 <TITLE>TELA 02</TITLE>
 </HEAD>
 <BODY
@@ -1128,3 +1128,117 @@
            POSITION:Absolute; 
            TOP: 402;
            LEFT: 702;
+           WIDTH: 32;
+           HEIGHT: 37;
+           padding: 0; 
+           z-index: 4; 
+'>
+<FORM>
+<INPUT Type='Text' Name='Preenchimento28'
+       ID='Preenchimento28'
+       MaxLength=1
+       Size=1
+>
+</FORM>
+</DIV>
+<SCRIPT>
+    vPreenchimento28 = new Array();
+    vPreenchimento28[0] = 'O';
+    var objPreench = FindObj('DPreenchimento28');
+    objPreench.atual = 0;
+    objPreench.codVerf = "FindObj('DPreenchimento28').atual = VerificaPreenchimento(GetObj('Preenchimento28').value, vPreenchimento28, 1, 0);";
+    if (!NS4) {
+       var obj = FindObj('Preenchimento28');
+       obj.style.backgroundColor = '#80FFFF';
+       obj.style.color = '#FF0000';
+       obj.style.borderWidth = '1px';
+       obj.style.borderStyle = 'solid';
+       obj.style.width = '32px';
+       obj.style.height = '37px';
+       obj.style.fontFamily = 'Arial';
+       obj.style.fontSize = '18pt';
+       obj.style.fontWeight = 'bold';
+    }
+   Desloca('DPreenchimento28');
+</SCRIPT>
+<DIV
+    Name='DRotuloTrans1'
+    ID='DRotuloTrans1'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 533;
+           LEFT: 600;
+           WIDTH: 58;
+           HEIGHT: 45;
+     cursor: pointer; 
+     z-index: 3; 
+           TEXT-DECORATION: none; 
+   '
+   >
+<A 
+   id='lTransRotulo1'
+   name='lTransRotulo1'
+   Href=#
+   OnClick=" window.close(); "
+   OnMouseOver="Rotulo_Over('DRotuloTrans1'); trocaCor('Rotulo1', 'FF0000');"
+   OnMouseOut="Rotulo_Out('DRotuloTrans1'); trocaCor('Rotulo1', '000000');"
+>
+<IMG
+     Name='RotuloTrans1'
+     ID='RotuloTrans1'
+     SRC='giftrans.gif'
+     Border='0'
+     WIDTH=58
+     HEIGHT=45
+>
+</A>
+</DIV>
+<Script Language='JavaScript'>
+   var objeto = FindObj('DRotuloTrans1');
+    removeHref('lTransRotulo1', true);
+   Desloca('DRotuloTrans1');
+   objeto.sMouseClick=" window.close(); ";
+</Script>
+<DIV
+    Name='DRotuloTrans2'
+    ID='DRotuloTrans2'
+     STYLE='
+           POSITION:Absolute; 
+           TOP: 529;
+           LEFT: 714;
+           WIDTH: 58;
+           HEIGHT: 45;
+     cursor: pointer; 
+     z-index: 3; 
+           TEXT-DECORATION: none; 
+   '
+   >
+<A 
+   id='lTransRotulo2'
+   name='lTransRotulo2'
+   Href=#
+   OnClick="link_click('020908_01.htm', '0', true); "
+   OnMouseOver="Rotulo_Over('DRotuloTrans2'); trocaCor('Rotulo2', 'FF0000');"
+   OnMouseOut="Rotulo_Out('DRotuloTrans2'); trocaCor('Rotulo2', '000000');"
+>
+<IMG
+     Name='RotuloTrans2'
+     ID='RotuloTrans2'
+     SRC='giftrans.gif'
+     Border='0'
+     WIDTH=58
+     HEIGHT=45
+>
+</A>
+</DIV>
+<Script Language='JavaScript'>
+   var objeto = FindObj('DRotuloTrans2');
+    removeHref('lTransRotulo2', true);
+   Desloca('DRotuloTrans2');
+   objeto.sMouseClick="link_click('020908_01.htm', '0', true); ";
+</Script>
+<Script>
+  carregado=true;
+</Script>
+</BODY>
+</HTML>

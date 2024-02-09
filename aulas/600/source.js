@@ -42,7 +42,7 @@ function verificaNavegador() {
      IE = true;
      versao = navigator.appVersion;
      if(parseInt(versao.substring(0,1)) < 4) {
-        alert('Essa pÃ¡gina Ã© melhor visualizada no Internet Explorer 5 ou superior');
+        alert('Essa página é melhor visualizada no Internet Explorer 5 ou superior');
      }
      else if (versao.indexOf('MSIE') != -1)
      {

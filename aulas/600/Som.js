@@ -64,7 +64,7 @@ function play_sound(_sndObj, sndFile, loop)
              strEval = strEval + 'try {sndObj.fileName = \''+sndFile+'\'; erro=0} ';
              strEval = strEval + 'catch(e) {';
              strEval = strEval + ' z++; ';
-             strEval = strEval + ' if(z==100000){ if(confirm(\'NÃ£o foi possÃ­vel reproduzir o som. Deseja tentar novamente? (P1)\')==true) {z=0;}}';
+             strEval = strEval + ' if(z==100000){ if(confirm(\'Não foi possível reproduzir o som. Deseja tentar novamente? (P1)\')==true) {z=0;}}';
              strEval = strEval + '}}';
              eval(strEval);
           }
@@ -80,7 +80,7 @@ function play_sound(_sndObj, sndFile, loop)
         strEval = strEval + 'try {sndObj.'+method+'(); erro=0} ';
         strEval = strEval + 'catch(e) {';
         strEval = strEval + ' z++; ';
-        strEval = strEval + ' if(z==100000){ if(confirm(\'NÃ£o foi possÃ­vel reproduzir o som. Deseja tentar novamente? (P2)\')==true) {z=0;}}';
+        strEval = strEval + ' if(z==100000){ if(confirm(\'Não foi possível reproduzir o som. Deseja tentar novamente? (P2)\')==true) {z=0;}}';
         strEval = strEval + '}}';
     }
     else strEval = 'sndObj.'+method+'()';

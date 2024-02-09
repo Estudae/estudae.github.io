@@ -5,11 +5,11 @@
 <META Name=Codigo Content=arrastar 2>
 <META Name=Data Content=00:00:00>
 <META Name=Materia Content=>
-<META Name=TÃ­tulo Content=tela verde>
+<META Name=Título Content=tela verde>
 <META Name=Autor Content=rosilene>
 <META Name=Assunto Content=>
 <META Name=Alvo Content=>
-<META http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
 <TITLE>tela verde</TITLE>
 </HEAD>
 <BODY
@@ -85,7 +85,7 @@
    var somswf=2;
 </Script>
 <script>
-sRotMovAni1 = " AvanÃ§ar ";
+sRotMovAni1 = " Avançar ";
 </script>
 <DIV
     Name='DAnimacao1'
@@ -112,7 +112,7 @@ sRotMovAni1 = " AvanÃ§ar ";
 >
 <IMG Id='Animacao1'
      Name='Animacao1'
-     alt=' AvanÃ§ar '
+     alt=' Avançar '
      Src='SET12DIR.gif'
      WIDTH=58
      HEIGHT=33
@@ -1288,7 +1288,7 @@ class='eDImagem1'
 '>
 <b>
 <FONT ID='Rot3D13' FACE='Arial' COLOR='#FFFFFF'>
-      DIGITAR A SEQUÃŠNCIA OBSERVANDO OS DESENHOS
+      DIGITAR A SEQUÊNCIA OBSERVANDO OS DESENHOS
 </FONT>
 </b>
 </DIV>
@@ -1317,7 +1317,7 @@ class='eDImagem1'
 >
 <b>
      <FONT ID='Rotulo3' FACE='Arial' COLOR='#0000FF'>
-    DIGITAR A SEQUÃŠNCIA OBSERVANDO OS DESENHOS
+    DIGITAR A SEQUÊNCIA OBSERVANDO OS DESENHOS
       </FONT>
 </b>
 </A>
@@ -1438,4 +1438,71 @@ function pararSonsTela() {
   objeto6.width=93;
   objeto6.height=87;
   objeto6.imagem='DESENHO-6.jpg';
-  var objeto_s7=FindObj('DSoltarImg
+  var objeto_s7=FindObj('DSoltarImg7');
+  objeto_s7.indice_arrastar=7;
+  objeto_s7.x_ini=26;
+  objeto_s7.y_ini=138;
+  objeto_s7.width=98;
+  objeto_s7.height=87;
+  objeto_s7.som='';
+  var objeto7=FindObj('DArrastarImg7');
+  objeto7.tipoobj=10;
+  objeto7.indice_soltar=7;
+  objeto7.x_ini=450;
+  objeto7.y_ini=341;
+  objeto7.width=93;
+  objeto7.height=87;
+  objeto7.imagem='DESENHO-7.jpg';
+  var objeto_s8=FindObj('DSoltarImg8');
+  objeto_s8.indice_arrastar=8;
+  objeto_s8.x_ini=129;
+  objeto_s8.y_ini=236;
+  objeto_s8.width=96;
+  objeto_s8.height=87;
+  objeto_s8.som='';
+  var objeto8=FindObj('DArrastarImg8');
+  objeto8.tipoobj=10;
+  objeto8.indice_soltar=8;
+  objeto8.x_ini=448;
+  objeto8.y_ini=243;
+  objeto8.width=93;
+  objeto8.height=87;
+  objeto8.imagem='DESENHO-8.jpg';
+  var objeto_s9=FindObj('DSoltarImg9');
+  objeto_s9.indice_arrastar=9;
+  objeto_s9.x_ini=19;
+  objeto_s9.y_ini=233;
+  objeto_s9.width=98;
+  objeto_s9.height=87;
+  objeto_s9.som='';
+  var objeto9=FindObj('DArrastarImg9');
+  objeto9.tipoobj=10;
+  objeto9.indice_soltar=9;
+  objeto9.x_ini=658;
+  objeto9.y_ini=343;
+  objeto9.width=93;
+  objeto9.height=87;
+  objeto9.imagem='DESENHO-9.jpg';
+  var n_ArrImg=9;
+  carregado=true;
+//-->
+</script>
+<Script>
+if (navigator.appName.indexOf('Microsoft Internet')!=-1){ 
+  var flash;
+  flash=FindObj('DSomFlash1');
+  flash.style.left='-1px';
+}
+</Script>
+<SCRIPT Language='JavaScript'>
+  var tFundo=window.setInterval('mostraAnimas()',200);
+  function mostraAnimas() {
+    window.clearInterval(tFundo);
+    obj = FindObj('DAnimacao1');
+    obj.style.visibility="visible";
+    obj = FindObj('DAnimacao2');
+    obj.style.visibility="visible";
+  }
+</SCRIPT>
+</BODY>
+</HTML>
