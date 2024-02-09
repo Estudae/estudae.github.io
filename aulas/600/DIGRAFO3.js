@@ -62,7 +62,7 @@ eval(FindObj('DPreenchimento1').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
+         mensagem='Existem alternativas incorretas. Refaça os exercícios.';
        }
        recoloqueArrastar = true;
    }
@@ -91,7 +91,7 @@ eval(FindObj('DPreenchimento2').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
+         mensagem='Existem alternativas incorretas. Refaça os exercícios.';
        }
        recoloqueArrastar = true;
    }
@@ -120,7 +120,7 @@ eval(FindObj('DPreenchimento3').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
+         mensagem='Existem alternativas incorretas. Refaça os exercícios.';
        }
        recoloqueArrastar = true;
    }
@@ -149,7 +149,7 @@ eval(FindObj('DPreenchimento4').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
+         mensagem='Existem alternativas incorretas. Refaça os exercícios.';
        }
        recoloqueArrastar = true;
    }
@@ -178,7 +178,7 @@ eval(FindObj('DPreenchimento5').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
+         mensagem='Existem alternativas incorretas. Refaça os exercícios.';
        }
        recoloqueArrastar = true;
    }
@@ -207,7 +207,7 @@ eval(FindObj('DPreenchimento6').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
+         mensagem='Existem alternativas incorretas. Refaça os exercícios.';
        }
        recoloqueArrastar = true;
    }
@@ -236,7 +236,7 @@ eval(FindObj('DPreenchimento7').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
+         mensagem='Existem alternativas incorretas. Refaça os exercícios.';
        }
        recoloqueArrastar = true;
    }
@@ -265,7 +265,7 @@ eval(FindObj('DPreenchimento8').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
+         mensagem='Existem alternativas incorretas. Refaça os exercícios.';
        }
        recoloqueArrastar = true;
    }
@@ -294,7 +294,7 @@ eval(FindObj('DPreenchimento9').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
+         mensagem='Existem alternativas incorretas. Refaça os exercícios.';
        }
        recoloqueArrastar = true;
    }
@@ -323,7 +323,7 @@ eval(FindObj('DPreenchimento10').codVerf);
        if (mensagem_tela_alterincorreta!='') {
          mensagem=mensagem_tela_alterincorreta;
        } else {
-         mensagem='Existem alternativas incorretas. RefaÃ§a os exercÃ­cios.';
+         mensagem='Existem alternativas incorretas. Refaça os exercícios.';
        }
        recoloqueArrastar = true;
    }
@@ -372,15 +372,15 @@ eval(FindObj('DPreenchimento10').codVerf);
       if (mensagem_tela_parabens!='') {
         alert(mensagem_tela_parabens);
       } else {
-        alert('ParabÃ©ns');
+        alert('Parabéns');
       }
    }
  }
 }
 else
 {
-   alert('Aguarde atÃ© que a pÃ¡gina seja carregada completamente.');
-   return('Aguarde atÃ© que a pÃ¡gina seja carregada completamente.');
+   alert('Aguarde até que a página seja carregada completamente.');
+   return('Aguarde até que a página seja carregada completamente.');
 }
 }
 // -->
